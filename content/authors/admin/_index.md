@@ -1,75 +1,93 @@
----
++++
+
 # Display name
-name: Nelson Bighetti
+name = "Martin Steinegger"
 
 # Username (this should match the folder name)
-authors:
-- admin
+authors = ["admin"]
 
 # Is this the primary user of the site?
-superuser: true
+superuser = true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role = "Assistant Professor at Seoul National University (Computational Biology)"
 
 # Organizations/Affiliations
-organizations:
-- name: Stanford University
-  url: ""
+#   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
+organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email = ""
+
+# List (academic) interests or hobbies
+#interests = [
+#  "Metagenomics",
+#  "Sequence Analysis",
+#  "Molecular Evolution"
+#]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
----
+user_groups = ["Researchers", "Visitors"]
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+# List qualifications (such as academic degrees)
+[[education.courses]]
+  course = "PhD in Computer Science"
+  institution = "Technical University Munich"
+  year = 2018
+  
+[[education.courses]]
+  course = "MSc in Computer Science"
+  institution = "Ludwig-Maximilians-University Munich"
+  year = 2014
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+[[education.courses]]
+  course = "BSc in Bioinformatics"
+  institution = "Technical University Munich/Ludwig-Maximilians-University Munich"
+  year = 2013
+
+
+# Social/Academic Networking
+# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+
+[[social]]
+  icon = "envelope"
+  icon_pack = "fas"
+  link = "mailto:martin.steinegger@snu.ac.kr"
+  
+[[twitter]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/thesteinegger"
+
+[[social]]
+  icon = "google-scholar"
+  icon_pack = "ai"
+  link = "https://scholar.google.de/citations?user=_D9XIZUAAAAJ"
+
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/martin-steinegger"
+
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+[[social]]
+  icon = "cv"
+  icon_pack = "ai"
+  link = "files/martin_steinegger_cv.pdf"
+
++++
+
+Our group develops novel computational methods to analysis large DNA/RNA sequence set:
+- Sequence search, clustering and assembly
+- Pathogens detection
+- Metagenomics analysis.
+- Protein function and structure prediction
+
+
