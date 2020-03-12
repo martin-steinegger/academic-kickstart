@@ -7,26 +7,16 @@
   name = "Home"
   url = "#about"
   weight = 10
-
+  
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Publications"
+  url = "#mst_pubs"
   weight = 20
-
-[[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 30
 
 [[main]]
   name = "Tools"
   url = "#mst_tools"
   weight = 30
-
-[[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 40
 
 [[main]]
   name = "Contact"
