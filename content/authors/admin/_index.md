@@ -61,7 +61,7 @@ user_groups = ["Researchers", "Visitors"]
   link = "mailto:martin.steinegger@snu.ac.kr"
   
 [[twitter]]
-  icon = "github"
+  icon = "twitter"
   icon_pack = "fab"
   link = "https://github.com/thesteinegger"
 
