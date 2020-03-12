@@ -108,7 +108,7 @@ contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/thesteinegger"},
   {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:martin.steinegger?call"},
   {icon = "google-scholar", icon_pack = "ai", name = "Google Scholar", link = "https://scholar.google.de/citations?user=_D9XIZUAAAAJ"},
-  {icon = "github", icon_pack = "fab", name = "Github", link = "https://github.com/elileka"},
+  {icon = "github", icon_pack = "fab", name = "Github", link = "https://github.com/martin-steinegger"},
 
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
