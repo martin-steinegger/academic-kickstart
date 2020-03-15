@@ -43,8 +43,8 @@ subtitle = ""
  css_class = ""
 +++
 
-- **Steinegger, M.**, Steven L. Salzberg (2020) Terminating contamination: large-scale search identifies more than 2,000,000 contaminated entries in GenBank. *biorxiv* [[preprint]](https://www.biorxiv.org/content/10.1101/2020.01.26.920173v1)
-- **Steinegger, M.**, Markus Meier, Milot Mirdita, Harald Vöhringer, Stephan J. Haunsberger, and Söding, J. (2019) HH-suite3 for fast remote homology detection and deep protein annotation. *BMC Bioinformatics* [[preprint]](https://www.biorxiv.org/content/10.1101/560029v1) [[journal]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3019-7)
+- **Steinegger, M.**, Steven L. Salzberg (2020) Terminating contamination: large-scale search identifies more than 2,000,000 contaminated entries in GenBank, *biorxiv* [[preprint]](https://www.biorxiv.org/content/10.1101/2020.01.26.920173v1)
+- **Steinegger, M.**, Markus Meier, Milot Mirdita, Harald Vöhringer, Stephan J. Haunsberger, and Söding, J. (2019) HH-suite3 for fast remote homology detection and deep protein annotation, *BMC Bioinformatics* [[preprint]](https://www.biorxiv.org/content/10.1101/560029v1) [[journal]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3019-7)
 - **Steinegger, M.**, Milot Mirdita, and Söding, J. (2019) Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold, *Nature Methods* [[prerprint]](https://www.biorxiv.org/content/10.1101/386110v2) [[journal]](https://www.nature.com/articles/s41592-019-0437-4)
 - **Steinegger, M.**, and Söding, J. (2018) Clustering huge protein sequence sets in linear time, *Nature Communications* [[preprint]](https://www.biorxiv.org/content/10.1101/104034v4) [[journal]](https://www.nature.com/articles/s41467-018-04964-5)
 - **Steinegger, M.**, and Söding, J. (2017) MMseqs2: Sensitive protein sequence searching for the analysis of massive data sets, *Nature Biotechnology* [[preprint]](https://www.biorxiv.org/content/10.1101/079681v5.full) [[journal]](https://www.nature.com/articles/nbt.3988)
