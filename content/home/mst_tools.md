@@ -92,6 +92,9 @@ subtitle = ""
             <i class="fab fa-github big-icon"></i>
           </a>
         </li>
+        <li style="line-height: 0.4">
+          <img src="https://img.shields.io/conda/dn/bioconda/mmseqs2.svg?style=flag&label=BioConda%20install" /> 
+        </li>
      </ul>
   </p>
   </div>
