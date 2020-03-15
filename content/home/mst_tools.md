@@ -64,15 +64,9 @@ subtitle = ""
   padding: 5px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 </style>
 
-<div class="row">
+<div>
   <div class="columnWide">
     <p><b>MMseqs2</b> (Many-against-Many sequence searching) is a software suite to search and cluster huge protein and nucleotide sequence sets. MMseqs2 can run 10000 times faster than BLAST. It can perform profile searches with the same sensitivity as PSI-BLAST at over 400 times its speed.
       <ul class="network-icon" aria-hidden="true">
@@ -89,9 +83,7 @@ subtitle = ""
   </div>
 </div>
 
-<br>
-
-<div class="row">
+<div>
   <div class="columnWide">
     <p><b>Linclust</b> a method that can cluster sequences down to 50% pairwise sequence similarity and its run time scales linearly with the input set size, not nearly quadratically as in conventional algorithms. It is >1000 times faster compared to its competitors.
       <ul class="network-icon" aria-hidden="true">
@@ -108,9 +100,7 @@ subtitle = ""
   </div>
 </div>
 
-<br>
-
-<div class="row">
+<div>
   <div class="columnWide">
     <p><b>Plass</b> is a software to assemble short read sequencing data on a protein level. The main purpose of Plass is the assembly of complex metagenomic datasets. It assembles 10 times more protein residues in soil metagenomes than Megahit. 
       <ul class="network-icon" aria-hidden="true">
@@ -129,7 +119,7 @@ subtitle = ""
 
 <br>
 
-<div class="row">
+<div>
   <div class="columnWide">
     <p>
       <b>Conterminator</b> is an efficient method for detecting incorrectly labeled sequences across kingdoms by an exhaustive all-against-all sequence comparison.
