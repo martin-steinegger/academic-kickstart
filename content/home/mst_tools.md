@@ -85,6 +85,10 @@ li.no-scale:hover {
               <i class="fab fa-github big-icon"></i>
             </a>
           </li>
+          <li class="center-badge no-scale">
+            <a href="https://anaconda.org/bioconda/mmseqs2"><img src="https://img.shields.io/conda/dn/bioconda/mmseqs2.svg?style=flag&label=BioConda%20install" alt="Install from BioConda"></a> 
+          </li>
+     </ul>
        </ul>
     </p>
   </div>
@@ -122,6 +126,10 @@ li.no-scale:hover {
             <i class="fab fa-github big-icon"></i>
           </a>
         </li>
+        <li class="center-badge no-scale">
+          <a href="https://anaconda.org/bioconda/plass"><img src="https://img.shields.io/conda/dn/bioconda/plass.svg?style=flag&label=BioConda%20install" alt="Install from BioConda"></a> 
+        </li>
+     </ul>
       </ul>
     </p>
   </div>
@@ -142,6 +150,10 @@ li.no-scale:hover {
             <i class="fab fa-github big-icon"></i>
           </a>
         </li>
+        <li class="center-badge no-scale">
+          <a href="https://anaconda.org/bioconda/conterminator"><img src="https://img.shields.io/conda/dn/bioconda/conterminator.svg?style=flag&label=BioConda%20install" alt="Install from BioConda"></a> 
+        </li>
+     </ul>
       </ul>
      </p>
   </div>
