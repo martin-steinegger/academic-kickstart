@@ -9,3 +9,11 @@ section#about {
     background-repeat: no-repeat;
     background-image: url('../img/Seoul_National_University_Logo.svg');
 }
+
+@media (max-width: 991px) {
+    section#about {
+        background-size: 375px auto;
+        background-position: 50% 0%;
+    }
+}
+
