@@ -10,7 +10,7 @@ subtitle = "Things we do for living"
 
 [design.background]
   # Background color.
-  # color = "navy"
+  color = "#23252f"
   
   # Background gradient.
   # gradient_start = "#4bb4e3"
@@ -24,7 +24,7 @@ subtitle = "Things we do for living"
   image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
 
   # Text color (true=light or false=dark).
-  #text_color_light = true
+  text_color_light = true
 
 #[advanced]
 # # Custom CSS. 
