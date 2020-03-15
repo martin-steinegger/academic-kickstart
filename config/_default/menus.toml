@@ -15,7 +15,7 @@
   weight = 20
   
 [[main]]
-  name = "Tools"
+  name = "Methods"
   url = "#mst_tools"
   weight = 30
   
