@@ -4,12 +4,12 @@
 ############################
 ## Theme
 ############################
-
+color_theme = "default"
 # Choose a theme.
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "minimal"
+#theme = "minimal"
 
 # Enable users to switch between day and night mode?
 day_night = true
@@ -97,7 +97,8 @@ directions = "Enter Building 502 and take the stairs to Office 423 on Floor 4"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
+#office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
+office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = "https://calendly.com/martinsteinegger"
@@ -181,28 +182,25 @@ plugins_js  = []
   fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
   zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
 
-############################
-## Comments
-############################
-[comments]
-  # Comment provider:
-  #   0: Disabled
-  #   1: Disqus (https://disqus.com)
-  #   2: Commento (https://commento.io)
-  engine = 0
+# Configuration of publication pages.
+[publications]
+  # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "January 2006"
 
-  # Which page types are commentable?
-  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
+  # Citation style ("apa" or "mla")
+  citation_style = "apa"
 
-  # Configuration of Disqus.
-  [comments.disqus]
-    shortname = ""  # Paste the shortname from your Disqus dashboard.
-    show_count = true  # Show comment count in page header? (true/false)
-
-  # Configuration of Commento.
-  [comments.commento]
-    # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
-    url = ""
+# Configuration of project pages.
+[projects]
+  # Views for associated content.
+  #   1: List
+  #   2: Compact
+  #   3: Card
+  #   4: Citation (publications only)
+  post_view = 2
+  publication_view = 2
+  talk_view = 2
 
 ################
 ## Maps
