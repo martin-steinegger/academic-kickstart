@@ -4,7 +4,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 80  # Order that this section will appear.
 
-title = "Tools"
+title = "Methods"
 subtitle = ""
 
 [design.background]
@@ -74,12 +74,20 @@ subtitle = ""
 
 <div class="row">
   <div class="columnWide">
-    <p><b>MMSeqs2</b> MMseqs2 (Many-against-Many sequence searching) is a software suite to search and cluster huge protein and nucleotide sequence sets. MMseqs2 is open source GPL-licensed software implemented in C++ for Linux, MacOS, and (as beta version, via cygwin) Windows. The software is designed to run on multiple cores and servers and exhibits very good scalability. MMseqs2 can run 10000 times faster than BLAST. At 100 times its speed it achieves almost the same sensitivity. It can perform profile searches with the same sensitivity as PSI-BLAST at over 400 times its speed.
-	</p>
+    <p><b>MMSeqs2</b> (Many-against-Many sequence searching) is a software suite to search and cluster huge protein and nucleotide sequence sets. MMseqs2 can run 10000 times faster than BLAST. It can perform profile searches with the same sensitivity as PSI-BLAST at over 400 times its speed.
+      <ul class="network-icon" aria-hidden="true">
+          <li>
+            <a href="https://github.com/soedinglab/mmseqs2" target="_blank" rel="noopener">
+              <i class="fab fa-github big-icon"></i>
+            </a>
+          </li>
+       </ul>
+    </p>
   </div>
   <div class="columnNarrow">
-	<img src="img\mmseqs2_logo.png" style="height: 250px"/>
-	<a href="https://github.com/soedinglab/mmseqs2" target="_blank">MMseqs2 in GitHub</a>
+        <center>
+	<img src="img/mmseqs2_logo.png" style="height: 250px"/>
+        <center/>
   </div>
 </div>
 
@@ -88,11 +96,19 @@ subtitle = ""
 <div class="row">
   <div class="columnWide">
     <p><b>Linclust</b> a method that can cluster sequences down to 50% pairwise sequence similarity and its run time scales linearly with the input set size, not nearly quadratically as in conventional algorithms. It is >1000 times faster compared to its competitors.
+      <ul class="network-icon" aria-hidden="true">
+        <li>
+          <a href="https://github.com/soedinglab/mmseqs2" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+     </ul>
   </p>
   </div>
   <div class="columnNarrow">
-	<img src="img\linclust_logo.png"/>
-	 <a href="https://github.com/soedinglab/mmseqs2" target="_blank">Linclust in GitHub</a>
+        <center>
+	  <img src="img/linclust_logo.png" style="height: 250px"/>
+        </center>
   </div>
 </div>
 
@@ -101,11 +117,19 @@ subtitle = ""
 <div class="row">
   <div class="columnWide">
     <p><b>Plass</b> is a software to assemble short read sequencing data on a protein level. The main purpose of Plass is the assembly of complex metagenomic datasets. It assembles 10 times more protein residues in soil metagenomes than Megahit. 
+      <ul class="network-icon" aria-hidden="true">
+        <li>
+          <a href="https://github.com/soedinglab/plass" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+      </ul>
     </p>
   </div>
   <div class="columnNarrow">
-	<img src="img\plass_logo.png" style="height: 250px"/>
-	 <a href="https://github.com/soedinglab/plass" target="_blank">Plass in GitHub</a>
+      <center>
+      <img src="img/plass_logo.png" style="height: 250px"/>
+      </center>
   </div>
 </div>
 
@@ -113,11 +137,21 @@ subtitle = ""
 
 <div class="row">
   <div class="columnWide">
-    <p><b>Conterminator</b> is an efficient method for detecting incorrectly labeled sequences across kingdoms by an exhaustive all-against-all sequence comparison. </p>
+    <p>
+      <b>Conterminator</b> is an efficient method for detecting incorrectly labeled sequences across kingdoms by an exhaustive all-against-all sequence comparison.
+      <ul class="network-icon" aria-hidden="true">
+        <li>
+          <a href="https://github.com/martin-steinegger/conterminator" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+      </ul>
+     </p>
   </div>
   <div class="columnNarrow">
-	<img src="img\conterminator_logo.png" style="height: 250px"/>
-	 <a href="https://github.com/martin-steinegger/conterminator" target="_blank">Conterminator in GitHub</a>
+    <center>
+      <img src="img/conterminator_logo.png" style="height: 250px"/>
+    </center>
   </div>
 </div>
 
