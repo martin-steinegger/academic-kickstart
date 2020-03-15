@@ -90,7 +90,7 @@ address = {street = "1 Gwanak-ro", city = "Seoul", postcode = "08826", country =
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "37.4601251", longitude = "126.9479765"}
+coordinates = {latitude = "37.4601693", longitude = "126.9485256"}
 
 # Directions for visitors to locate you.
 directions = "Enter Building 502 and take the stairs to Office 423 on Floor 4"
