@@ -35,17 +35,17 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD in Computer Science"
+  course = "P.hD. in Computer Science"
   institution = "Technical University Munich"
   year = 2018
   
 [[education.courses]]
-  course = "MSc in Computer Science"
+  course = "M.Sc. in Computer Science"
   institution = "Ludwig-Maximilians-University Munich"
   year = 2014
 
 [[education.courses]]
-  course = "BSc in Bioinformatics"
+  course = "B.Sc. in Bioinformatics"
   institution = "Technical University Munich/Ludwig-Maximilians-University Munich"
   year = 2013
 
@@ -84,6 +84,6 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Dr. Steinegger is an assistant professor at the Seoul National University. He received his B.Sc. in Bioinformatis in 2013. During this time he worked as research assistant of Dr. Burkhard Rost at the Technical University Munich, focusing on the development for prediction methods of protein mutation effects.
+Dr. Steinegger is an assistant professor at the Seoul National University. He received his B.Sc. in Bioinformatis in 2013. During this time he worked as research assistant of [Dr. Burkhard Rost](https://www.rostlab.org) at the Technical University Munich, focusing on the development for prediction methods of protein mutation effects.
 
-He received his Ph.D in computer science in 2018 from the Technical University of Munich. He developed methods to search, cluster and assemble large metagenomic sequence data under the guidance of Dr. Johannes Soeding at the Max Planck Institute for biophysical Chemistry. As a postdoc in the group of Dr. Steven Salzberg at the Johns Hopkins University School of Medicine, he developed methods for identification of pathogenic agents in infectious diseases, detection of assembly contamination in public datasets and annotation of missing exons in the human proteome. 
+He received his Ph.D in computer science in 2018 from the Technical University of Munich. He developed methods to search, cluster and assemble large metagenomic sequence data under the guidance of [Dr. Johannes Soeding](https://www.mpibpc.mpg.de/soeding) at the Max Planck Institute for biophysical Chemistry. As a postdoc in the group of [Dr. Steven L. Salzberg](https://salzberg-lab.org) at the Johns Hopkins University School of Medicine, he developed methods for identification of pathogenic agents in infectious diseases, detection of assembly contamination in public datasets and annotation of missing exons in the human proteome. 
