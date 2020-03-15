@@ -129,7 +129,6 @@ li.no-scale:hover {
         <li class="center-badge no-scale">
           <a href="https://anaconda.org/bioconda/plass"><img src="https://img.shields.io/conda/dn/bioconda/plass.svg?style=flag&label=BioConda%20install" alt="Install from BioConda"></a> 
         </li>
-     </ul>
       </ul>
     </p>
   </div>
@@ -153,7 +152,6 @@ li.no-scale:hover {
         <li class="center-badge no-scale">
           <a href="https://anaconda.org/bioconda/conterminator"><img src="https://img.shields.io/conda/dn/bioconda/conterminator.svg?style=flag&label=BioConda%20install" alt="Install from BioConda"></a> 
         </li>
-     </ul>
       </ul>
      </p>
   </div>
