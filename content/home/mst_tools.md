@@ -74,7 +74,7 @@ subtitle = ""
 
 <div class="row">
   <div class="columnWide">
-    <p><b>MMSeqs2</b> (Many-against-Many sequence searching) is a software suite to search and cluster huge protein and nucleotide sequence sets. MMseqs2 can run 10000 times faster than BLAST. It can perform profile searches with the same sensitivity as PSI-BLAST at over 400 times its speed.
+    <p><b>MMseqs2</b> (Many-against-Many sequence searching) is a software suite to search and cluster huge protein and nucleotide sequence sets. MMseqs2 can run 10000 times faster than BLAST. It can perform profile searches with the same sensitivity as PSI-BLAST at over 400 times its speed.
       <ul class="network-icon" aria-hidden="true">
           <li>
             <a href="https://github.com/soedinglab/mmseqs2" target="_blank" rel="noopener">
@@ -85,9 +85,7 @@ subtitle = ""
     </p>
   </div>
   <div class="columnNarrow">
-        <center>
-	<img src="img/mmseqs2_logo.png" style="height: 250px"/>
-        <center/>
+    <img src="img/mmseqs2_logo.png" style="width: 227px">
   </div>
 </div>
 
@@ -106,9 +104,7 @@ subtitle = ""
   </p>
   </div>
   <div class="columnNarrow">
-        <center>
-	  <img src="img/linclust_logo.png" style="height: 250px"/>
-        </center>
+	  <img src="img/linclust_logo.png" style="width: 227px">
   </div>
 </div>
 
@@ -127,9 +123,7 @@ subtitle = ""
     </p>
   </div>
   <div class="columnNarrow">
-      <center>
-      <img src="img/plass_logo.png" style="height: 250px"/>
-      </center>
+    <img src="img/plass_logo.png" style="width: 227px">
   </div>
 </div>
 
@@ -149,9 +143,7 @@ subtitle = ""
      </p>
   </div>
   <div class="columnNarrow">
-    <center>
-      <img src="img/conterminator_logo.png" style="height: 250px"/>
-    </center>
+    <img src="img/conterminator_logo.png" style="width: 227px">
   </div>
 </div>
 
