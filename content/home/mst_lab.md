@@ -16,8 +16,8 @@ subtitle = ""
  css_class = ""
 +++
 
-Our group develops novel computational methods to analysis large DNA/RNA sequence set:
+Our group develops novel computational methods to analyse large DNA/RNA sequence sets:
 - Sequence search, clustering and assembly
 - Pathogens detection
-- Metagenomics analysis.
+- Metagenomics analysis
 - Protein function and structure prediction

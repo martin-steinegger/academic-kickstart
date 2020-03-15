@@ -84,7 +84,6 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Dr. Steinegger is an assistant professor at the Seoul National University. He received his B.Sc. in bioinformatis 2013. During this time he worked as research assistant of Dr. Burkhard Rost at the Technical University Munich, focusing on the development for prediction methods of protein mutation effects.
+Dr. Steinegger is an assistant professor at the Seoul National University. He received his B.Sc. in Bioinformatis in 2013. During this time he worked as research assistant of Dr. Burkhard Rost at the Technical University Munich, focusing on the development for prediction methods of protein mutation effects.
 
-He received his Ph.D in computer science in 2018 from the Technical University of Munich. He developed methods to search, cluster and assemble large metagenomic sequence data under the guidance of Dr. Johannes Soeding at the Max Planck for biophysical Chemistry. As a postdoc in the group of Dr. Steven Salzberg at the Johns Hopkins University School of Medicine, he developed methods for identification of pathogenic agents in infectious diseases, detection of assembly contamination in public datasets and annotation of missing exons in the human proteome. 
-
+He received his Ph.D in computer science in 2018 from the Technical University of Munich. He developed methods to search, cluster and assemble large metagenomic sequence data under the guidance of Dr. Johannes Soeding at the Max Planck Institute for biophysical Chemistry. As a postdoc in the group of Dr. Steven Salzberg at the Johns Hopkins University School of Medicine, he developed methods for identification of pathogenic agents in infectious diseases, detection of assembly contamination in public datasets and annotation of missing exons in the human proteome. 
