@@ -3,25 +3,31 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-[[main]]
-  name = "Home"
-  url = "#about"
-  weight = 10
   
 [[main]]
-  name = "Publications"
-  url = "#mst_pub"
-  weight = 20
+  name = "Home"
+  url = "#mst_lab"
+  weight = 10
 
+[[main]]
+  name = "About"
+  url = "#about"
+  weight = 20
+  
 [[main]]
   name = "Tools"
   url = "#mst_tools"
   weight = 30
+  
+[[main]]
+  name = "Publications"
+  url = "#mst_pub"
+  weight = 40
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 40
+  weight = 50
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
