@@ -66,4 +66,5 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-We are actively looking for Postdoctoral Researcher and Ph.D. students! 
+
+We are hiring postdoctoral researchers, Ph.D. students and interns.
