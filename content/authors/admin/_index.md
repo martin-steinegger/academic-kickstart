@@ -40,12 +40,12 @@ user_groups = ["Researchers", "Visitors"]
   year = 2018
   
 [[education.courses]]
-  course = "MSc in Computer Science"
+  course = "M.Sc in Computer Science"
   institution = "Ludwig-Maximilians-University Munich"
   year = 2014
 
 [[education.courses]]
-  course = "BSc in Bioinformatics"
+  course = "B.Sc in Bioinformatics"
   institution = "Technical University Munich/Ludwig-Maximilians-University Munich"
   year = 2013
 
