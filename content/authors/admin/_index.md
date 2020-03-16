@@ -50,6 +50,7 @@ user_groups = ["Researchers", "Visitors"]
   year = 2013
 
 
+
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -84,6 +85,6 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Dr. Steinegger is an assistant professor at the Seoul National University. He received his B.Sc. in Bioinformatis in 2013. During this time he worked as research assistant of [Dr. Burkhard Rost](https://www.rostlab.org) at the Technical University Munich, focusing on the development for prediction methods of protein mutation effects.
+Dr. Steinegger is an Assistant Professor at the Seoul National University. He received his B.Sc. in Bioinformatics in 2013. During this time, he worked as a research assistant of [Professor. Burkhard Rost](https://www.rostlab.org) at the Technical University Munich, focusing on the development of methods for predicting protein mutation effects. 
 
-He received his Ph.D in computer science in 2018 from the Technical University of Munich. He developed methods to search, cluster and assemble large metagenomic sequence data under the guidance of [Dr. Johannes Soeding](https://www.mpibpc.mpg.de/soeding) at the Max Planck Institute for biophysical Chemistry. As a postdoc in the group of [Dr. Steven L. Salzberg](https://salzberg-lab.org) at the Johns Hopkins University School of Medicine, he developed methods for identification of pathogenic agents in infectious diseases, detection of assembly contamination in public datasets and annotation of missing exons in the human proteome. 
+He received his Ph.D in Computer Science in 2018 from the Technical University Munich. He developed methods to search, cluster and assemble large metagenomic sequence data under the guidance of [Dr. Johannes Söding](https://www.mpibpc.mpg.de/soeding) at the Max Planck Institute for Biophysical Chemistry. As a Postdoc in the group of [Professor Steven L. Salzberg](https://salzberg-lab.org) at the Johns Hopkins University School of Medicine, he developed methods for the identification of pathogenic agents in infectious diseases, the detection of assembly contamination in public datasets and the annotation of missing exons in the human proteome.
