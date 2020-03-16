@@ -36,6 +36,6 @@ subtitle = ""
 
 Our group develops novel computational methods that combine big data algorithms and machine learning to gain insights into unexplored microbial communities. 
 - Sequence search, clustering and assembly  
-- Pathogens detection
-- Metagenomics analysis
+- Pathogen detection
+- Metagenomic analysis
 - Protein function and structure prediction
