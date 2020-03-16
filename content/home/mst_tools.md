@@ -99,7 +99,7 @@ li.no-scale:hover {
 
 <div>
   <div class="columnWide">
-    <p><b>Linclust</b> a method that can cluster sequences down to 50% pairwise sequence similarity and its run time scales linearly with the input set size, not nearly quadratically as in conventional algorithms. It is >1000 times faster compared to its competitors.
+    <p><b>Linclust</b> is a method that can cluster sequences down to 50% pairwise sequence similarity and its runtime scales linearly with the input set size, not  quadratically as in conventional algorithms. It is >1000 times faster compared to its competitors.
       <ul class="network-icon" aria-hidden="true">
         <li>
           <a href="https://github.com/soedinglab/mmseqs2" target="_blank" rel="noopener">
