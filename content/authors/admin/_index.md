@@ -85,6 +85,10 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Dr. Steinegger is an Assistant Professor at the Seoul National University. He received his B.Sc. in Bioinformatics in 2013. During this time, he worked as a research assistant of [Professor Burkhard Rost](https://www.rostlab.org) at the Technical University Munich, focusing on the development of methods for predicting protein mutation effects. 
 
-He received his Ph.D in Computer Science in 2018 from the Technical University Munich. He developed methods to search, cluster and assemble large metagenomic sequence data under the guidance of [Dr. Johannes Söding](https://www.mpibpc.mpg.de/soeding) at the Max Planck Institute for Biophysical Chemistry. As a Postdoc in the group of [Professor Steven L. Salzberg](https://salzberg-lab.org) at the Johns Hopkins University School of Medicine, he developed methods for the identification of pathogenic agents in infectious diseases, the detection of assembly contamination in public datasets and the annotation of missing exons in the human proteome.
+Dr. Steinegger is an Assistant Professor at the [Seoul National University](http://biosci.snu.ac.kr/en). He studied bioinformatics and computer science at the [Technical University Munich](https://www.tum.de/en) and [Ludwig Maximilian University of Munich](https://www.en.uni-muenchen.de/index.html). During this time, he worked as a research assistant of [Professor Burkhard Rost](https://www.rostlab.org) at the Technical University Munich, focusing on the development of methods for predicting protein mutation effects. 
+
+He recivied his Ph.D. from the Technical University Munich in collaboration with [Dr. Johannes Söding](https://www.mpibpc.mpg.de/soeding) at the [Max Planck Institute for Biophysical Chemistry](https://www.mpibpc.mpg.de/en) for his work on computational methods to assemble, cluster and annotate metagenomic sequencing data. 
+As a Postdoc in the group of [Professor Steven L. Salzberg](https://salzberg-lab.org) at the [CCB](http://ccb.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/), he developed methods for the identification of pathogenic agents in infectious diseases, the detection of assembly contamination in public datasets and the annotation of missing exons in the human proteome.
+
+Dr. Steinegger is an expert on large scale sequence data analysis and method development and an advocate for open science and open source.
