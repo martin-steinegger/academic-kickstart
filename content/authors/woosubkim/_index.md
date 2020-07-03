@@ -20,7 +20,7 @@ organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr
 bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "woosubgo@snu.ac.kr"
 
 
 # Organizational groups that you belong to (for People widget)
@@ -39,4 +39,5 @@ email = ""
   
 
 +++
+
 
