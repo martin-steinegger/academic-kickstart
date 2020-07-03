@@ -17,7 +17,7 @@ role = "Intern"
 organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = ""
+bio = "Hi. I am Woosub Kim. I am in Steinegger's lab. Thank you!!!"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "woosubgo@snu.ac.kr"
