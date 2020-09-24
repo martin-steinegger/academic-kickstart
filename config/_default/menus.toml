@@ -15,19 +15,24 @@
   weight = 20
   
 [[main]]
+  name = "Team"
+  url = "#people"
+  weight = 30
+  
+[[main]]
   name = "Methods"
   url = "#mst_tools"
-  weight = 30
+  weight = 40
   
 [[main]]
   name = "Publications"
   url = "#mst_pub"
-  weight = 40
+  weight = 50
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 50
+  weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
