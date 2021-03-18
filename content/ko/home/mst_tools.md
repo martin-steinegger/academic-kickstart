@@ -94,7 +94,7 @@ li.no-scale:hover {
     </p>
   </div>
   <div class="columnNarrow">
-    <img src="img/mmseqs2_logo.png" style="width: 227px">
+    <img src="../img/mmseqs2_logo.png" style="width: 227px">
   </div>
 </div>
 
@@ -115,7 +115,7 @@ li.no-scale:hover {
   </p>
   </div>
   <div class="columnNarrow">
-	  <img src="img/linclust_logo.png" style="width: 227px">
+	  <img src="../img/linclust_logo.png" style="width: 227px">
   </div>
 </div>
 
@@ -135,7 +135,7 @@ li.no-scale:hover {
     </p>
   </div>
   <div class="columnNarrow">
-    <img src="img/plass_logo.png" style="width: 227px">
+    <img src="../img/plass_logo.png" style="width: 227px">
   </div>
 </div>
 
@@ -158,7 +158,7 @@ li.no-scale:hover {
      </p>
   </div>
   <div class="columnNarrow">
-    <img src="img/conterminator_logo.png" style="width: 227px">
+    <img src="../img/conterminator_logo.png" style="width: 227px">
   </div>
 </div>
 
