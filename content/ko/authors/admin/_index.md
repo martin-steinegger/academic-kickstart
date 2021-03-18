@@ -1,7 +1,7 @@
 +++
 
 # Display name
-name = "Martin Steinegger"
+name = "마틴 스타이네거"
 
 # Username (this should match the folder name)
 authors = ["admin"]
@@ -10,11 +10,11 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Assistant Professor of Computational Biology"
+role = "조교수 (생물 정보학)"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
+organizations = [ { name = "서울 대학교", url = "https://snu.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
