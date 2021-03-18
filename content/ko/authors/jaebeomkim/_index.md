@@ -5,7 +5,7 @@ name = "김재범"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["Researchers"]
+user_groups = ["연구원"]
 # Is this the primary user of the site?
 superuser = false
 
