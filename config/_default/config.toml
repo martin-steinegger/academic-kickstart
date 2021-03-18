@@ -70,3 +70,78 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+
+
+
+[[languages.en.menu.main]]
+  name = "Home"
+  url = "#mst_lab"
+  weight = 10
+
+[[languages.en.menu.main]]
+  name = "About"
+  url = "#about"
+  weight = 20
+
+[[languages.en.menu.main]]
+  name = "Team"
+  url = "#people"
+  weight = 30
+
+[[languages.en.menu.main]]
+  name = "Methods"
+  url = "#mst_tools"
+  weight = 40
+
+[[languages.en.menu.main]]
+  name = "Publications"
+  url = "#mst_pub"
+  weight = 50
+
+[[languages.en.menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 60
+
+
+[languages.ko]
+weight = 10
+languageName = "한국어"
+
+[[languages.ko.menu.main]]
+  name = "홈"
+  url = "#mst_lab"
+  weight = 10
+
+[[languages.ko.menu.main]]
+  name = "약"
+  url = "#about"
+  weight = 20
+
+[[languages.ko.menu.main]]
+  name = "팀"
+  url = "#people"
+  weight = 30
+
+[[languages.ko.menu.main]]
+  name = "소프트웨어"
+  url = "#mst_tools"
+  weight = 40
+
+[[languages.ko.menu.main]]
+  name = "주요 논문"
+  url = "#mst_pub"
+  weight = 50
+
+[[languages.ko.menu.main]]
+  name = "연락처"
+  url = "#contact"
+  weight = 60
+
+
