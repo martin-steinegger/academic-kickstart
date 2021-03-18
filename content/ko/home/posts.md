@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "랩 공지"
+title = "공지"
 subtitle = ""
 
 [content]
@@ -67,4 +67,4 @@ subtitle = ""
  css_class = ""
 +++
 
-We are hiring postdoctoral researchers, Ph.D. students and interns.
+함께 연구할 박사후 연구원, 대학원생, 인턴을 모집하고 있습니다.

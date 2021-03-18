@@ -4,7 +4,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 80  # Order that this section will appear.
 
-title = "Methods"
+title = "소프트웨어"
 subtitle = ""
 
 [design.background]
