@@ -120,7 +120,7 @@ languageName = "한국어"
   weight = 10
 
 [[languages.ko.menu.main]]
-  name = "약"
+  name = "요약"
   url = "#about"
   weight = 20
 

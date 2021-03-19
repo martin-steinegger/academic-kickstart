@@ -78,7 +78,7 @@ li.no-scale:hover {
 
 <div>
   <div class="columnWide">
-    <p><b>MMseqs2</b> (Many-against-Many sequence searching) is a software suite to search and cluster huge protein and nucleotide sequence sets. MMseqs2 can run 10000 times faster than BLAST. It can perform profile searches with the same sensitivity as PSI-BLAST at over 400 times its speed.
+    <p><b>MMseqs2</b> (Many-against-Many sequence searching)는 사이즈가 큰 단백질 및 DNA, RNA 서열 세트를 검색하고 클러스터링하는 소프트웨어 모음입니다. MMseqs2는 BLAST보다 10000배 빠르게 실행되며, PSI-BLAST와 동일한 민감도 (sensitivity)를 유지한 채 400배 이상의 향상된 속도로 프로파일 검색을 수행 할 수 있습니다.
       <ul class="network-icon" aria-hidden="true">
           <li>
             <a href="https://github.com/soedinglab/mmseqs2" target="_blank" rel="noopener">
@@ -100,7 +100,7 @@ li.no-scale:hover {
 
 <div>
   <div class="columnWide">
-    <p><b>Linclust</b> is a method that can cluster sequences down to 50% pairwise sequence similarity and its runtime scales linearly with the input set size, not  quadratically as in conventional algorithms. It is >1000 times faster compared to its competitors.
+    <p><b>Linclust</b>는 여러 시퀀스들을 쌍방향 서열 유사도 (pairwise sequencing similarity) 50% 범위 이내로 클러스터링 할 수 있는 소프트웨어입니다. 실행 시간은 기존 알고리즘이 세트 크기의 제곱에 비례하는데 비해, Linclust는 입력된 세트 크기에 따라 선형으로 증가하며 다른 툴들에 비해 1000배 이상 빠릅니다.
       <ul class="network-icon" aria-hidden="true">
         <li>
           <a href="https://github.com/soedinglab/mmseqs2" target="_blank" rel="noopener">
@@ -121,7 +121,7 @@ li.no-scale:hover {
 
 <div>
   <div class="columnWide">
-    <p><b>Plass</b> is a software to assemble short read sequencing data on a protein level. The main purpose of Plass is the assembly of complex metagenomic datasets. It assembles 10 times more protein residues in soil metagenomes than Megahit. 
+    <p><b>Plass</b>는 단백질 수준에서 짧은 리드 길이의 시퀀싱 데이터를 조립 (assemebly for short read sequencing) 하는 소프트웨어입니다. Plass의 주요 목적은 복잡한 메타 유전체 데이터 세트를 조립하는 것입니다. Megahit과 비교했을 때, 토양 메타 유전체 데이터에서 10배 더 많은 단백질 서열을 조립합니다.
       <ul class="network-icon" aria-hidden="true">
         <li>
           <a href="https://github.com/soedinglab/plass" target="_blank" rel="noopener">
@@ -144,7 +144,7 @@ li.no-scale:hover {
 <div>
   <div class="columnWide">
     <p>
-      <b>Conterminator</b> is an efficient method for detecting incorrectly labeled sequences across kingdoms by an exhaustive all-against-all sequence comparison.
+      <b>Conterminator</b>는 포괄적인 전체 시퀀스 비교 (all-against-all comparison)를 통해 계 (Kingdom) 수준에서 잘못 라벨링된 서열을 감지하는 효율적인 방법입니다.
       <ul class="network-icon" aria-hidden="true">
         <li>
           <a href="https://github.com/martin-steinegger/conterminator" target="_blank" rel="noopener">
