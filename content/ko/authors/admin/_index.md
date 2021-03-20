@@ -85,10 +85,8 @@ user_groups = ["연구원"]
 
 +++
 
+스타이네거 박사님은 현재 [서울대학교](http://biosci.snu.ac.kr/en) 자연과학대학 생명과학부에 조교수로 역임하고 계십니다. 이전에는 뮌헨 공과대학교 ([Technical University Munich](https://www.tum.de/en)) 와 뮌헨 루트비히 막시밀리안대학교 ([Ludwig Maximilian University of Munich](https://www.en.uni-muenchen.de/index.html)) 에서 생물정보학과 컴퓨터과학을 공부하셨습니다. 해당 학교 계실 동안에는 박하드 로스트 교수님 ([Professor Burkhard Rost](https://www.rostlab.org)) 과 함께 단백질 변형의 예측과 관련된 연구 과제들에 참여하셨습니다. 
 
-Dr. Steinegger is an Assistant Professor in the biology department at the [Seoul National University](http://biosci.snu.ac.kr/en). He studied bioinformatics and computer science at the [Technical University Munich](https://www.tum.de/en) and [Ludwig Maximilian University of Munich](https://www.en.uni-muenchen.de/index.html). During this time, he worked as a research assistant of [Professor Burkhard Rost](https://www.rostlab.org), focusing on the development of methods for predicting protein mutation effects. 
-
-He recivied his Ph.D. from the Technical University Munich in collaboration with [Dr. Johannes Söding](https://www.mpibpc.mpg.de/soeding) at the [Max Planck Institute for Biophysical Chemistry](https://www.mpibpc.mpg.de/en) for his work on computational methods to assemble, cluster and annotate metagenomic sequencing data. 
-As a Postdoc in the group of [Professor Steven L. Salzberg](https://salzberg-lab.org) at the [CCB](http://ccb.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/), he developed methods for the identification of pathogenic agents in infectious diseases, the detection of assembly contamination in public datasets and the annotation of missing exons in the human proteome.
-
-Dr. Steinegger is an expert on large scale sequence data analysis and method development and an advocate for open science and open source.
+또한, 교수님은 뮌헨 공과대학교에서 박사과정을 밟으셨으며, 막스 플랑크 생화학 연구소 ([Max Planck Institute for Biophysical Chemistry](https://www.mpibpc.mpg.de/en)) 에 계신 요하네스 소딩 박사님 ([Dr. Johannes Söding](https://www.mpibpc.mpg.de/soeding)) 과 함께 균유전체학 유전체 서열 시퀀싱 데이터의 어셈블리(assembly), 클러스터(clustering), 그리고 주석(annotation)과 관련된 연구를 진행하셨습니다. 박사 후 과정으로는, 존스홉킨스 컴퓨터 생명 공학 센터 ([CCB](http://ccb.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/)) 에 계신 스티븐 살츠버그 교수님 ([Professor Steven L. Salzberg](https://salzberg-lab.org)) 과 함께 다양한 전염병 속 병원성 개체의 식별, 공공 데이터베이스의 어셈블리 데이터의 오염, 그리고 인간 딘백체에서 빠져있는 엑손들을 찾아 주석을 다는 방법들을 연구하셨습니다.
+ 
+스타이네거 박사님은 방대한 량의 염기 서열 시퀀싱 데이터의 분석과 그 방법에 오랜 시간 연구해 오신 해당 분야 전문가시며, 개방 과학 (open science) 과 오픈 소스 (open source) 를 통한 학구적 성장을 지지하십니다.
