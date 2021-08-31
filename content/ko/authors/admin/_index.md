@@ -92,4 +92,7 @@ user_groups = ["연구원"]
 
 스타이네거 박사님은 방대한 양의 염기 서열 시퀀싱 데이터 분석과 분석 방법을 오랜 시간 연구한 해당 분야 전문가이며, 개방 과학 (open science) 과 오픈 소스 (open source) 를 통한 학문적 성장을 지지합니다.
 
-<iframe width="760" height="445" src="https://www.youtube.com/embed/MvwBOrdk10g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div style="overflow:hidden; padding-bottom:56.25%; position:relative; height:0;" class="video-responsive">
+  <iframe style="left:0; top:0; height:100%; width:100%; position:absolute;" width="760" height="445" src="https://www.youtube.com/embed/MvwBOrdk10g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
