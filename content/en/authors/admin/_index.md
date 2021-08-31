@@ -92,3 +92,5 @@ He received his Ph.D. from the Technical University Munich in collaboration with
 As a Postdoc in the group of [Professor Steven L. Salzberg](https://salzberg-lab.org) at the [CCB](http://ccb.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/), he developed methods for the identification of pathogenic agents in infectious diseases, the detection of assembly contamination in public datasets and the annotation of missing exons in the human proteome.
 
 Dr. Steinegger is an expert on large scale sequence data analysis and method development and an advocate for open science and open source.
+
+<iframe width="760" height="445" src="https://www.youtube.com/embed/MvwBOrdk10g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
