@@ -100,7 +100,7 @@ li.no-scale:hover {
 
 <div>
   <div class="columnWide">
-    <p><b>ColabFold</b>는 쉽고 빠르고 간편하게 단백질 구조를 예측할 수 있는 환경을 제공합니다. MMseqs2를 사용하여 AlphaFold 시스템보다 16배 빠르게 MSA*를 생성하는 모듈을 탑재한 AlphaFold2 및 RoseTTAFold를 사용하여 단백질 구조를 보다 빠르게 예측할 수 있습니다.
+    <p><b>ColabFold</b>는 쉽고 빠르고 간편하게 단백질 구조를 예측할 수 있는 환경을 제공합니다. MMseqs2를 사용하여 AlphaFold 시스템보다 16배 빠르게 multiple sequence alignment를 생성하는 모듈을 탑재한 AlphaFold2 및 RoseTTAFold를 사용하여 단백질 구조를 보다 빠르게 예측할 수 있습니다.
       <ul class="network-icon" aria-hidden="true">
           <li>
             <a href="https://github.com/sokrypton/ColabFold" target="_blank" rel="noopener">
