@@ -98,6 +98,26 @@ li.no-scale:hover {
   </div>
 </div>
 
+
+<div>
+  <div class="columnWide">
+    <p><b>ColabFold</b> is an easy-to-use Notebook based environment for fast and convenient protein structure predictions. Its structure prediction is powered by AlphaFold2 and RoseTTAFold combined with a fast multiple sequence alignment generation stage using MMseqs2.   
+      <ul class="network-icon" aria-hidden="true">
+          <li>
+            <a href="https://github.com/sokrypton/ColabFold" target="_blank" rel="noopener">
+              <i class="fab fa-github big-icon"></i>
+            </a>
+          </li>
+     </ul>
+       </ul>
+    </p>
+  </div>
+  <div class="columnNarrow">
+    <img src="/img/colabfold_logo.png" style="width: 227px">
+  </div>
+</div>
+
+
 <div>
   <div class="columnWide">
     <p><b>Linclust</b> is a method that can cluster sequences down to 50% pairwise sequence similarity and its runtime scales linearly with the input set size, not  quadratically as in conventional algorithms. It is >1000 times faster compared to its competitors.
