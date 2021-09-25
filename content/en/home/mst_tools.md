@@ -101,7 +101,7 @@ li.no-scale:hover {
 
 <div>
   <div class="columnWide">
-    <p><b>ColabFold</b> is an easy-to-use Notebook based environment for fast and convenient protein structure predictions. Its structure prediction is powered by AlphaFold2 and RoseTTAFold combined with a fast multiple sequence alignment generation stage using MMseqs2.   
+    <p><b>ColabFold</b> is an easy-to-use environment for fast and convenient protein structure predictions. Its structure prediction is powered by AlphaFold2 and RoseTTAFold combined with a fast multiple sequence alignment generation stage using MMseqs2, which speeds up the MSA generation by a factor of 16 over the AlphaFold system.  
       <ul class="network-icon" aria-hidden="true">
           <li>
             <a href="https://github.com/sokrypton/ColabFold" target="_blank" rel="noopener">

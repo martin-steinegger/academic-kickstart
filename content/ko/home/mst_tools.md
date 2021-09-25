@@ -100,6 +100,25 @@ li.no-scale:hover {
 
 <div>
   <div class="columnWide">
+    <p><b>ColabFold</b>는 쉽고 빠르고 간편하게 단백질 구조를 예측할 수 있는 환경을 제공합니다. MMseqs2를 사용하여 AlphaFold 시스템보다 16배 빠르게 MSA*를 생성하는 모듈을 탑재한 AlphaFold2 및 RoseTTAFold를 사용하여 단백질 구조를 보다 빠르게 예측할 수 있습니다.
+      <ul class="network-icon" aria-hidden="true">
+          <li>
+            <a href="https://github.com/sokrypton/ColabFold" target="_blank" rel="noopener">
+              <i class="fab fa-github big-icon"></i>
+            </a>
+          </li>
+     </ul>
+       </ul>
+    </p>
+  </div>
+  <div class="columnNarrow">
+    <img src="/img/colabfold_logo.png" style="width: 227px">
+  </div>
+</div>
+
+
+<div>
+  <div class="columnWide">
     <p><b>Linclust</b>는 여러 시퀀스들을 쌍방향 서열 유사도 (pairwise sequencing similarity) 50% 범위 이내로 클러스터링 할 수 있는 소프트웨어입니다. 실행 시간은 기존 알고리즘이 세트 크기의 제곱에 비례하는데 비해, Linclust는 입력된 세트 크기에 따라 선형으로 증가하며 다른 툴들에 비해 1000배 이상 빠릅니다.
       <ul class="network-icon" aria-hidden="true">
         <li>
