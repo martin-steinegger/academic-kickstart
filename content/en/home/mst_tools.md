@@ -120,6 +120,24 @@ li.no-scale:hover {
 
 <div>
   <div class="columnWide">
+    <p><b>Foldseek</b> is a software suite for searching and clustering protein structures. It is 600,000 times faster than the fastest state-of-the-art aligners. Allowing to query millions of structures in seconds.
+      <ul class="network-icon" aria-hidden="true">
+          <li>
+            <a href="https://github.com/steineggerlab/foldseek" target="_blank" rel="noopener">
+              <i class="fab fa-github big-icon"></i>
+            </a>
+          </li>
+     </ul>
+       </ul>
+    </p>
+  </div>
+  <div class="columnNarrow">
+    <img src="/img/foldseek_logo.png" style="width: 227px">
+  </div>
+</div>
+
+<div>
+  <div class="columnWide">
     <p><b>Linclust</b> is a method that can cluster sequences down to 50% pairwise sequence similarity and its runtime scales linearly with the input set size, not  quadratically as in conventional algorithms. It is >1000 times faster compared to its competitors.
       <ul class="network-icon" aria-hidden="true">
         <li>
