@@ -35,7 +35,7 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:clmgilchrist@gmail.com"
+  link = "mailto:gamcil@snu.ac.kr"
   
 
 +++
