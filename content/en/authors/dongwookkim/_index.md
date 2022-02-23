@@ -63,8 +63,8 @@ user_groups = ["Researchers"]
 
 +++
 
-Dongwook Kim is a graduate student under integrated Ph.D. course of bioinformatics at the [http://ipbi.snu.ac.kr/](Seoul National University). He studied biological sciences and computer engineering at the SNU. 
+Dongwook Kim is a graduate student under integrated Ph.D. course of bioinformatics at the [Seoul National University](http://ipbi.snu.ac.kr/). He studied biological sciences and computer engineering at the SNU. 
 
-He has been working with [Professor Jon Jongsik Chun](https://help.ezbiocloud.net/staff-jon-jongsik-chun-english/), developing the software tools for microbial phylogenetics. He has begun collaborating with Martin Steinegger team since the end of 2021, expanding his work to the broader topics of bioinformatics.
+He has been working with Professor [Jon Jongsik Chun](https://help.ezbiocloud.net/staff-jon-jongsik-chun-english/), developing the software tools for microbial phylogenetics. He has begun collaborating with Martin Steinegger team since the end of 2021, expanding his work to the broader topics of bioinformatics.
 
 He is interested in developing fast and easy-to-use software suite in the field of bioinformatics, comparative genomics and phylogenetics. He also loves to solve problems by coding, achieving 1st place in Korea (27th place worldwide) at [ROSALIND](https://rosalind.info/users/endix1029/).
