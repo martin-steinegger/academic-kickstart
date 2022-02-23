@@ -50,10 +50,12 @@ user_groups = ["Researchers"]
   icon = "envelope"
   icon_pack = "fas"
   link = "mailto:endix1029@gmail.com"
+  
 [[social]]
   icon = "github"
   icon_pack = "fab"
   link = "https://github.com/endix1029"
+  
 [[social]]
   icon = "google-scholar"
   icon_pack = "ai"
