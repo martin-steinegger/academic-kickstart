@@ -6,7 +6,7 @@ name = "Dongwook Kim"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["Researchers"]
+
 # Is this the primary user of the site?
 superuser = false
 
