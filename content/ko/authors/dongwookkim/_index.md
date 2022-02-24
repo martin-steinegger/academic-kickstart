@@ -5,7 +5,7 @@ name = "김동욱"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["연구원"]
+
 # Is this the primary user of the site?
 superuser = false
 
@@ -22,21 +22,15 @@ bio = ""
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
 
-# List (academic) interests or hobbies
-interests = [
-    "비교유전체학",
-    "계통분류학",
-    "서열 분석"
-]
-
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+user_groups = ["연구원"]
 
 # List qualifications (such as academic degrees)
 
 [[education.courses]]
-  course = "B.Sc. in Biological Sciences"
-  institution = "Seoul National University"
+  course = "생명과학부 이학사"
+  institution = "서울대학교"
   year = 2019
   
 # Social/Academic Networking
