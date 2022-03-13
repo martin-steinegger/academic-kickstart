@@ -36,13 +36,22 @@ email = ""
   icon = "envelope"
   icon_pack = "fas"
   link = "mailto:gamcil@snu.ac.kr"
-  
-[[social]] icon = "github" icon_pack = "fab" link = "https://github.com/gamcil"
 
-[[social]] icon = "twitter" icon_pack = "fab" link = "https://twitter.com/clmgilchrist"
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/gamcil"
+
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/clmgilchrist"
 
 +++
+## Intro
 
 Cameron Gilchrist is currently a postdoctoral researcher in the Steinegger Lab. He completed his PhD under the supervision of [Dr. Yit-Heng Chooi](http://chooilab.org/) at The University of Western Australia in 2021, where he developed bioinformatics applications for the analysis of secondary metabolism in microbial genomes. Some notable examples include the biosynthetic gene cluster search tool, [cblaster](https://github.com/gamcil/cblaster), and visualisation tool, [clinker](https://github.com/gamcil/cblaster), which have both seen broad adoption in the natural products research community.
+
+## Research Interest
 
 He is interested in developing easy-to-use, open source bioinformatics tools and visualisations which are accessible to any scientist, regardless of bioinformatics expertise.
