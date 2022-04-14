@@ -46,12 +46,17 @@ user_groups = ["연구원"]
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/endix1029"
+  link = "https://github.com/endixk"
   
 [[social]]
   icon = "google-scholar"
   icon_pack = "ai"
   link = "https://scholar.google.com/citations?user=1RUFYWQAAAAJ"
+
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/endix_k"
 
 +++
 
