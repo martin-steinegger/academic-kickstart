@@ -10,7 +10,7 @@ user_groups = ["연구원"]
 superuser = false
 
 # Role/position
-role = "인턴"
+role = "박사과정"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
