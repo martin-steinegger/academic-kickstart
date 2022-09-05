@@ -1,7 +1,7 @@
 +++
 
 # Display name
-name = "Sung-eun Kim"
+name = "Seong-Eun Kim"
 
 
 # Username (this should match the folder name)
