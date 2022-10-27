@@ -59,6 +59,10 @@ user_groups = ["Researchers"]
   icon_pack = "fab"
   link = "https://twitter.com/endix_k"
 
+[[social]]
+  icon = "cv"
+  icon_pack = "ai"
+  link = "files/CV_dongwook_kim.pdf"
 +++
 
 Dongwook Kim is a graduate student under integrated Ph.D. course of bioinformatics at the [Seoul National University](http://ipbi.snu.ac.kr/). He studied biological sciences and computer engineering at the SNU. 

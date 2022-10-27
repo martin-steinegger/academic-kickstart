@@ -58,6 +58,10 @@ user_groups = ["연구원"]
   icon_pack = "fab"
   link = "https://twitter.com/endix_k"
 
+[[social]]
+  icon = "cv"
+  icon_pack = "ai"
+  link = "files/CV_dongwook_kim.pdf"
 +++
 
 김동욱 연구원은 [서울대학교](http://ipbi.snu.ac.kr)에서 협동과정 생물정보학전공 석박통합과정을 밟고 있는 대학원생입니다. 서울대학교 생명과학부 주전공, 컴퓨터공학부 부전공으로 학사 학위를 취득하였습니다.
