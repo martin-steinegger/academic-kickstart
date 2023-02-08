@@ -10,7 +10,7 @@ user_groups = ["연구원"]
 superuser = false
 
 # Role/position
-role = "인턴"
+role = "석박사통합과정"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -26,6 +26,12 @@ email = ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 
+# List qualifications (such as academic degree)
+
+[[education.courses]]
+  course = "식품공학과 이학사"
+  institution = "고려대학교"
+  year = 2022
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -35,8 +41,16 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:seamustard52@korea.ac.kr"
+  link = "mailto:eunbelivable@snu.ac.kr"
   
-
 +++
 
+## 연구분야
+
+* 비정형 단백질 구조 예측 및 상호작용 예측
+* 단백질 구조를 밝혀내기 소프트웨어 개발
+
+# 관심분야
+
+* :fencer: 펜싱
+* :crab: Rust programming
