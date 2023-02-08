@@ -34,18 +34,12 @@ email = ""
   year = 2022
 
 # List academic interests or hobbies
-[[interests]]
-  비정형 단백질 상호작용 예측
-
-[[interests]]
-  단백질 구조를 위한 소프트웨어 개발
-
-[[interests]]
-  펜싱
-
-[[interests]]
-  러스트 프로그래밍 :crab:
-
+interests = [
+  "비정형 단백질 상호작용 예측",
+  "단백질 구조를 위한 소프트웨어 개발",
+  "펜싱",
+  "러스트 프로그래밍"
+]
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

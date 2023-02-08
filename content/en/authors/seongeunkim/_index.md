@@ -34,17 +34,12 @@ email = ""
   year = 2022
 
 # List academic interests or hobbies
-[[interests]]
-  Disordered protein interaction prediction
-
-[[interests]]
-  Developing software for protein structure
-
-[[interests]]
-  fencing 
-
-[[interests]]
-  rust programming language :crab:
+interests = [
+  "Disordered protein interaction prediction",
+  "Developing software for protein structure",
+  "fencing",
+  "rust programming language"
+]
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
