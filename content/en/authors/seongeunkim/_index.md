@@ -41,7 +41,7 @@ email = ""
   Developing software for protein structure
 
 [[interests]]
-  fencing :fencer:
+  fencing 
 
 [[interests]]
   rust programming language :crab:
