@@ -11,7 +11,7 @@ user_groups = ["Researchers"]
 superuser = false
 
 # Role/position
-role = "Intern"
+role = "Integrated Ph.D"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -27,6 +27,19 @@ email = ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 
+#List Qualifications
+[[education.courses]]
+  course = "B.Sc in Food Biology&Technology"
+  institution = "Korea University"
+  year = 2022
+
+# List academic interests or hobbies
+interests = [
+  "Disordered protein interaction prediction",
+  "Developing software for protein structure",
+  "fencing",
+  "rust programming language"
+]
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -36,8 +49,7 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:seamustard52@gmail.com"
+  link = "mailto:eunbelivable@snu.ac.kr"
   
 
 +++
-

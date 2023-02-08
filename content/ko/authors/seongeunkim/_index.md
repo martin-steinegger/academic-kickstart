@@ -29,9 +29,17 @@ email = ""
 # List qualifications (such as academic degree)
 
 [[education.courses]]
-  course = "식품공학과 이학사"
+  course = "식품공학 이학사"
   institution = "고려대학교"
   year = 2022
+
+# List academic interests or hobbies
+interests = [
+  "비정형 단백질 상호작용 예측",
+  "단백질 구조를 위한 소프트웨어 개발",
+  "펜싱",
+  "러스트 프로그래밍"
+]
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -45,12 +53,3 @@ email = ""
   
 +++
 
-## 연구분야
-
-* 비정형 단백질 구조 예측 및 상호작용 예측
-* 단백질 구조를 밝혀내기 소프트웨어 개발
-
-# 관심분야
-
-* :fencer: 펜싱
-* :crab: Rust programming
