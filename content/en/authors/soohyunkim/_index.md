@@ -1,23 +1,24 @@
 +++
 
 # Display name
-name = "김수현"
+name = "Soo Hyun Kim"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["연구원"]
+user_groups = ["Researchers"]
+
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "인턴"
+role = "Intern"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "김수현 (학부생, 서울대학교)"
+bio = "Soo Hyun Kim (Undergraduate, SNU)"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "sd20163818@snu.ac.kr"
@@ -44,8 +45,8 @@ email = "sd20163818@snu.ac.kr"
 
 +++
 
-## 소개
+## Intro
 
-서울대학교 학부생으로, 건설환경공학부와 생명과학부를 복수전공하고 있습니다. 2023년 8월에 건설환경공학부 공학사와 생명과학부 이학사 학위 수료 예정입니다.
-## 관심분야
+Kim Soo Hyun is an undergraduate student in Seoul National University. He is scheduled to graduate in August 2023 with a BS in Biological Sciences and Civil and Environmental Engineering.
+## Research Interest
 
