@@ -40,7 +40,7 @@ email = "sd20163818@snu.ac.kr"
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/elpis51613
+  link = "https://github.com/elpis51613"
 
 +++
 
