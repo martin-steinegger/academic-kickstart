@@ -1,16 +1,16 @@
 +++
 
 # Display name
-name = "이정재"
+name = "Eli Levy Karin"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["동문"]
+user_groups = ["Researchers"]
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "인턴"
+role = "ELKMO consultant"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -35,8 +35,11 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:jaylee2000@snu.ac.kr"
-  
+  link = "mailto:eli.levy.karin@gmail.com"
+
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/elileka"
 
 +++
-
