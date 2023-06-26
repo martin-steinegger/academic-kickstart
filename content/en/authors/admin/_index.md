@@ -35,7 +35,7 @@ user_groups = ["Researchers"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "P.hD. in Computer Science"
+  course = "Ph.D. in Computer Science"
   institution = "Technical University Munich"
   year = 2018
   
