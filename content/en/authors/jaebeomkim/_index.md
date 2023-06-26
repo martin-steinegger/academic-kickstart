@@ -51,3 +51,10 @@ email = ""
 
 +++
 
+Jaebeom Kim is a graduate student in a master's course in bioinformatics at the [Seoul National University](http://ipbi.snu.ac.kr/).
+
+He started to handle bioinformatics tools during his undergraduate thesis project in [Laboratory of Plant Genomic Recombination](https://www.pgr.postech.ac.kr).
+
+He has begun developing a metagenome classifier, [Metabuli](https://github.com/steineggerlab/Metabuli), as a member of Martin Steinegger team since the mid of 2020.
+
+He is interested in finding and solving methodological problems in bioinformatics and currently focusing on metagenomics.
