@@ -27,6 +27,13 @@ email = ""
 #   Set this to `[]` or comment out if you are not using People widget.
 
 
+# List qualifications (such as academic degrees)
+
+[[education.courses]]
+  course = "B.Sc. in Life Sciences"
+  institution = "POSTECH"
+  year = 2022
+  
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -35,8 +42,19 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:kjbwoqja221@postech.ac.kr"
-  
+  link = "mailto:jbeom@snu.ac.kr"
+
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/jaebeom-kim"
 
 +++
 
+Jaebeom Kim is a graduate student in a master's course in bioinformatics at the [Seoul National University](http://ipbi.snu.ac.kr/).
+
+He started to handle bioinformatics tools during his undergraduate thesis project in [Laboratory of Plant Genomic Recombination](https://www.pgr.postech.ac.kr).
+
+He has begun developing a metagenome classifier, [Metabuli](https://github.com/steineggerlab/Metabuli), as a member of Martin Steinegger team since the mid of 2020.
+
+He is interested in finding and solving methodological problems in bioinformatics and currently focusing on metagenomics.
