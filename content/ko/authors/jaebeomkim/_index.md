@@ -10,7 +10,7 @@ user_groups = ["연구원"]
 superuser = false
 
 # Role/position
-role = "인턴"
+role = "석사과정"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -35,7 +35,7 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:kjbwoqja221@postech.ac.kr"
+  link = "mailto:jbeom@snu.ac.kr"
   
 
 +++
