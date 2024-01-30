@@ -10,14 +10,14 @@ user_groups = ["연구원"]
 superuser = false
 
 # Role/position
-role = "인턴"
+role = "석사과정"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "김수현 (학부생, 서울대학교)"
+bio = "김수현 (석사과정, 서울대학교)"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "sd20163818@snu.ac.kr"
@@ -45,7 +45,7 @@ email = "sd20163818@snu.ac.kr"
 +++
 
 ## 소개
+2023년9월부터 서울대학교 협동과정 생물정보학 분야에서 석사과정을 시작했습니다. 건설환경공학부와 생명과학부를 복수전공했습니다.
 
-서울대학교 학부생으로, 건설환경공학부와 생명과학부를 복수전공하고 있습니다. 2023년 8월에 건설환경공학부 공학사와 생명과학부 이학사 학위 수료 예정입니다.
 ## 관심분야
 

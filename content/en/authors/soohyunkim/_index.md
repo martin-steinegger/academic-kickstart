@@ -11,14 +11,14 @@ user_groups = ["Researchers"]
 superuser = false
 
 # Role/position
-role = "Intern"
+role = "Master student"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Soo Hyun Kim (Undergraduate, SNU)"
+bio = "Soo Hyun Kim (Graduate student, SNU)"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "sd20163818@snu.ac.kr"
@@ -47,6 +47,7 @@ email = "sd20163818@snu.ac.kr"
 
 ## Intro
 
-Kim Soo Hyun is an undergraduate student in Seoul National University. He is scheduled to graduate in August 2023 with a BS in Biological Sciences and Civil and Environmental Engineering.
+Kim Soo Hyun is a graduate student enrolled in master's course in Bioinformatics. He graduated in August 2023 with BS in Biological Sciences and Civil and Environmental Engineering.
+
 ## Research Interest
 
