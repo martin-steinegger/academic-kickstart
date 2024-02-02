@@ -3,7 +3,6 @@
 # Display name
 name = "Jingi Yeo"
 
-
 # Username (this should match the folder name)
 authors = ["admin"]
 user_groups = ["Researchers"]
@@ -11,7 +10,7 @@ user_groups = ["Researchers"]
 superuser = false
 
 # Role/position
-role = "Intern"
+role = "Integrated Ph.D"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -21,7 +20,7 @@ organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr
 bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "jingiyeo@snu.ac.kr"
 
 
 # Organizational groups that you belong to (for People widget)
@@ -36,8 +35,17 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:livinit@korea.ac.kr"
+  link = "mailto:jingiyeo@snu.ac.kr"
   
+[[education.courses]]
+  course = "B.Sc. in Biomedical Engineering"
+  institution = "Korea University, Seoul"
+  year = 2023
 
 +++
 
+### Intro
+Jingi Yeo joined Steinegger Lab in Oct, 2022.
+He is interested in leveraging computational tools to accelerate research to enable precise experiments.
+
+He analyzed known proteins through predicted protein structures from the AlphaFold2 Database ([Barrio-Hernandez I. & Yeo J. et al., <i>Nature</i>, 2023.](https://www.nature.com/articles/s41586-023-06510-w)), and he is currently clustering the ESM Metagenomic Atlas database to explore metagenomic proteins in depth.
