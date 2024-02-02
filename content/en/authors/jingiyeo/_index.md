@@ -46,6 +46,6 @@ email = "jingiyeo@snu.ac.kr"
 
 ### Intro
 Jingi Yeo joined Steinegger Lab in Oct, 2022.
-He is interested in leveraging computational tools to accelerate research and reduce the load of experimental processes.
+He is interested in leveraging computational tools to accelerate research to enable precise experiments.
 
-He analyzed known proteins through predicted protein structures from the AlphaFold2 Database ([Barrio-Hernandez I. & Yeo J. et al., <i>Nature</i>, 2023.](https://www.nature.com/articles/s41586-023-06510-w)), and currently is engaged in a project that clusters the ESM Metagenomic Atlas database to explore metagenomic proteins in depth.
+He analyzed known proteins through predicted protein structures from the AlphaFold2 Database ([Barrio-Hernandez I. & Yeo J. et al., <i>Nature</i>, 2023.](https://www.nature.com/articles/s41586-023-06510-w)), and he is currently clustering the ESM Metagenomic Atlas database to explore metagenomic proteins in depth.
