@@ -10,7 +10,7 @@ user_groups = ["Researchers"]
 superuser = false
 
 # Role/position
-role = "Master student"
+role = "PhD student"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -33,6 +33,11 @@ email = ""
   course = "B.Sc. in Life Sciences"
   institution = "POSTECH"
   year = 2022
+
+[[education.courses]]
+  course = "M.Sc. in Bioinformatics"
+  institution = "Seoul National University"
+  year = 2024
   
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -51,9 +56,9 @@ email = ""
 
 +++
 
-Jaebeom Kim is a graduate student in a master's course in bioinformatics at the [Seoul National University](http://ipbi.snu.ac.kr/).
+Jaebeom Kim is a graduate student in a PhD course in bioinformatics at the [Seoul National University](http://ipbi.snu.ac.kr/).
 
-He started to handle bioinformatics tools during his undergraduate thesis project in [Laboratory of Plant Genomic Recombination](https://www.pgr.postech.ac.kr).
+His experience with bioinformatics began with an undergraduate thesis project in [Laboratory of Plant Genomic Recombination](https://www.pgr.postech.ac.kr).
 
 He has begun developing a metagenome classifier, [Metabuli](https://github.com/steineggerlab/Metabuli), as a member of Martin Steinegger team since the mid of 2020.
 
