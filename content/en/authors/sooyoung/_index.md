@@ -27,6 +27,11 @@ email = ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 
+[[education.courses]]
+  course = "B.Sc in Electrical and Computer Engineering"
+  institution = "Seoul National University"
+  year = 2024.02
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
