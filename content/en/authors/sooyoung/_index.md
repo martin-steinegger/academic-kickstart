@@ -11,7 +11,7 @@ user_groups = ["Researchers"]
 superuser = false
 
 # Role/position
-role = "Intern"
+role = "Integrated Ph.D"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -28,7 +28,7 @@ email = ""
 #   Set this to `[]` or comment out if you are not using People widget.
 
 [[education.courses]]
-  course = "B.Sc in Electrical and Computer Engineering"
+  course = "B.Sc. in Electrical and Computer Engineering"
   institution = "Seoul National University"
   year = 2024.02
 
@@ -39,9 +39,23 @@ email = ""
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 [[social]]
+  icon = "globe"
+  icon_pack = "fas"
+  link = "https://chasooyoung.github.io/SY/"
+
+[[social]]
   icon = "envelope"
   icon_pack = "fas"
   link = "mailto:ellen2g@snu.ac.kr"
 
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/ChaSooyoung"
+
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://x.com/ChaSooyoung37?t=nsSniUEp-UcKh4CGLJbp-A&s=32"
 +++
 
