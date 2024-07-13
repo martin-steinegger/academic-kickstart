@@ -10,7 +10,7 @@ user_groups = ["연구원"]
 superuser = false
 
 # Role/position
-role = "인턴"
+role = "석박사통합과정"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -37,9 +37,23 @@ email = ""
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 [[social]]
+  icon = "globe"
+  icon_pack = "fas"
+  link = "https://chasooyoung.github.io/SY/"
+
+[[social]]
   icon = "envelope"
   icon_pack = "fas"
   link = "mailto:ellen2g@snu.ac.kr"
 
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/ChaSooyoung"
+
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://x.com/ChaSooyoung37?t=nsSniUEp-UcKh4CGLJbp-A&s=32"
 +++
 
