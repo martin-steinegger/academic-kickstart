@@ -38,6 +38,11 @@ email = ""
   link = "mailto:eli.levy.karin@gmail.com"
 
 [[social]]
+  icon = "globe"
+  icon_pack = "fas"
+  link = "https://elileka.github.io/"
+
+[[social]]
   icon = "github"
   icon_pack = "fab"
   link = "https://github.com/elileka"
