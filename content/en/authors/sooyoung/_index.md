@@ -41,21 +41,12 @@ email = ""
 [[social]]
   icon = "globe"
   icon_pack = "fas"
-  link = "https://chasooyoung.github.io/SY/"
+  link = "https://sooyoung-cha.github.io/SY/"
 
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
   link = "mailto:ellen2g@snu.ac.kr"
 
-[[social]]
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/ChaSooyoung"
-
-[[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://x.com/ChaSooyoung37?t=nsSniUEp-UcKh4CGLJbp-A&s=32"
 +++
 
