@@ -27,9 +27,9 @@ email = "leejoey0921@snu.ac.kr"
 #   Set this to `[]` or comment out if you are not using People widget.
 
 [[education.courses]]
-  course = "BSc in Computer Science, Biology"
+  course = "BSc in Computer Science and Biology"
   institution = "Seoul National University"
-  year = 2026 (Expected)
+  year = 2026
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

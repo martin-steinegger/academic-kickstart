@@ -29,7 +29,7 @@ email = "leejoey0921@snu.ac.kr"
 [[education.courses]]
   course = "컴퓨터공학, 생명과학 주전공"
   institution = "서울대학교"
-  year = 2026 예정
+  year = 2026
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
