@@ -17,7 +17,7 @@ role = "Intern"
 organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Aspiring bioinfomatician with prior software engineering experience."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "leejoey0921@snu.ac.kr"
@@ -47,3 +47,5 @@ email = "leejoey0921@snu.ac.kr"
   link = "https://github.com/leejoey0921"
 
 +++
+Joey (Junkyoung) Lee is an undergrad student at the College of Liberal Studies, majoring in both Computer Science and Biology.
+He has 2 years of professional experience as a software engineer, and is interested in researching algorithmic challenges to solve biological problems.
