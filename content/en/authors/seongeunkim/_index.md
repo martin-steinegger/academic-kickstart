@@ -61,13 +61,19 @@ email = ""
 +++
 
 <h3/>Intro</h3>
-Rachel Seongeun Kim is an Integrated Ph.D student at Interdisciplinary Program in Bioinformatics, Seoul National University. She is interested in bioinformatics, particularly in the field of protein structure prediction and efficient software development for protein structure analysis. <br>'
-<ol> <b>She has been working on ...</b>
-  <li>🧬 Protein interaction prediction and novel interaction identification of disordered proteins</li>
-  <li>🧬 Software development for protein structure analysis</li>
-  <li>🧬 Construction of protein structure database</li>
-</ol>
+Rachel Seongeun Kim is an Integrated Ph.D student at Interdisciplinary Program in Bioinformatics, Seoul National University. She is interested in bioinformatics, particularly focusing on protein structure prediction and efficient software development for protein structure analysis. As she got her B.Sc from irrelevant field, she enjoys spare time to self-studying.<br>
+
+<b>She has been working on ...</b><br>
+🧬 Protein interaction prediction and novel interaction identification of disordered proteins<br>
+🧬 Software development for protein structure analysis<br>
+🧬 Construction of protein structure database<br>
+
+<b>Personal interests include ...</b><br>
+🤺 Play fencing games and participate competitions<br>
+✈️ Traveling and adventure<br>
+💻 Self-study programming languages and CS lectures<br>
+
 
 <h3/>Research</h3>
-<h5/>BFVD—a large repository of predicted viral protein structures</h5>
-BFVD is a large repository of predicted viral protein structures, which contains 351k structures that were predicted using ColabFold. The repository is freely [downloadable](https://bfvd.steineggerlab.workers.dev/) and [browsable](https://bfvd.foldseek.com/). This resource is published in [Nucleic Acids Research](https://doi.org/10.1093/nar/gkae1119)<br>
+<b>BFVD—a large repository of predicted viral protein structures</b><br>
+BFVD is a large repository of predicted viral protein structures, which contains 351k structures that were predicted using ColabFold. The repository is freely <a href="https://bfvd.steineggerlab.workers.dev/">downloadable</a> and <a href="https://bfvd.foldseek.com/">browsable</a>. This resource is published in <a href="https://doi.org/10.1093/nar/gkae1119">Nucleic Acids Research</a><br>
