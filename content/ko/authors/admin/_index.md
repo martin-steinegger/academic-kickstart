@@ -10,7 +10,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "조교수 (생물 정보학)"
+role = "부교수 (생물 정보학)"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -24,6 +24,7 @@ email = ""
 
 # List (academic) interests or hobbies
 #interests = [
+#  "Protein Structure Analysis"
 #  "Metagenomics",
 #  "Sequence Analysis",
 #  "Molecular Evolution"
@@ -85,8 +86,7 @@ user_groups = ["연구원"]
 
 +++
 
-스타이네거 박사님은 현재 [서울대학교](http://biosci.snu.ac.kr/en) 자연과학대학 생명과학부에 조교수로 재직 중입니다. 뮌헨 공과대학교 ([Technical University Munich](https://www.tum.de/en)) 와 뮌헨 루트비히 막시밀리안대학교 ([Ludwig Maximilian University of Munich](https://www.en.uni-muenchen.de/index.html)) 에서 생물정보학과 컴퓨터과학을 공부했으며, 박하드 로스트 교수님 ([Professor Burkhard Rost](https://www.rostlab.org)) 과 함께 단백질 변형 예측과 관련된 연구 과
-제들에 참여했습니다.
+스타이네거 박사님은 현재 [서울대학교](http://biosci.snu.ac.kr/en) 자연과학대학 생명과학부에 부교수로 재직 중입니다. 뮌헨 공과대학교 ([Technical University Munich](https://www.tum.de/en)) 와 뮌헨 루트비히 막시밀리안대학교 ([Ludwig Maximilian University of Munich](https://www.en.uni-muenchen.de/index.html)) 에서 생물정보학과 컴퓨터과학을 공부했으며, 박하드 로스트 교수님 ([Professor Burkhard Rost](https://www.rostlab.org)) 과 함께 단백질 변형 예측과 관련된 연구 과제에 참여했습니다.
 
 또한, 뮌헨 공과대학교에서 박사과정을 밟았으며, 막스 플랑크 생물리화학 연구소 ([Max Planck Institute for Biophysical Chemistry](https://www.mpibpc.mpg.de/en)) 에 계신 요하네스 소딩 박사님 ([Dr. Johannes Söding](https://www.mpibpc.mpg.de/soeding)) 과 함께 균유전체 시퀀싱 데이터를 분석하는 연구를 수행했습니다. 구체적으로, 유전체 시퀀싱 데이터 어셈블리(assembly)와 클러스터링(clustering), 그리고 annotation에 대해 연구했습니다. 박사 후 과정으로는, 존스홉킨스 컴퓨터생명공학센터 ([CCB](http://ccb.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/)) 에 계신 스티븐 살츠버그 교수님 ([Professor Steven L. Salzberg](https://salzberg-lab.org)) 과 함께 전염병의 병원성 개체를 식별하는 연구와 공공 유전체 데이터 베이스에서 오염된 데이터를 식별하는 연구, 그리고 인간 단백체에서 누락된 엑손을 찾는 연구를 수행하였습니다.
 
