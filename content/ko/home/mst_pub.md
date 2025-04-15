@@ -42,6 +42,8 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+Kim J, **Steinegger M.** (2024) Metabuli: sensitive and specific metagenomic classification via joint analysis of amino acid and DNA, *Nature Methods* [[preprint]](https://www.biorxiv.org/content/10.1101/2023.05.31.543018v2) [[journal]](https://www.nature.com/articles/s41592-024-02273-y) [[software]](https://github.com/steineggerlab/Metabuli) 
+
 Barrio-Hernandez I., Yeo J., Jänes J., Mirdita M., Gilchrist C.L.M., Wein T., Varadi M., Velankar S., Beltrao P., **Steinegger M.** (2023) Clustering predicted structures at the scale of the known protein universe, *Nature* [[preprint]](https://www.biorxiv.org/content/10.1101/2023.03.09.531927v1) [[journal]](https://www.nature.com/articles/s41586-023-06510-w) [[software]](https://foldseek.com)
 
 van Kempen M., Kim S.S., Tumescheit C., Mirdita M., Lee J., Gilchrist C.L.M., Söding J., **Steinegger M.** (2023) Fast and accurate protein structure search with Foldseek, *Nature Biotechnology* [[preprint]](https://www.biorxiv.org/content/10.1101/2022.02.07.479398v5) [[journal]](https://www.nature.com/articles/s41587-023-01773-0) [[software]](https://foldseek.com)

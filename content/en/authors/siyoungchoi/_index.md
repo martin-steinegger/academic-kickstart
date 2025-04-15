@@ -1,7 +1,7 @@
 +++
 
 # Display name
-name = "Junsu Lee"
+name = "Siyoung Choi"
 
 
 # Username (this should match the folder name)
@@ -36,7 +36,7 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:jounsu@snu.ac.kr"
+  link = "mailto:remy0502@snu.ac.kr"
   
 
 +++
