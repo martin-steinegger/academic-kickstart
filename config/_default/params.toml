@@ -93,7 +93,7 @@ address = {street = "1 Gwanak-ro", city = "Seoul", postcode = "08826", country =
 coordinates = {latitude = "37.4601693", longitude = "126.9485256"}
 
 # Directions for visitors to locate you.
-directions = "Enter Building 502 and take the stairs to Office 423 on Floor 4"
+directions = "Building 502 Office 423 (Floor 4)"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -101,7 +101,7 @@ directions = "Enter Building 502 and take the stairs to Office 423 on Floor 4"
 office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com/martinsteinegger"
+appointment_url = ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
