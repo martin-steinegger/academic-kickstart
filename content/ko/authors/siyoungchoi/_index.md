@@ -1,26 +1,26 @@
 +++
 
 # Display name
-name = "Woosub Kim"
+name = "최시영"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["Researchers"]
+user_groups = ["연구원"]
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "Graduate Student"
+role = "인턴"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Hi. I am Woosub Kim. I am in Steinegger's lab. Thank you!!!"
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "woosubgo@snu.ac.kr"
+email = ""
 
 
 # Organizational groups that you belong to (for People widget)
@@ -35,13 +35,8 @@ email = "woosubgo@snu.ac.kr"
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:woosubgo@snu.ac.kr"
+  link = "mailto:remy0502@snu.ac.kr"
   
-[[social]] 
-  icon = "github" 
-  icon_pack = "fab" 
-  link = "https://github.com/Woowub-Kim"
 
 +++
-
 
