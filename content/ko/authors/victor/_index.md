@@ -14,7 +14,7 @@ role = "석박사통합과정"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "École polytechnique", url = "https://www.polytechnique.edu/" } ]
+organizations = [ { name = "Seoul National University", url = "https://www.snu.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -35,7 +35,7 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "victor.mihaila@polytechnique.fr"
+  link = "victor.mihaila@snu.ac.kr"
   
 
 +++
