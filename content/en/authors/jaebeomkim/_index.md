@@ -54,6 +54,11 @@ email = ""
   icon_pack = "fab"
   link = "https://github.com/jaebeom-kim"
 
+[[social]]
+  icon = "cv"
+  icon_pack = "ai"
+  link = "files/CV_jaebeom_kim.pdf"
+
 +++
 
 Jaebeom Kim is a graduate student in a PhD course in bioinformatics at the [Seoul National University](http://ipbi.snu.ac.kr/).
