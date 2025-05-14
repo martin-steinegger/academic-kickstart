@@ -37,7 +37,7 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:diana.schweizer@students.fhnw.ch"
+  link = "mailto:c.araiz2001@gmail.com"
 
 
 +++
