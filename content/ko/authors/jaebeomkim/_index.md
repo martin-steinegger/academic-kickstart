@@ -10,7 +10,7 @@ user_groups = ["연구원"]
 superuser = false
 
 # Role/position
-role = "박사과정학생"
+role = "박사과정"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -53,6 +53,11 @@ email = ""
   icon = "github"
   icon_pack = "fab"
   link = "https://github.com/jaebeom-kim"
+
+[[social]]
+  icon = "cv"
+  icon_pack = "ai"
+  link = "files/CV_jaebeom_kim.pdf"
   
 
 +++
