@@ -1,20 +1,22 @@
 +++
 
 # Display name
-name = "빅터 미하일라"
+name = "Diana Schweizer"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["연구원"]
+user_groups = ["Alumni"]
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "석박사통합과정"
+role = "Visiting Researcher"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Seoul National University", url = "https://www.snu.ac.kr" } ]
+# organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
+
+# List qualifications (such as academic degrees)
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -35,8 +37,7 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "victor.mihaila@snu.ac.kr"
-  
+  link = "mailto:diana.schweizer@students.fhnw.ch"
+
 
 +++
-

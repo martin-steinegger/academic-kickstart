@@ -1,7 +1,7 @@
 +++
 
 # Display name
-name = "빅터 미하일라"
+name = "크리스티나 아라이스"
 
 # Username (this should match the folder name)
 authors = ["admin"]
@@ -10,11 +10,13 @@ user_groups = ["연구원"]
 superuser = false
 
 # Role/position
-role = "석박사통합과정"
+role = "방문연구원"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Seoul National University", url = "https://www.snu.ac.kr" } ]
+# organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
+
+# List qualifications (such as academic degrees)
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -35,8 +37,7 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "victor.mihaila@snu.ac.kr"
-  
+  link = "mailto:c.araiz2001@gmail.com"
+
 
 +++
-
