@@ -5,7 +5,7 @@ active = true  # Activate this widget? true/false
 weight = 80  # Order that this section will appear.
 
 title = "Selected Publications"
-subtitle = ""
+subtitle = "*: First author <br> †: Corresponding author <br> Lab members in bold"
 
 [design]
   # Toggle between the various page layout types.
@@ -43,22 +43,22 @@ subtitle = ""
  css_class = ""
 +++
 
-**Kim W.**, **Mirdita M.**, **Levy K.E.**, **Gilchrist C.L.M.**, Schweke H., Söding J., Levy E.D., **Steinegger M.** (2025) Rapid and sensitive protein complex alignment with Foldseek-Multimer, *Nature Methods* [[preprint]](https://www.biorxiv.org/content/10.1101/2024.04.14.589414v1) [[journal]](https://www.nature.com/articles/s41592-025-02593-7) [[software]](https://github.com/steineggerlab/foldseek)
+**Kim W.**\*, **Mirdita M.**, **Levy K.E.**, **Gilchrist C.L.M.**, Schweke H., Söding J., Levy E.D.†, **Steinegger M.**† (2025) Rapid and sensitive protein complex alignment with Foldseek-Multimer, *Nature Methods* [[preprint]](https://www.biorxiv.org/content/10.1101/2024.04.14.589414v1) [[journal]](https://www.nature.com/articles/s41592-025-02593-7) [[software]](https://github.com/steineggerlab/foldseek)
 
-**Kim J.**, **Steinegger M.** (2024) Metabuli: sensitive and specific metagenomic classification via joint analysis of amino acid and DNA, *Nature Methods* [[preprint]](https://www.biorxiv.org/content/10.1101/2023.05.31.543018v2) [[journal]](https://www.nature.com/articles/s41592-024-02273-y) [[software]](https://github.com/steineggerlab/Metabuli) [[pdf]](https://www.nature.com/articles/s41592-024-02273-y.epdf?sharing_token=je_2D5Su0-xVOSjuKSAXF9RgN0jAjWel9jnR3ZoTv0M7gE7NDF_xi_3sW8QdRiwfSJNwqaXItSoeCvr7cvcoQxKLt0oROgWc6urmki9tP80cXEuHPN0D7b4y9y3i8Yv7sZw8MxxhAj7W6p9eZE2zaK3eozdOkXvwADVfso9cXIM%3D)
+**Kim J.**\*, **Steinegger M.**† (2024) Metabuli: sensitive and specific metagenomic classification via joint analysis of amino acid and DNA, *Nature Methods* [[preprint]](https://www.biorxiv.org/content/10.1101/2023.05.31.543018v2) [[journal]](https://www.nature.com/articles/s41592-024-02273-y) [[software]](https://github.com/steineggerlab/Metabuli) [[pdf]](https://www.nature.com/articles/s41592-024-02273-y.epdf?sharing_token=je_2D5Su0-xVOSjuKSAXF9RgN0jAjWel9jnR3ZoTv0M7gE7NDF_xi_3sW8QdRiwfSJNwqaXItSoeCvr7cvcoQxKLt0oROgWc6urmki9tP80cXEuHPN0D7b4y9y3i8Yv7sZw8MxxhAj7W6p9eZE2zaK3eozdOkXvwADVfso9cXIM%3D)
 
-Barrio-Hernandez I., **Yeo J.**, Jänes J., **Mirdita M.**, **Gilchrist C.L.M.**, Wein T., Varadi M., Velankar S., Beltrao P., **Steinegger M.** (2023) Clustering predicted structures at the scale of the known protein universe, *Nature* [[preprint]](https://www.biorxiv.org/content/10.1101/2023.03.09.531927v1) [[journal]](https://www.nature.com/articles/s41586-023-06510-w) [[software]](https://foldseek.com)
+Barrio-Hernandez I.\*, **Yeo J.**\*, Jänes J., **Mirdita M.**, **Gilchrist C.L.M.**, Wein T., Varadi M., Velankar S., Beltrao P.†, **Steinegger M.**† (2023) Clustering predicted structures at the scale of the known protein universe, *Nature* [[preprint]](https://www.biorxiv.org/content/10.1101/2023.03.09.531927v1) [[journal]](https://www.nature.com/articles/s41586-023-06510-w) [[software]](https://foldseek.com)
 
-van Kempen M., **Kim S.S.**, **Tumescheit C.**, **Mirdita M.**, Lee J., **Gilchrist C.L.M.**, Söding J., **Steinegger M.** (2023) Fast and accurate protein structure search with Foldseek, *Nature Biotechnology* [[preprint]](https://www.biorxiv.org/content/10.1101/2022.02.07.479398v5) [[journal]](https://www.nature.com/articles/s41587-023-01773-0) [[software]](https://foldseek.com)
+van Kempen M.\*, **Kim S.S.**\*, **Tumescheit C.**, **Mirdita M.**, Lee J., **Gilchrist C.L.M.**, Söding J., **Steinegger M.** (2023) Fast and accurate protein structure search with Foldseek, *Nature Biotechnology* [[preprint]](https://www.biorxiv.org/content/10.1101/2022.02.07.479398v5) [[journal]](https://www.nature.com/articles/s41587-023-01773-0) [[software]](https://foldseek.com)
 
-**Mirdita M.**, Schütze K., Moriwaki Y., Heo L., Ovchinnikov S., **Steinegger M.** (2022) ColabFold: making protein folding accessible to all, *Nature Methods* [[preprint]](https://www.biorxiv.org/content/10.1101/2021.08.15.456425v3) [[journal]](https://www.nature.com/articles/s41592-022-01488-1) [[software]](https://colabfold.com)
+**Mirdita M.**\*†, Schütze K., Moriwaki Y., Heo L., Ovchinnikov S.†, **Steinegger M.**† (2022) ColabFold: making protein folding accessible to all, *Nature Methods* [[preprint]](https://www.biorxiv.org/content/10.1101/2021.08.15.456425v3) [[journal]](https://www.nature.com/articles/s41592-022-01488-1) [[software]](https://colabfold.com)
 
-**Steinegger M.**, Salzberg S.L. (2020) Terminating contamination: large-scale search identifies more than 2,000,000 contaminated entries in GenBank, *Genome Biology* [[preprint]](https://www.biorxiv.org/content/10.1101/2020.01.26.920173v1) [[journal]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02023-1) [[software]](https://github.com/martin-steinegger/conterminator)
+**Steinegger M.**\*, Salzberg S.L.† (2020) Terminating contamination: large-scale search identifies more than 2,000,000 contaminated entries in GenBank, *Genome Biology* [[preprint]](https://www.biorxiv.org/content/10.1101/2020.01.26.920173v1) [[journal]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02023-1) [[software]](https://github.com/martin-steinegger/conterminator)
 
-**Steinegger M.**, Meier M., Mirdita M., Vöhringer H., Haunsberger S.J., Söding J. (2019) HH-suite3 for fast remote homology detection and deep protein annotation, *BMC Bioinformatics* [[preprint]](https://www.biorxiv.org/content/10.1101/560029v1) [[journal]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3019-7) [[software]](https://github.com/soedinglab/hh-suite)
+**Steinegger M.**\*, Meier M., Mirdita M., Vöhringer H., Haunsberger S.J., Söding J.† (2019) HH-suite3 for fast remote homology detection and deep protein annotation, *BMC Bioinformatics* [[preprint]](https://www.biorxiv.org/content/10.1101/560029v1) [[journal]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3019-7) [[software]](https://github.com/soedinglab/hh-suite)
 
-**Steinegger M.**, Mirdita M., Söding J. (2019) Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold, *Nature Methods* [[prerprint]](https://www.biorxiv.org/content/10.1101/386110v2) [[journal]](https://www.nature.com/articles/s41592-019-0437-4) [[software]](https://github.com/soedinglab/plass)
+**Steinegger M.**\*†, Mirdita M., Söding J.† (2019) Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold, *Nature Methods* [[prerprint]](https://www.biorxiv.org/content/10.1101/386110v2) [[journal]](https://www.nature.com/articles/s41592-019-0437-4) [[software]](https://github.com/soedinglab/plass)
 
-**Steinegger M.**, Söding J. (2018) Clustering huge protein sequence sets in linear time, *Nature Communications* [[preprint]](https://www.biorxiv.org/content/10.1101/104034v4) [[journal]](https://www.nature.com/articles/s41467-018-04964-5) [[software]](https://github.com/soedinglab/mmseqs2)
+**Steinegger M.**\*†, Söding J.† (2018) Clustering huge protein sequence sets in linear time, *Nature Communications* [[preprint]](https://www.biorxiv.org/content/10.1101/104034v4) [[journal]](https://www.nature.com/articles/s41467-018-04964-5) [[software]](https://github.com/soedinglab/mmseqs2)
 
-**Steinegger M.**, Söding J. (2017) MMseqs2: Sensitive protein sequence searching for the analysis of massive data sets, *Nature Biotechnology* [[preprint]](https://www.biorxiv.org/content/10.1101/079681v5.full) [[journal]](https://www.nature.com/articles/nbt.3988) [[software]](https://github.com/soedinglab/mmseqs2)
+**Steinegger M.**\*, Söding J.† (2017) MMseqs2: Sensitive protein sequence searching for the analysis of massive data sets, *Nature Biotechnology* [[preprint]](https://www.biorxiv.org/content/10.1101/079681v5.full) [[journal]](https://www.nature.com/articles/nbt.3988) [[software]](https://github.com/soedinglab/mmseqs2)
