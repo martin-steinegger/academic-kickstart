@@ -10,7 +10,7 @@ authors = ["admin"]
 superuser = false
 
 # Role/position
-role = "박사후연구원"
+role = "박사 졸업 및 박사후연구원"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -24,7 +24,7 @@ email = ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["연구원"]
+user_groups = ["동문"]
 
 # List qualifications (such as academic degrees)
 
@@ -32,6 +32,11 @@ user_groups = ["연구원"]
   course = "생명과학부 이학사"
   institution = "서울대학교"
   year = 2019
+  
+[[education.courses]]
+  course = "생물정보학 박사"
+  institution = "서울대학교"
+  year = 2025
   
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
