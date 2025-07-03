@@ -11,7 +11,7 @@ authors = ["admin"]
 superuser = false
 
 # Role/position
-role = "Postdoctoral researcher"
+role = "PhD and postdoc"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -25,7 +25,7 @@ email = ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Researchers"]
+user_groups = ["Alumni"]
 
 # List qualifications (such as academic degrees)
 
@@ -33,6 +33,12 @@ user_groups = ["Researchers"]
   course = "B.Sc. in Biological Sciences"
   institution = "Seoul National University"
   year = 2019
+
+[[education.courses]]
+  course = "PhD in Bioinformatics"
+  institution = "Seoul National University"
+  year = 2025
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

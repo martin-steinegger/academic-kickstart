@@ -1,20 +1,21 @@
 +++
 
 # Display name
-name = "김지현"
+name = "YaeJi Kim"
+
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["동문"]
+user_groups = ["Researchers"]
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "박사 졸업"
+role = "Intern"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
+organizations = [ { name = "Korea University", url = "https://korea.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -35,8 +36,7 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:jihkim1210@gmail.com"
-  
+  link = "mailto:mermainkim1@naver.com"
 
 +++
 

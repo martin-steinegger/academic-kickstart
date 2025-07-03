@@ -1,16 +1,16 @@
 +++
 
 # Display name
-name = "김지현"
+name = "윤재원"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["동문"]
+user_groups = ["연구원"]
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "박사 졸업"
+role = "인턴"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -35,7 +35,7 @@ email = ""
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:jihkim1210@gmail.com"
+  link = "mailto:jwyoon05@snu.ac.kr"
   
 
 +++
