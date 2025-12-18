@@ -52,7 +52,7 @@ email = "pboppert@snu.ac.kr"
 +++
 
 
-I am a intern/future PhD student from Germany currently focusing on HMM and probability based sequence alignment.
+I am a intern/prospective PhD student from Germany currently focusing on HMM and probability based sequence alignment.
 During and after my bioinformatics studies as the University of Tübingen I was a masters student and research assistant at Detlef Weigel's Lab in the Max-Planck Institute for Biology.
 There I developed a gene-age inference based sequence decontamination tool and assisted the creation of on large scale data processing pipelines for shotgun sequencing data.
 Now as part of Martin Steinegger's group I want to diver deeper into the development of efficient bioinformatical tools.  
