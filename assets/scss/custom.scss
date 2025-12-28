@@ -222,6 +222,10 @@ section#research .pub-item a {
     color: #f5f5f5;
 }
 
+body:not(.join-page) {
+    background-color: #0c0d10;
+}
+
 .contact-media {
     flex: 1;
     position: relative;
