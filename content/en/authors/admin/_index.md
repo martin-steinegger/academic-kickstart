@@ -60,11 +60,6 @@ user_groups = ["Researchers"]
   icon = "envelope"
   icon_pack = "fas"
   link = "mailto:martin.steinegger@snu.ac.kr"
-  
-[[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://twitter.com/thesteinegger"
 
 [[social]]
   icon = "google-scholar"
@@ -84,7 +79,7 @@ user_groups = ["Researchers"]
   link = "files/martin_steinegger_cv.pdf"
 
 +++
-Dr. Steinegger is an Associate Professor in the Biology Department at the [Seoul National University](http://biosci.snu.ac.kr/en), with a joint appointment to the Interdisciplinary Program in Bioinformatics. He conducted his doctoral studies at the [Max Planck Institute for Biophysical Chemistry](https://www.mpinat.mpg.de/soeding) and was awarded a Ph.D. in computer science with summa cum laude honors from the [Technical University Munich](https://www.tum.de/en) in 2018, followed by a postdoctoral fellowship at [Johns Hopkins University School of Medicine](https://salzberg-lab.org/). Dr. Steinegger work covers a wide range of topics in bioinformatics, from detecting genomic assembly contamination to organizing the protein structure space. He was awarded the [Overton Prize](https://academic.oup.com/bioinformatics/article/40/Supplement_1/i3/7700861) for outstanding contributions to computational biology by the International Society for Computational Biology in 2024 and was named a [Clarivate Highly Cited Researcher](https://clarivate.com/highly-cited-researchers/) (2024, 2025). 
+Dr. Steinegger is an Associate Professor in the Biology Department at the [Seoul National University](http://biosci.snu.ac.kr/en), with a joint appointment to the Interdisciplinary Program in Bioinformatics. He conducted his doctoral studies at the [Max Planck Institute for Biophysical Chemistry](https://www.mpinat.mpg.de/soeding) and was awarded a Ph.D. in computer science with summa cum laude honors from the [Technical University Munich](https://www.tum.de/en) in 2018, followed by a postdoctoral fellowship at [Johns Hopkins University School of Medicine](https://salzberg-lab.org/). Dr. Steinegger's work covers a wide range of topics in bioinformatics, from detecting genomic assembly contamination to organizing the protein structure universe. He was awarded the [Overton Prize](https://academic.oup.com/bioinformatics/article/40/Supplement_1/i3/7700861) for outstanding contributions to computational biology by the International Society for Computational Biology in 2024 and was named a [Clarivate Highly Cited Researcher](https://clarivate.com/highly-cited-researchers/) (2024, 2025). 
 
 He started his research group in 2020, focusing on the development of methods to analyze massive genomics and proteomic datasets. The group’s contributions to bioinformatics include widely used tools for predicting structures [(ColabFold)](https://github.com/sokrypton/ColabFold), clustering [(Linclust)](https://github.com/soedinglab/MMseqs2), assembling [(Plass)](https://github.com/soedinglab/plass), and searching sequences [(MMseqs2)](https://github.com/soedinglab/MMseqs2) and protein structures [(Foldseek)](https://github.com/steineggerlab/foldseek). His group’s software and web services have been installed and used millions of times. 
 
