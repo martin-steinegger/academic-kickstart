@@ -211,6 +211,22 @@ section#research .pub-item a {
     margin-left: 0.35rem;
 }
 
+.people-widget {
+    padding-top: 0;
+}
+
+.people-widget .people-person {
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .people-widget .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
 .site-footer {
     display: none;
 }
