@@ -86,7 +86,7 @@ user_groups = ["Researchers"]
 +++
 
 
-Dr. Steinegger is an Assistant Professor in the biology department at the [Seoul National University](http://biosci.snu.ac.kr/en). He studied bioinformatics and computer science at the [Technical University Munich](https://www.tum.de/en) and [Ludwig Maximilian University of Munich](https://www.en.uni-muenchen.de/index.html). During this time, he worked as a research assistant of [Professor Burkhard Rost](https://www.rostlab.org), focusing on the development of methods for predicting protein mutation effects. 
+Dr. Steinegger is an Associate Professor in the biology department at the [Seoul National University](http://biosci.snu.ac.kr/en). He studied bioinformatics and computer science at the [Technical University Munich](https://www.tum.de/en) and [Ludwig Maximilian University of Munich](https://www.en.uni-muenchen.de/index.html). During this time, he worked as a research assistant of [Professor Burkhard Rost](https://www.rostlab.org), focusing on the development of methods for predicting protein mutation effects. 
 
 He received his Ph.D. from the Technical University Munich in collaboration with [Dr. Johannes Söding](https://www.mpibpc.mpg.de/soeding) at the [Max Planck Institute for Biophysical Chemistry](https://www.mpibpc.mpg.de/en) for his work on computational methods to assemble, cluster and annotate metagenomic sequencing data. 
 As a Postdoc in the group of [Professor Steven L. Salzberg](https://salzberg-lab.org) at the [CCB](http://ccb.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/), he developed methods for the identification of pathogenic agents in infectious diseases, the detection of assembly contamination in public datasets and the annotation of missing exons in the human proteome.
