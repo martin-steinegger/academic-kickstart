@@ -108,7 +108,7 @@ appointment_url = ""
 contact_links = [
   {icon = "bluesky", icon_pack = "fab", name = "Bluesky", link = "https://bsky.app/profile/martinsteinegger.bsky.social"},
   {icon = "google-scholar", icon_pack = "ai", name = "Scholar", link = "https://scholar.google.de/citations?user=_D9XIZUAAAAJ"},
-  {icon = "github", icon_pack = "fab", name = "Github", link = "https://github.com/martin-steinegger"},
+  {icon = "github", icon_pack = "fab", name = "Github", link = "https://github.com/steineggerlab"},
 
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]

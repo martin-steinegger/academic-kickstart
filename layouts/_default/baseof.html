@@ -2,7 +2,7 @@
 <html lang="{{ site.LanguageCode | default "en-us" }}">
 
 {{ partial "site_head" . }}
-<body id="top" data-spy="scroll" data-offset="70" data-target="{{ if or .IsHome (eq .Type "widget_page") }}#navbar-main{{else}}#TableOfContents{{end}}" class="{{ if not (.Scratch.Get "light") }}dark{{ end }}{{ if eq .Type "join" }} join-page{{ end }}">
+<body id="top" data-spy="scroll" data-offset="70" data-target="{{ if or .IsHome (eq .Type "widget_page") }}#navbar-main{{else}}#TableOfContents{{end}}" class="{{ if not (.Scratch.Get "light") }}dark{{ end }}{{ if eq .Type "join" }} join-page{{ end }}{{ if eq .Type "contact" }} contact-page{{ end }}">
 
   {{ partial "search" . }}
 
