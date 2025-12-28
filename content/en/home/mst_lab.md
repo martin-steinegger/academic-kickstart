@@ -21,7 +21,7 @@ subtitle = ""
   # Background image.
   image = "research_marv.png"  # Name of image in `static/img/`.
   image_darken = 0.15  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  image_size = "cover"
+  image_size = "contain"
   image_position = "center"
   image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
 
