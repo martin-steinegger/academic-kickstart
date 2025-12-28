@@ -1,6 +1,132 @@
-.home-section {
-    padding: 50px 0;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nanum+Gothic:wght@400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+    --aqlab-bg: #ffffff;
+    --aqlab-text: #111111;
+    --aqlab-muted: #6b6b6b;
+    --aqlab-border: #e6e6e6;
 }
+
+body {
+    background-color: var(--aqlab-bg);
+    color: var(--aqlab-text);
+    font-family: "Roboto", "Nanum Gothic", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.01em;
+}
+
+h1,
+h2,
+h3,
+.section-heading h1,
+.section-heading h2 {
+    font-family: "Lato", "Roboto", "Nanum Gothic", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+
+a {
+    color: var(--aqlab-text);
+}
+
+a:hover,
+a:focus {
+    color: var(--aqlab-text);
+}
+
+.home-section {
+    padding: 80px 0;
+}
+
+#navbar-main {
+    background-color: #ffffff;
+    border-bottom: 1px solid var(--aqlab-border);
+    box-shadow: none;
+}
+
+#navbar-main .navbar-brand {
+    font-family: "Roboto Condensed", "Roboto", "Nanum Gothic", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+#navbar-main .nav-link {
+    color: var(--aqlab-text);
+    font-family: "Roboto Condensed", "Roboto", "Nanum Gothic", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.92rem;
+    letter-spacing: 0.08em;
+    padding: 0.5rem 0.9rem;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#navbar-main .nav-link::after {
+    background-color: var(--aqlab-text);
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 200ms ease;
+    width: 100%;
+}
+
+#navbar-main .nav-link:hover::after,
+#navbar-main .nav-link.active::after {
+    transform: scaleX(1);
+}
+
+section#mst_lab {
+    align-items: center;
+    background-color: #0c0d10 !important;
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    padding: 0;
+}
+
+
+section#mst_lab .section-heading h1,
+section#mst_lab h1 {
+    background: rgba(0, 0, 0, 0.45);
+    color: #f5f5f5;
+    display: inline-block;
+    font-size: clamp(2.4rem, 4.8vw, 3.8rem);
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
+    padding: 0.4rem 0.8rem;
+}
+
+section#mst_lab .section-heading p {
+    color: var(--aqlab-muted);
+    font-size: 1.05rem;
+}
+
+section#mst_lab .row {
+    align-items: center;
+}
+
+section#mst_lab .container {
+    text-align: center;
+}
+
+section#mst_lab .hero-scroll {
+    bottom: 8px;
+    color: #f5f5f5;
+    font-size: 0.75rem;
+    letter-spacing: 0.35em;
+    position: absolute !important;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    white-space: nowrap;
+    z-index: 2;
+}
+
 
 section#about {
     background-size: 50% auto;
@@ -11,9 +137,22 @@ section#about {
 }
 
 @media (max-width: 991px) {
+    .home-section {
+        padding: 64px 0;
+    }
+
+    section#mst_lab {
+        min-height: 62vh;
+    }
+
+
+    #navbar-main .nav-link {
+        font-size: 0.9rem;
+        letter-spacing: 0.06em;
+    }
+
     section#about {
         background-size: 375px auto;
         background-position: 50% 0%;
     }
 }
-

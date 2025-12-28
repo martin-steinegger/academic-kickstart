@@ -81,33 +81,28 @@ languageName = "English"
 
 [[languages.en.menu.main]]
   name = "Home"
-  url = "#mst_lab"
+  url = "/"
   weight = 10
 
 [[languages.en.menu.main]]
-  name = "About"
-  url = "#about"
+  name = "People"
+  url = "/people/"
   weight = 20
 
 [[languages.en.menu.main]]
-  name = "Team"
-  url = "#people"
+  name = "Research"
+  url = "/research/"
   weight = 30
 
 [[languages.en.menu.main]]
-  name = "Methods"
-  url = "#mst_tools"
+  name = "Join"
+  url = "/join/"
   weight = 40
 
 [[languages.en.menu.main]]
-  name = "Publications"
-  url = "#mst_pub"
-  weight = 50
-
-[[languages.en.menu.main]]
   name = "Contact"
-  url = "#contact"
-  weight = 60
+  url = "/contact/"
+  weight = 50
 
 
 [languages.ko]
@@ -116,32 +111,26 @@ languageName = "한국어"
 
 [[languages.ko.menu.main]]
   name = "홈"
-  url = "#mst_lab"
+  url = "/"
   weight = 10
 
 [[languages.ko.menu.main]]
-  name = "요약"
-  url = "#about"
+  name = "팀"
+  url = "/people/"
   weight = 20
 
 [[languages.ko.menu.main]]
-  name = "팀"
-  url = "#people"
+  name = "연구"
+  url = "/research/"
   weight = 30
 
 [[languages.ko.menu.main]]
-  name = "소프트웨어"
-  url = "#mst_tools"
+  name = "참여"
+  url = "/join/"
   weight = 40
 
 [[languages.ko.menu.main]]
-  name = "주요 논문"
-  url = "#mst_pub"
-  weight = 50
-
-[[languages.ko.menu.main]]
   name = "연락처"
-  url = "#contact"
-  weight = 60
-
+  url = "/contact/"
+  weight = 50
 

@@ -157,6 +157,10 @@ sharing = true
 # Link authors to their profile page? (true/false)
 link_authors = true
 
+[comments]
+  # Disable comments by default for custom pages.
+  commentable = {page = false, people = false, research = false, join = false, contact = false}
+
 # Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
 abstract_length = 135
 
