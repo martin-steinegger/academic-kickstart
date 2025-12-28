@@ -1,5 +1,6 @@
 +++
 title = "Join"
+type = "join"
 +++
 
 We are always looking for curious, collaborative researchers.

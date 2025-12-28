@@ -1,7 +1,3 @@
 {{ define "main" }}
-<section class="home-section wg-contact">
-  <div class="container">
-    {{ partial "widgets/contact.html" (dict "root" . "page" . "hash_id" "contact") }}
-  </div>
-</section>
+{{ partial "contact_custom.html" . }}
 {{ end }}

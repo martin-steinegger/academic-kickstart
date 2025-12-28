@@ -82,7 +82,8 @@ section#mst_lab {
     align-items: center;
     background-color: #0c0d10 !important;
     display: flex;
-    min-height: 100vh;
+    min-height: calc(100vh - 70px);
+    height: calc(100vh - 70px);
     position: relative;
     padding: 0;
 }
@@ -210,6 +211,183 @@ section#research .pub-item a {
     margin-left: 0.35rem;
 }
 
+.site-footer {
+    display: none;
+}
+
+.contact-hero {
+    display: flex;
+    min-height: 75vh;
+    background-color: #0c0d10;
+    color: #f5f5f5;
+}
+
+.contact-media {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    min-height: 75vh;
+    background: #0c0d10;
+    display: flex;
+}
+
+.contact-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact-media-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.contact-panel {
+    flex: 1;
+    padding: 4rem 3rem;
+    background-color: #111214;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.contact-panel h1 {
+    font-size: clamp(2.2rem, 3vw, 2.8rem);
+    margin-bottom: 0.5rem;
+    color: #f5f5f5;
+}
+
+.contact-intro p {
+    margin-bottom: 0;
+    color: #d7d7d7;
+}
+
+.contact-details {
+    display: grid;
+    gap: 0.9rem;
+}
+
+.contact-row {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 1rem;
+    color: #d7d7d7;
+}
+
+.contact-row a {
+    color: #f5f5f5;
+}
+
+.contact-label {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.18em;
+    color: #b0b0b0;
+}
+
+.contact-map-section {
+    padding: 0;
+    background-color: #111214;
+}
+
+.contact-map {
+    height: 100% !important;
+    width: 100%;
+    flex: 1;
+}
+
+.contact-media #map {
+    height: 100% !important;
+    width: 100%;
+}
+
+.join-hero {
+    position: relative;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0d10;
+    color: #f5f5f5;
+    overflow: hidden;
+    padding: 0;
+}
+
+body.join-page {
+    background-color: #0c0d10;
+}
+
+body.join-page #navbar-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.join-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: none;
+}
+
+.join-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.join-content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    padding: 2rem 2.5rem;
+    text-align: center;
+    background: transparent;
+    border: none;
+    backdrop-filter: none;
+}
+
+.join-content h1 {
+    margin-bottom: 1rem;
+    font-size: clamp(2.2rem, 4vw, 3rem);
+    color: #f5f5f5;
+}
+
+.join-body p {
+    color: #f5f5f5;
+}
+
+.join-body li,
+.join-body {
+    color: #f5f5f5;
+}
+
+.join-body ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.join-body li {
+    margin-bottom: 0.5rem;
+}
+
+.join-body a {
+    color: #f5f5f5;
+}
+
+.join-page .site-footer {
+    display: none;
+}
+
 section#research .research-methods {
     display: flex;
     flex-direction: column;
@@ -328,5 +506,21 @@ section#research .method-links img {
 
     section#research .method-logo {
         flex: 0 0 auto;
+    }
+
+    .contact-hero {
+        flex-direction: column;
+    }
+
+    .contact-panel {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .contact-row {
+        grid-template-columns: 1fr;
+    }
+
+    .join-content {
+        padding: 1.5rem;
     }
 }

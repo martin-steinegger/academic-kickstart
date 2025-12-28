@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="join-hero">
+  <video class="join-video" autoplay muted loop playsinline>
+    <source src="{{ "video/boomerang.mp4" | relURL }}" type="video/mp4">
+  </video>
+  <div class="join-overlay"></div>
+  <div class="join-content">
+    <h1>{{ .Title }}</h1>
+    <div class="join-body">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+<script>
+  document.body.classList.add('join-page');
+  const nav = document.getElementById('navbar-main');
+  if (nav) {
+    const setNavHeight = () => {
+      document.documentElement.style.setProperty('--nav-height', `${nav.offsetHeight}px`);
+    };
+    setNavHeight();
+    window.addEventListener('resize', setNavHeight);
+  }
+</script>
+{{ end }}

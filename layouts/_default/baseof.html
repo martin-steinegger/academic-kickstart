@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default "en-us" }}">
+
+{{ partial "site_head" . }}
+<body id="top" data-spy="scroll" data-offset="70" data-target="{{ if or .IsHome (eq .Type "widget_page") }}#navbar-main{{else}}#TableOfContents{{end}}" class="{{ if not (.Scratch.Get "light") }}dark{{ end }}{{ if eq .Type "join" }} join-page{{ end }}">
+
+  {{ partial "search" . }}
+
+  {{ partial "navbar" . }}
+
+  {{ block "main" . }}{{ end }}
+
+  {{ partial "site_js" . }}
+
+  {{ if and (not (in (slice "docs" "updates") .Type)) (ne .Type "join") }}
+  {{ partial "site_footer" . }}
+  {{ end }}
+
+  {{ partial "citation" . }}
+
+</body>
+</html>

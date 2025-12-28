@@ -4,7 +4,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Machine Learning ∩ Molecules ∩ Systems Biology"
+title = "Machine Learning & Bioinformatics"
 subtitle = ""
 
 [design]
@@ -35,5 +35,3 @@ subtitle = ""
 # # CSS class.
 # css_class = ""
 +++
-
-<div class="hero-scroll">SCROLL DOWN</div>

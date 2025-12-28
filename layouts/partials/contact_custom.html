@@ -1,0 +1,77 @@
+{{ $data := site.Params }}
+
+<section class="contact-hero">
+  <div class="contact-panel">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="contact-intro">{{ . }}</div>{{ end }}
+    <div class="contact-details">
+      {{ with $data.email }}
+      <div class="contact-row">
+        <span class="contact-label">Email</span>
+        <a href="mailto:{{ . }}">{{ . }}</a>
+      </div>
+      {{ end }}
+      {{ with $data.phone }}
+      <div class="contact-row">
+        <span class="contact-label">Phone</span>
+        <a href="tel:{{ . }}">{{ . }}</a>
+      </div>
+      {{ end }}
+      {{ if $data.address.street | or $data.address.city | or $data.address.region | or $data.address.postcode | or $data.address.country }}
+      {{ $addr_formatted := partial "functions/get_address" (dict "root" . "address" $data.address) }}
+      <div class="contact-row">
+        <span class="contact-label">Address</span>
+        <span class="contact-value">{{ $addr_formatted }}</span>
+      </div>
+      {{ end }}
+      {{ with $data.directions }}
+      <div class="contact-row">
+        <span class="contact-label">Directions</span>
+        <span class="contact-value">{{ . | markdownify | emojify }}</span>
+      </div>
+      {{ end }}
+      {{ with $data.office_hours }}
+      <div class="contact-row">
+        <span class="contact-label">Office Hours</span>
+        <span class="contact-value">
+          {{- if not (reflect.IsSlice .)}}{{ . | markdownify | emojify }}{{ else }}{{ delimit . "<br>" | markdownify | emojify }}{{ end -}}
+        </span>
+      </div>
+      {{ end }}
+      {{ with $data.appointment_url }}
+      <div class="contact-row">
+        <span class="contact-label">Appointments</span>
+        <a href="{{ . }}" target="_blank" rel="noopener">Book an appointment</a>
+      </div>
+      {{ end }}
+      {{ range $data.contact_links }}
+      {{ $link := .link }}
+      {{ $scheme := (urls.Parse $link).Scheme }}
+      {{ if not $scheme }}
+        {{ $link = .link | relLangURL }}
+      {{ end }}
+      <div class="contact-row">
+        <span class="contact-label">{{ .name | markdownify | emojify }}</span>
+        <a href="{{ $link | safeURL }}"{{ if in (slice "http" "https") $scheme }} target="_blank" rel="noopener"{{ end }}>{{ $link }}</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ if and site.Params.map.engine $data.coordinates.latitude }}
+  <div class="contact-media">
+    <div class="d-none">
+      <input id="map-provider" value="{{ site.Params.map.engine }}">
+      <input id="map-lat" value="{{ $data.coordinates.latitude }}">
+      <input id="map-lng" value="{{ $data.coordinates.longitude }}">
+      <input id="map-dir" value="{{ partial "functions/get_address" (dict "root" . "address" $data.address) }}">
+      <input id="map-zoom" value="{{ site.Params.map.zoom | default "15" }}">
+      <input id="map-api-key" value="{{ site.Params.map.api_key }}">
+    </div>
+    <div id="map" class="contact-map"></div>
+  </div>
+  {{ else }}
+  <div class="contact-media">
+    <div class="contact-media-overlay"></div>
+  </div>
+  {{ end }}
+</section>

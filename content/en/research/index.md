@@ -5,12 +5,7 @@ type = "research"
 
 <div class="research-summary">
 <p>Our group develops novel computational methods that combine big data algorithms and machine learning to gain insights into unexplored microbial communities.</p>
-<ul>
-  <li>Development of algorithms to search, cluster, and assemble sequence data</li>
-  <li>Pathogen detection in sequencing data</li>
-  <li>Metagenomic analysis</li>
-  <li>Protein function and structure prediction</li>
-</ul>
+
 </div>
 
 <div class="methods-layout">
