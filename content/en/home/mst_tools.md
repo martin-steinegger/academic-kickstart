@@ -1,7 +1,7 @@
 +++
 
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 80  # Order that this section will appear.
 
 title = "Methods"
@@ -199,5 +199,4 @@ li.no-scale:hover {
     <img src="/img/conterminator_logo.png" style="width: 227px">
   </div>
 </div>
-
 

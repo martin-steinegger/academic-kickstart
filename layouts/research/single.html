@@ -1,0 +1,36 @@
+{{ define "main" }}
+{{ $bg := .Params.design.background }}
+{{ $style := "" }}
+
+{{ if $bg.color }}
+  {{ $style = printf "background-color: %s;" ($bg.color | default "transparent") }}
+{{ end }}
+
+{{ if and $bg.gradient_start $bg.gradient_end }}
+  {{ $style = printf "%sbackground-image: linear-gradient(%s, %s);" $style $bg.gradient_start $bg.gradient_end }}
+{{ end }}
+
+{{ if $bg.image }}
+  {{ $darken := "" }}
+  {{ if $bg.image_darken }}
+    {{ $darken = printf "linear-gradient(rgba(0, 0, 0, %s), rgba(0, 0, 0, %s))," (string $bg.image_darken) (string $bg.image_darken) }}
+  {{ end }}
+  {{ $style = printf "%sbackground-image: %s url('%s');" $style $darken (printf "img/%s" $bg.image | absURL) }}
+  {{ with $bg.image_size }}
+    {{ $style = printf "%sbackground-size: %s;" $style (replace . "actual" "auto") }}
+  {{ end }}
+  {{ with $bg.image_position }}
+    {{ $style = printf "%sbackground-position: %s;" $style . }}
+  {{ end }}
+  {{ $style = print $style "background-repeat: no-repeat;" }}
+{{ end }}
+
+<section id="research" class="home-section {{ if $bg.text_color_light }}dark{{ end }} {{ if $bg.image }}bg-image{{ end }}" {{ with $style }}style="{{ . | safeCSS }}"{{ end }}>
+  <div class="container">
+    <div class="article-style">
+      {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ end }}
