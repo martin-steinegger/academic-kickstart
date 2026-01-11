@@ -518,6 +518,24 @@
   }
 
   /* ---------------------------------------------------------------------------
+  * Randomize Slider Start.
+  * --------------------------------------------------------------------------- */
+
+  function randomizeSliderStart() {
+    $('.home-section.wg-slider.carousel').each(function () {
+      let $carousel = $(this);
+      let $items = $carousel.find('.carousel-item');
+      if ($items.length < 2) {
+        return;
+      }
+      let startIndex = Math.floor(Math.random() * $items.length);
+      $items.removeClass('active').eq(startIndex).addClass('active');
+      let $indicators = $carousel.find('.carousel-indicators li');
+      $indicators.removeClass('active').eq(startIndex).addClass('active');
+    });
+  }
+
+  /* ---------------------------------------------------------------------------
  * Fix Hugo's Goldmark output and Mermaid code blocks.
  * --------------------------------------------------------------------------- */
 
@@ -556,6 +574,7 @@
    * --------------------------------------------------------------------------- */
 
   $(document).ready(function () {
+    randomizeSliderStart();
     fixHugoOutput();
     fixMermaid();
 

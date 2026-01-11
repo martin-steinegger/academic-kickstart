@@ -11,7 +11,7 @@ Visitors and collaborators: share a brief project summary and timeline.
 Email: martin.steinegger@snu.ac.kr
 
 <div class="join-accordion">
-  <details open>
+  <details>
     <summary>Graduate Students</summary>
     <div class="join-accordion-body">
       If you are a graduate student interested in rotations or admissions, reach out with a short statement of interests and your CV (<a href="{{< relref "contact" >}}">Contact</a>). Please include relevant coursework.
