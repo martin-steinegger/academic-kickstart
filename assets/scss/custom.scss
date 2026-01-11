@@ -88,6 +88,23 @@ a:focus {
     transform: scaleX(1);
 }
 
+@media (min-width: 992px) {
+    #navbar-main .container {
+        position: relative;
+    }
+
+    #navbar-main .main-menu-item {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: center !important;
+    }
+
+    #navbar-main .nav-icons {
+        margin-left: auto;
+    }
+}
+
 #navbar-main .snu-logo-right-link {
     display: inline-flex;
     align-items: center;

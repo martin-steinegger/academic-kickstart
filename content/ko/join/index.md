@@ -11,7 +11,7 @@ type = "join"
 Email: martin.steinegger@snu.ac.kr
 
 <div class="join-accordion">
-  <details open>
+  <details>
     <summary>대학원생</summary>
     <div class="join-accordion-body">
       연구 관심 분야와 CV를 간단한 소개와 함께 보내 주세요 (<a href="{{< relref "contact" >}}">Contact</a>). 관련 수업 및 연구 경험이 있으면 포함해 주세요.
