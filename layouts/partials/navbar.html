@@ -98,6 +98,24 @@
         {{ end }}
         {{ end }}
 
+        {{ if .IsTranslated }}
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            <i class="fas fa-globe" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item i18n-active font-weight-bold">
+              <span>{{ index site.Data.i18n.languages .Lang }}</span>
+            </div>
+            {{ range .Translations }}
+            <a class="dropdown-item" href="{{ .Permalink }}"{{ if $.IsHome }} data-target="{{ .RelPermalink }}"{{ end }}>
+              <span>{{ index site.Data.i18n.languages .Lang }}</span>
+            </a>
+            {{ end }}
+          </div>
+        </li>
+        {{ end }}
+
       {{ if site.Menus.main_right | and (eq $align_menu "l") }}
       </ul>
       <ul class="navbar-nav ml-md-auto">
@@ -136,23 +154,14 @@
       </li>
       {{ end }}
 
-      {{ if .IsTranslated }}
-      <li class="nav-item dropdown i18n-dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">{{ index site.Data.i18n.languages .Lang }}</span>
+      <li class="nav-item snu-logo-right">
+        <a class="nav-link snu-logo-right-link" href="https://www.snu.ac.kr" target="_blank" rel="noopener" aria-label="Seoul National University">
+          <picture>
+            <source media="(max-width: 576px)" srcset="{{ "img/Seoul_National_University_Logo_blue2.svg" | relURL }}">
+            <img src="{{ "img/Seoul_National_University_Logo_blue.png" | relURL }}" alt="Seoul National University">
+          </picture>
         </a>
-        <div class="dropdown-menu">
-          <div class="dropdown-item i18n-active font-weight-bold">
-            <span>{{ index site.Data.i18n.languages .Lang }}</span>
-          </div>
-          {{ range .Translations }}
-          <a class="dropdown-item" href="{{ .Permalink }}"{{ if $.IsHome }} data-target="{{ .RelPermalink }}"{{ end }}>
-            <span>{{ index site.Data.i18n.languages .Lang }}</span>
-          </a>
-          {{ end }}
-        </div>
       </li>
-      {{ end }}
 
     </ul>
 

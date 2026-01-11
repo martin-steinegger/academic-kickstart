@@ -88,6 +88,65 @@ a:focus {
     transform: scaleX(1);
 }
 
+#navbar-main .snu-logo-right-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.4rem;
+}
+
+#navbar-main .snu-logo-right-link img {
+    display: block;
+    height: 41px;
+    width: auto;
+}
+
+#navbar-main .nav-icons {
+    align-items: center;
+}
+
+#navbar-main .nav-icons .nav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar-main .i18n-dropdown .nav-link {
+    padding-left: 0.5rem;
+    padding-right: 0.35rem;
+}
+
+#navbar-main .snu-logo-right-link {
+    padding-left: 0.35rem;
+    padding-right: 0.2rem;
+}
+
+@media (max-width: 576px) {
+    #navbar-main .snu-logo-right-link {
+        padding-left: 0.2rem;
+        padding-right: 0.1rem;
+    }
+
+    #navbar-main .snu-logo-right-link img {
+        height: 36px;
+    }
+
+    #navbar-main .navbar-toggler {
+        align-self: center;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #navbar-main .navbar-toggler .fas {
+        font-size: 20px;
+    }
+
+    #navbar-main .nav-icons {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+
 section#slider {
     background-color: var(--blackish-gray);
     padding: 0;
@@ -127,6 +186,12 @@ section#slider .hero-title {
     padding: 0.4rem 0.8rem;
 }
 
+@media (min-width: 577px) {
+    section#slider .carousel-item .container {
+        padding-top: 17rem;
+    }
+}
+
 @media (max-width: 992px) {
     section#slider .wg-hero {
         background-size: clamp(270px, 52.2vw, 558px) auto;
@@ -135,7 +200,16 @@ section#slider .hero-title {
 
 @media (max-width: 576px) {
     section#slider .wg-hero {
-        background-size: 66.6vw auto;
+        background-size: 80.6vw auto;
+        background-position: center 20%;
+    }
+
+    section#slider .carousel-item {
+        align-items: flex-end;
+    }
+
+    section#slider .carousel-item .container {
+        padding-bottom: 2.5rem;
     }
 }
 
