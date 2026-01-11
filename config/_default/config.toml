@@ -95,6 +95,11 @@ languageName = "English"
   weight = 30
 
 [[languages.en.menu.main]]
+  name = "Software"
+  url = "https://opendata.mmseqs.org/"
+  weight = 35
+
+[[languages.en.menu.main]]
   name = "Join"
   url = "/join/"
   weight = 40
@@ -123,6 +128,11 @@ languageName = "한국어"
   name = "연구"
   url = "/research/"
   weight = 30
+
+[[languages.ko.menu.main]]
+  name = "Software"
+  url = "https://opendata.mmseqs.org/"
+  weight = 35
 
 [[languages.ko.menu.main]]
   name = "참여"
