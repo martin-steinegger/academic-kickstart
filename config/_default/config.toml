@@ -130,7 +130,7 @@ languageName = "한국어"
   weight = 30
 
 [[languages.ko.menu.main]]
-  name = "Software"
+  name = "소프트웨어"
   url = "https://opendata.mmseqs.org/"
   weight = 35
 
