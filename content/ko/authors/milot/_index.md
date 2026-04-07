@@ -5,16 +5,16 @@ name = "밀롯 미르디타"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["연구원"]
+user_groups = ["동문"]
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "박사후연구원"
+role = "조교수"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
+organizations = [ { name = "SKKU School of Medicine", url = "https://www.skkumed.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
@@ -48,12 +48,12 @@ email = ""
 [[social]]
   icon = "globe"
   icon_pack = "fas"
-  link = "https://mirdita.de"
+  link = "https://mirdita.org"
 
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:milot@mirdita.de"
+  link = "mailto:milot@mirdita.org"
 
 [[social]]
   icon = "github"
@@ -63,7 +63,7 @@ email = ""
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/milot_mirdita"
+  link = "https://bsky.app/profile/milot.bsky.social"
 
 [[social]]
   icon = "mastodon"
@@ -79,7 +79,7 @@ email = ""
 [[social]]
   icon = "cv"
   icon_pack = "ai"
-  link = "https://mirdita.de/uploads/cv.pdf"
+  link = "https://mirdita.org/static/CV.pdf"
 
 +++
 
@@ -92,4 +92,4 @@ email = ""
 
 <h3>소개</h3>
 
-Milot Mirdita는 <a href=“https://biosci.snu.ac.kr/en” rel=“noopener”>서울대학교</a>에서 박사후 연구원으로 재직중이며, <a href=“https://steineggerlab.com”>Martin Steinegger</a>와 함께 연구하고 있습니다. 주요 연구분야로는 생물정보학, 메타유전체학, 단백질 구조 예측 및 기계학습이 있습니다. 그는 <a href=“https://colabfold.com”>ColabFold</a>, <a href=“https://mmseqs.com”>MMseqs2</a>, <a href=“https://foldseek.com”>Foldseek</a> 등 많은 오픈소스 프로그램을 개발하고 관리하고 있습니다. Mirdita 박사는  <a href=“https://www.mpinat.mpg.de/soeding”>Johannes Söding</a> 와 함께 연구하며, <a href=“https://www.uni-goettingen.de/”>독일 Göttingen 대학교</a> 및 <a href=“https://www.mpinat.mpg.de”>막스 플랑크 연구소 (MPI-NAT)</a>에서 박사 학위를 수여했습니다.
+Milot Mirdita는 <a href="https://www.skkumed.ac.kr" rel="noopener">성균관대학교 의과대학</a>의 조교수이며, <a href="https://steineggerlab.com">Steinegger Lab</a>의 전 멤버입니다. 그는 <a href=“https://colabfold.com”>ColabFold</a>, <a href=“https://mmseqs.com”>MMseqs2</a>, <a href=“https://foldseek.com”>Foldseek</a> 등 많은 오픈소스 프로그램을 개발하고 관리하고 있습니다. Mirdita 박사는  <a href=“https://www.mpinat.mpg.de/soeding”>Johannes Söding</a> 와 함께 연구하며, <a href=“https://www.uni-goettingen.de/”>독일 Göttingen 대학교</a> 및 <a href=“https://www.mpinat.mpg.de”>막스 플랑크 연구소 (MPI-NAT)</a>에서 박사 학위를 수여했습니다.
