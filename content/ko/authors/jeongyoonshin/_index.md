@@ -5,7 +5,6 @@ name = "신정윤"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["연구원"]
 # Is this the primary user of the site?
 superuser = false
 
@@ -24,6 +23,7 @@ email = ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+user_groups = ["동문"]
 
 # List qualifications (such as academic degrees)
 
