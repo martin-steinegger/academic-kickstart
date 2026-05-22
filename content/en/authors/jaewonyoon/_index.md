@@ -26,7 +26,10 @@ email = "jwyoon05@snu.ac.kr"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-[[education.courses]] course = "BSc in Biological Sciences and Artificial Intelligence" institution = "Seoul National University" year = 2027
+[[education.courses]] 
+  course = "BSc in Biological Sciences and Artificial Intelligence" 
+  institution = "Seoul National University" 
+  year = 2027
 
 
 # Social/Academic Networking
