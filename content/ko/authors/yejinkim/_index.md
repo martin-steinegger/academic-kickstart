@@ -23,11 +23,6 @@ bio = ""
 email = "yejin-kim@yonsei.ac.kr"
 
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-[[education.courses]] course = "첨단융합공합부 IT융합공학과" institution = "연세대학교" year = 2026
-
-
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
