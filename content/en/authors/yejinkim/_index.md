@@ -1,34 +1,27 @@
 +++
 
 # Display name
-name = "윤재원"
+name = "Yejin Kim"
+
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["연구원"]
+user_groups = ["Researchers"]
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "인턴"
+role = "Intern"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr" } ]
+organizations = [ { name = "Yonsei University", url = "https://www.yonsei.ac.kr" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "jwyoon05@snu.ac.kr"
-
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-[[education.courses]] 
-  course = "생명과학부 / 연합전공 인공지능" 
-  institution = "서울대학교" 
-  year = 2027
+email = "yejin-kim@yonsei.ac.kr"
 
 
 # Social/Academic Networking
@@ -39,13 +32,11 @@ email = "jwyoon05@snu.ac.kr"
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:jwyoon05@snu.ac.kr"
+  link = "mailto:yejin-kim@yonsei.ac.kr"
 
 [[social]] 
   icon = "github" 
   icon_pack = "fab" 
-  link = "https://github.com/jwyoon05"
-  
+  link = "https://github.com/hi-yejinkim"
 
 +++
-
