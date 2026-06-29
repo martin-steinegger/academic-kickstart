@@ -1,7 +1,7 @@
 +++
 
 # Display name
-name = "Doyoung Kim"
+name = "Ayoung Yun"
 
 # Username (this should match the folder name)
 authors = ["admin"] user_groups = ["Researchers"]
