@@ -7,11 +7,7 @@ title = "Team"
 subtitle = ""
 
 [content]
-  user_groups = ["Principal Investigators",
-                 "Researchers",
-                 "Grad Students",
-                 "Administration",
-                 "Visitors",
+  user_groups = ["Team",
                  "Alumni"]
 
 [design]

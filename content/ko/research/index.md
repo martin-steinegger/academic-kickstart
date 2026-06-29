@@ -4,7 +4,7 @@ type = "research"
 +++
 
 <div class="research-summary">
-<p>저희 연구실에서는 빅데이터를 활용하는 알고리즘과 기계학습을 결합하여 알려지지 않은 미생물 군집에 대한 통찰력을 얻는 새로운 계산 방법을 제시하고 활용 가능한 프로그램 및 도구를 개발합니다.</p>
+<p>저희 연구실은 빅데이터 알고리즘과 기계학습을 결합하여 빠르게 증가하는 생물학적 서열과 구조의 세계를 이해하기 위한 새로운 계산 방법을 개발합니다. 데이터베이스 전체 규모에서 단백질과 유전체를 검색, 클러스터링, 어셈블리, 예측할 수 있는 빠르고 오픈소스 기반의 도구를 만들어, 방대한 유전체·단백질체 데이터를 미생물 군집에서부터 단백질 구조 세계의 체계화에 이르기까지 생물학적 통찰로 전환합니다.</p>
 
 </div>
 
@@ -43,6 +43,33 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
+<img src="/img/foldseek_logo.png" alt="Foldseek-Multimer logo">
+</div>
+<div class="method-body">
+<p><b>Foldseek-Multimer</b>는 Foldseek을 확장하여 단백질 복합체를 정렬하고 검색하며, 예측된 복합체 전체 규모에서 다중 사슬 구조를 빠르고 민감하게 비교할 수 있도록 합니다.</p>
+</div>
+</div>
+
+<div class="method-item">
+<div class="method-logo">
+<img src="/img/foldmason_logo.png" alt="FoldMason logo">
+</div>
+<div class="method-body">
+<p><b>FoldMason</b>은 단백질의 다중 구조 정렬(multiple structure alignment)을 대규모로 정확하게 구축하는 도구로, 구조 정보를 활용하여 서열 기반 방법으로는 정렬하기 어려운 수천 개의 원거리 상동 단백질을 정렬하고 그들의 진화적 관계를 재구성합니다.</p>
+</div>
+</div>
+
+<div class="method-item">
+<div class="method-logo">
+<img src="/img/folddisco_logo.png" alt="Folddisco logo">
+</div>
+<div class="method-body">
+<p><b>Folddisco</b>는 서열상으로 멀리 떨어진 잔기로 이루어진 촉매 부위나 결합 포켓과 같은 불연속적 구조 모티프(discontinuous structural motif)를 색인하고 검색하여, 수백만 개의 단백질 구조에서 모티프를 빠르게 질의할 수 있도록 합니다.</p>
+</div>
+</div>
+
+<div class="method-item">
+<div class="method-logo">
 <img src="/img/linclust_logo.png" alt="Linclust logo">
 </div>
 <div class="method-body">
@@ -56,6 +83,15 @@ type = "research"
 </div>
 <div class="method-body">
 <p><b>Plass</b> is a software to assemble short read sequencing data on a protein level. The main purpose of Plass is the assembly of complex metagenomic datasets. It assembles 10 times more protein residues in soil metagenomes than Megahit.</p>
+</div>
+</div>
+
+<div class="method-item">
+<div class="method-logo">
+<img src="/img/metabuli_logo.png" alt="Metabuli logo">
+</div>
+<div class="method-body">
+<p><b>Metabuli</b>는 아미노산과 DNA 서열을 함께 분석하는 메타지놈 분류 도구로, 아미노산 검색의 높은 민감도와 DNA 수준의 높은 특이도를 결합하여 복잡한 시료의 분류학적 프로파일링을 수행합니다.</p>
 </div>
 </div>
 
@@ -83,10 +119,25 @@ type = "research"
     </div>
     <div class="pub-list">
       <div class="pub-item">
+        <strong>Gilchrist C.L.M.</strong>*, <strong>Mirdita M.</strong>, <strong>Steinegger M.</strong>† (2026) Multiple protein structure alignment at scale with FoldMason, <em>Science</em>
+        <a href="https://www.science.org/doi/10.1126/science.ads6733">[journal]</a>
+        <a href="https://github.com/steineggerlab/foldmason">[software]</a>
+      </div>
+      <div class="pub-item">
+        <strong>Kim H.</strong>*, Kim R.S., <strong>Mirdita M.</strong>, <strong>Yoon J.</strong>, <strong>Steinegger M.</strong>† (2026) Structural motif search across the protein universe with Folddisco, <em>Nature Biotechnology</em>
+        <a href="https://www.nature.com/articles/s41587-026-03162-9">[journal]</a>
+        <a href="https://github.com/steineggerlab/folddisco">[software]</a>
+      </div>
+      <div class="pub-item">
         <strong>Kim W.</strong>*, <strong>Mirdita M.</strong>, <strong>Levy K.E.</strong>, <strong>Gilchrist C.L.M.</strong>, Schweke H., Söding J., Levy E.D.†, <strong>Steinegger M.</strong>† (2025) Rapid and sensitive protein complex alignment with Foldseek-Multimer, <em>Nature Methods</em>
         <a href="https://www.biorxiv.org/content/10.1101/2024.04.14.589414v1">[preprint]</a>
         <a href="https://www.nature.com/articles/s41592-025-02593-7">[journal]</a>
         <a href="https://github.com/steineggerlab/foldseek">[software]</a>
+      </div>
+      <div class="pub-item">
+        Kallenborn F.*, Chacón A., Hundt C., Sirelkhatim H., Didi K., <strong>Cha S.</strong>, Dallago C., <strong>Mirdita M.</strong>, Schmidt B., <strong>Steinegger M.</strong>† (2025) GPU-accelerated homology search with MMseqs2, <em>Nature Methods</em>
+        <a href="https://www.nature.com/articles/s41592-025-02819-8">[journal]</a>
+        <a href="https://github.com/soedinglab/MMseqs2">[software]</a>
       </div>
       <div class="pub-item">
         <strong>Kim J.</strong>*, <strong>Steinegger M.</strong>† (2024) Metabuli: sensitive and specific metagenomic classification via joint analysis of amino acid and DNA, <em>Nature Methods</em>
@@ -112,24 +163,6 @@ type = "research"
         <a href="https://www.biorxiv.org/content/10.1101/2021.08.15.456425v3">[preprint]</a>
         <a href="https://www.nature.com/articles/s41592-022-01488-1">[journal]</a>
         <a href="https://colabfold.com">[software]</a>
-      </div>
-      <div class="pub-item">
-        <strong>Steinegger M.</strong>*, Salzberg S.L.† (2020) Terminating contamination: large-scale search identifies more than 2,000,000 contaminated entries in GenBank, <em>Genome Biology</em>
-        <a href="https://www.biorxiv.org/content/10.1101/2020.01.26.920173v1">[preprint]</a>
-        <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02023-1">[journal]</a>
-        <a href="https://github.com/martin-steinegger/conterminator">[software]</a>
-      </div>
-      <div class="pub-item">
-        <strong>Steinegger M.</strong>*, Meier M., Mirdita M., Vöhringer H., Haunsberger S.J., Söding J.† (2019) HH-suite3 for fast remote homology detection and deep protein annotation, <em>BMC Bioinformatics</em>
-        <a href="https://www.biorxiv.org/content/10.1101/560029v1">[preprint]</a>
-        <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3019-7">[journal]</a>
-        <a href="https://github.com/soedinglab/hh-suite">[software]</a>
-      </div>
-      <div class="pub-item">
-        <strong>Steinegger M.</strong>*†, Mirdita M., Söding J.† (2019) Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold, <em>Nature Methods</em>
-        <a href="https://www.biorxiv.org/content/10.1101/386110v2">[preprint]</a>
-        <a href="https://www.nature.com/articles/s41592-019-0437-4">[journal]</a>
-        <a href="https://github.com/soedinglab/plass">[software]</a>
       </div>
       <div class="pub-item">
         <strong>Steinegger M.</strong>*†, Söding J.† (2018) Clustering huge protein sequence sets in linear time, <em>Nature Communications</em>

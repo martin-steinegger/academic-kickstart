@@ -1,17 +1,15 @@
 +++
 
 # Display name
-name = "Yewon Han"
-
-
+name = "패트릭 보퍼트"
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["Team"]
+user_groups = ["팀"]
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "Integrated Ph.D"
+role = "인턴"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -21,12 +19,21 @@ organizations = [ { name = "Seoul National University", url = "https://snu.ac.kr
 bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "pboppert@snu.ac.kr"
 
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 
+[[education.courses]]
+  course = "M.Sc. in Bioinformatics"
+  institution = "Eberhard Karls University of Tübingen"
+  year = 2025
+
+[[education.courses]]
+  course = "B.Sc. in Bioinformatics"
+  institution = "Eberhard Karls University of Tübingen"
+  year = 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -34,9 +41,12 @@ email = ""
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 [[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/Eulium"
+
+[[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:1hkyewon@snu.ac.kr"
-
+  link = "mailto:pboppert@snu.ac.kr"
 +++
-
