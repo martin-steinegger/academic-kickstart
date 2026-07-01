@@ -30,7 +30,7 @@ type = "research"
 <img src="/img/colabfold_anim.svg" alt="ColabFold: sequence alignment folding into a protein structure" class="method-anim">
 </div>
 <div class="method-body">
-<p><b>ColabFold</b> is an easy-to-use environment for fast and convenient protein structure predictions. Its structure prediction is powered by AlphaFold2 and RoseTTAFold combined with a fast multiple sequence alignment generation stage using MMseqs2, which speeds up the MSA generation by a factor of 16 over the AlphaFold system.</p>
+<p><b>ColabFold</b> is an easy-to-use environment for fast protein structure prediction. It pairs AlphaFold2 and RoseTTAFold with fast MMseqs2-based MSA generation, making predictions orders of magnitude faster than the standard AlphaFold system.</p>
 </div>
 </div>
 

@@ -30,7 +30,7 @@ type = "research"
 <img src="/img/colabfold_anim.svg" alt="ColabFold: sequence alignment folding into a protein structure" class="method-anim">
 </div>
 <div class="method-body">
-<p><b>ColabFold</b>는 쉽고 빠르고 간편하게 단백질 구조를 예측할 수 있는 환경을 제공합니다. MMseqs2를 사용하여 AlphaFold 시스템보다 16배 빠르게 multiple sequence alignment를 생성하는 모듈을 탑재한 AlphaFold2 및 RoseTTAFold를 사용하여 단백질 구조를 보다 빠르게 예측할 수 있습니다.</p>
+<p><b>ColabFold</b>는 단백질 구조를 쉽고 빠르게 예측할 수 있는 환경을 제공합니다. AlphaFold2 및 RoseTTAFold에 MMseqs2 기반의 빠른 multiple sequence alignment 생성을 결합하여, 기존 AlphaFold 시스템보다 월등히 빠르게 구조를 예측합니다.</p>
 </div>
 </div>
 
