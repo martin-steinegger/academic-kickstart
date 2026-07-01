@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 20 202 114" width="202" height="114" role="img" aria-label="Folddisco: a discontinuous structural motif searched across a database of structures, finding the one that contains it">
+  <style>
+    .residue { transform-box:fill-box; transform-origin:center; animation: rpulse 5s ease-in-out infinite; }
+    .beam { fill:#FF8B38; opacity:0; animation: beam 5s ease-in-out infinite; }
+    .mfold { fill:none; stroke:#c4c4c4; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; animation: mfold 5s ease-in-out infinite; }
+    .cell { fill:none; stroke:#c4c4c4; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+    .mdot { transform-box:fill-box; transform-origin:center; opacity:0; animation: mdot 5s ease-in-out infinite; }
+    .mhalo { transform-box:fill-box; transform-origin:center; opacity:0; animation: mbloom 5s ease-in-out infinite; }
+    .hitline { fill:none; stroke:#FF8B38; stroke-width:1.8; stroke-dasharray:5 4; stroke-dashoffset:74; animation: hdraw 5s ease-in-out infinite; }
+    .stick { stroke-width:2.4; stroke-linecap:round; }
+    @keyframes rpulse { 0%,100%{transform:scale(1);} 50%{transform:scale(1.12);} }
+    @keyframes beam { 0%,30%{opacity:0;transform:translateY(0);} 38%{opacity:.4;} 56%{opacity:.4;transform:translateY(66px);} 64%,100%{opacity:0;transform:translateY(66px);} }
+    @keyframes mfold { 0%,54%{stroke:#c4c4c4;} 66%,86%{stroke:#FF3D5C;} 100%{stroke:#c4c4c4;} }
+    @keyframes mdot { 0%,56%{opacity:0;transform:scale(.3);} 68%,86%{opacity:1;transform:scale(1);} 98%,100%{opacity:0;transform:scale(.3);} }
+    @keyframes mbloom { 0%,54%{opacity:0;transform:scale(.4);} 68%,84%{opacity:.2;transform:scale(1);} 96%,100%{opacity:0;transform:scale(.4);} }
+    @keyframes hdraw { 0%,56%{stroke-dashoffset:74;} 74%,86%{stroke-dashoffset:0;} 98%,100%{stroke-dashoffset:74;} }
+    @media (prefers-reduced-motion: reduce){ .residue,.beam,.mfold,.mdot,.mhalo,.hitline{animation:none;} .beam{opacity:0;} .mfold{stroke:#FF3D5C;} .mdot{opacity:1;transform:scale(1);} .mhalo{opacity:.2;transform:scale(1);} .hitline{stroke-dashoffset:0;} }
+  </style>
+
+  <!-- QUERY motif (left): three residues distant in sequence, close in space -->
+  <path fill="none" stroke="#d8d8d8" stroke-width="3.5" stroke-linecap="round"
+        d="M16 56 C28 40 40 68 52 58 C66 47 72 92 86 82"/>
+  <polygon points="38,60 52,68 68,70" fill="#FF3D5C" opacity=".12"/>
+  <polygon points="38,60 52,68 68,70" fill="none" stroke="#FF3D5C" stroke-width="2.2" stroke-dasharray="5 4"/>
+  <g class="residue" style="animation-delay:0s">
+    <line class="stick" stroke="#FF3D5C" x1="26" y1="56" x2="38" y2="60"/>
+    <circle cx="26" cy="56" r="5" fill="#FF3D5C"/><circle cx="38" cy="60" r="3" fill="#FF3D5C"/>
+  </g>
+  <g class="residue" style="animation-delay:.2s">
+    <line class="stick" stroke="#FF8B38" x1="52" y1="58" x2="52" y2="68"/>
+    <circle cx="52" cy="58" r="5" fill="#FF8B38"/><circle cx="52" cy="68" r="3" fill="#FF8B38"/>
+  </g>
+  <g class="residue" style="animation-delay:.4s">
+    <line class="stick" stroke="#26C6DA" x1="82" y1="80" x2="68" y2="70"/>
+    <circle cx="82" cy="80" r="5" fill="#26C6DA"/><circle cx="68" cy="70" r="3" fill="#26C6DA"/>
+  </g>
+
+  <!-- search link to the matching structure -->
+  <path class="hitline" d="M84 68 L138 80"/>
+
+  <!-- DATABASE of structures (right), scanned for the motif -->
+  <path class="cell" d="M138 50 q5 -14 10 -4 q4 8 9 -6"/>
+  <path class="cell" d="M138 118 l6 -12 l5 12 l6 -12"/>
+  <!-- match: structure containing the motif -->
+  <ellipse class="mhalo" cx="152" cy="82" rx="19" ry="15" fill="#FF3D5C"/>
+  <path class="mfold" d="M136 84 q4 -16 10 -6 q6 12 12 -8"/>
+  <circle class="mdot" cx="142" cy="80" r="3.4" fill="#FF3D5C" style="animation-delay:0s"/>
+  <circle class="mdot" cx="157" cy="78" r="3.4" fill="#FF8B38" style="animation-delay:.06s"/>
+  <circle class="mdot" cx="150" cy="90" r="3.4" fill="#26C6DA" style="animation-delay:.12s"/>
+
+  <!-- search beam sweeping down the database -->
+  <rect class="beam" x="126" y="38" width="46" height="12" rx="6"/>
+</svg>

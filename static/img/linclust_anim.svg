@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 20 202 114" width="202" height="114" role="img" aria-label="Linclust: sequences clustering around representative protein structures in linear time">
+  <style>
+    .res { transform-box:fill-box; transform-origin:center; animation: gather 4.8s cubic-bezier(.5,0,.2,1) infinite; }
+    .rep { transform-box:fill-box; transform-origin:center; animation: pulse 4.8s ease-in-out infinite; }
+    .halo { transform-box:fill-box; transform-origin:center; opacity:0; animation: bloom 4.8s ease-in-out infinite; }
+    @keyframes gather {
+      0% { transform: translate(var(--dx),var(--dy)) scale(.7); opacity:.25; }
+      32% { transform: translate(0,0) scale(1); opacity:1; }
+      72% { transform: translate(0,0) scale(1); opacity:1; }
+      100% { transform: translate(var(--dx),var(--dy)) scale(.7); opacity:.25; }
+    }
+    @keyframes pulse { 0%,22%{opacity:.2;transform:scale(.9);} 42%,70%{opacity:1;transform:scale(1);} 90%,100%{opacity:.2;transform:scale(.9);} }
+    @keyframes bloom { 0%,14%{opacity:0;transform:scale(.4);} 40%,70%{opacity:.16;transform:scale(1);} 92%,100%{opacity:0;transform:scale(.4);} }
+    @media (prefers-reduced-motion: reduce){ .res,.rep,.halo{animation:none;} .res{transform:none;opacity:1;} .rep{opacity:1;} .halo{opacity:.16;transform:scale(1);} }
+    .hx line { stroke:#fff; stroke-width:1.3; opacity:.75; }
+  </style>
+
+  <circle class="halo" cx="56"  cy="58"  r="27" fill="#FF3D5C" style="animation-delay:0s"/>
+  <circle class="halo" cx="158" cy="52"  r="27" fill="#5CE3F4" style="animation-delay:.15s"/>
+  <circle class="halo" cx="107" cy="112" r="27" fill="#AAF55C" style="animation-delay:.3s"/>
+
+  <!-- cluster 1 red (helix representative) -->
+  <g class="rep hx" style="animation-delay:0s">
+    <rect x="45" y="51" width="22" height="13" rx="6.5" fill="#FF3D5C"/>
+    <line x1="50" y1="62" x2="55" y2="52"/><line x1="55" y1="62" x2="60" y2="52"/><line x1="60" y1="62" x2="65" y2="52"/>
+  </g>
+  <circle class="res" cx="34" cy="40" r="3.3" fill="#FF3D5C" style="--dx:-30px;--dy:-24px;animation-delay:.05s"/>
+  <circle class="res" cx="78" cy="42" r="3.3" fill="#FF3D5C" style="--dx:34px;--dy:-26px;animation-delay:.18s"/>
+  <circle class="res" cx="36" cy="76" r="3.3" fill="#FF3D5C" style="--dx:-28px;--dy:28px;animation-delay:.1s"/>
+  <circle class="res" cx="76" cy="76" r="3.3" fill="#FF3D5C" style="--dx:30px;--dy:26px;animation-delay:.24s"/>
+
+  <!-- cluster 2 blue (beta-strand representative) -->
+  <path class="rep" d="M146 52 h16 v-4 l7 4 l-7 4 v-4 z" fill="#26C6DA" style="animation-delay:.12s"/>
+  <circle class="res" cx="136" cy="36" r="3.3" fill="#26C6DA" style="--dx:28px;--dy:-30px;animation-delay:.12s"/>
+  <circle class="res" cx="182" cy="40" r="3.3" fill="#26C6DA" style="--dx:40px;--dy:-14px;animation-delay:.28s"/>
+  <circle class="res" cx="136" cy="66" r="3.3" fill="#26C6DA" style="--dx:-30px;--dy:22px;animation-delay:.07s"/>
+  <circle class="res" cx="180" cy="66" r="3.3" fill="#26C6DA" style="--dx:36px;--dy:24px;animation-delay:.2s"/>
+
+  <!-- cluster 3 green (helix representative) -->
+  <g class="rep hx" style="animation-delay:.24s">
+    <rect x="96" y="105" width="22" height="13" rx="6.5" fill="#7CB342"/>
+    <line x1="101" y1="116" x2="106" y2="106"/><line x1="106" y1="116" x2="111" y2="106"/><line x1="111" y1="116" x2="116" y2="106"/>
+  </g>
+  <circle class="res" cx="86"  cy="128" r="3.3" fill="#7CB342" style="--dx:-26px;--dy:24px;animation-delay:.16s"/>
+  <circle class="res" cx="132" cy="126" r="3.3" fill="#7CB342" style="--dx:30px;--dy:26px;animation-delay:.03s"/>
+  <circle class="res" cx="90"  cy="94"  r="3.3" fill="#7CB342" style="--dx:-22px;--dy:-22px;animation-delay:.26s"/>
+  <circle class="res" cx="128" cy="94"  r="3.3" fill="#7CB342" style="--dx:24px;--dy:-24px;animation-delay:.13s"/>
+</svg>

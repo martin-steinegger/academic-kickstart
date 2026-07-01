@@ -16,7 +16,8 @@ type = "research"
 <div class="research-methods">
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/mmseqs2_logo.png" alt="MMseqs2 logo">
+<img src="/img/mmseqs2_logo.png" alt="MMseqs2 logo" class="method-char">
+<img src="/img/mmseqs2_anim.svg" alt="MMseqs2: sequences clustering into representative groups" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>MMseqs2</b> (Many-against-Many sequence searching) is a software suite to search and cluster huge protein and nucleotide sequence sets. MMseqs2 can run 10000 times faster than BLAST. It can perform profile searches with the same sensitivity as PSI-BLAST at over 400 times its speed.</p>
@@ -25,7 +26,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/colabfold_logo.png" alt="ColabFold logo">
+<img src="/img/colabfold_logo.png" alt="ColabFold logo" class="method-char">
+<img src="/img/colabfold_anim.svg" alt="ColabFold: sequence alignment folding into a protein structure" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>ColabFold</b> is an easy-to-use environment for fast and convenient protein structure predictions. Its structure prediction is powered by AlphaFold2 and RoseTTAFold combined with a fast multiple sequence alignment generation stage using MMseqs2, which speeds up the MSA generation by a factor of 16 over the AlphaFold system.</p>
@@ -34,7 +36,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/foldseek_logo.png" alt="Foldseek logo">
+<img src="/img/foldseek_logo.png" alt="Foldseek logo" class="method-char">
+<img src="/img/foldseek_anim.svg" alt="Foldseek: query structure scanning a database and finding a match" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Foldseek</b> is a software suite for searching and clustering protein structures. It is 600,000 times faster than the fastest state-of-the-art aligners. Allowing to query millions of structures in seconds.</p>
@@ -43,7 +46,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/foldseek_logo.png" alt="Foldseek-Multimer logo">
+<img src="/img/foldseek_logo.png" alt="Foldseek-Multimer logo" class="method-char">
+<img src="/img/foldseek_multimer_anim.svg" alt="Foldseek-Multimer: chains assembling into a protein complex" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Foldseek-Multimer</b> extends Foldseek to align and search protein complexes, enabling rapid and sensitive comparison of multi-chain structures across the entire predicted complex universe.</p>
@@ -52,7 +56,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/foldmason_logo.png" alt="FoldMason logo">
+<img src="/img/foldmason_logo.png" alt="FoldMason logo" class="method-char">
+<img src="/img/foldmason_anim.svg" alt="FoldMason: backbones sliding into a multiple structure alignment" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>FoldMason</b> builds accurate multiple structure alignments of proteins at scale, leveraging structural information to align thousands of remote homologs that elude sequence-based methods and to reconstruct their evolutionary relationships.</p>
@@ -61,7 +66,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/folddisco_logo.png" alt="Folddisco logo">
+<img src="/img/folddisco_logo.png" alt="Folddisco logo" class="method-char">
+<img src="/img/folddisco_anim.svg" alt="Folddisco: distant residues connecting into a structural motif" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Folddisco</b> indexes and searches discontinuous structural motifs — such as catalytic sites and binding pockets whose residues are distant in sequence — enabling fast motif queries across millions of protein structures.</p>
@@ -70,7 +76,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/linclust_logo.png" alt="Linclust logo">
+<img src="/img/linclust_logo.png" alt="Linclust logo" class="method-char">
+<img src="/img/linclust_anim.svg" alt="Linclust: members linking to cluster representatives" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Linclust</b> is a method that can cluster sequences down to 50% pairwise sequence similarity and its runtime scales linearly with the input set size, not quadratically as in conventional algorithms. It is &gt;1000 times faster compared to its competitors.</p>
@@ -79,7 +86,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/plass_logo.png" alt="Plass logo">
+<img src="/img/plass_logo.png" alt="Plass logo" class="method-char">
+<img src="/img/plass_anim.svg" alt="Plass: short reads merging into a contig" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Plass</b> is a software to assemble short read sequencing data on a protein level. The main purpose of Plass is the assembly of complex metagenomic datasets. It assembles 10 times more protein residues in soil metagenomes than Megahit.</p>
@@ -88,7 +96,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/metabuli_logo.png" alt="Metabuli logo">
+<img src="/img/metabuli_logo.png" alt="Metabuli logo" class="method-char">
+<img src="/img/metabuli_anim.svg" alt="Metabuli: reads sorted down a taxonomy tree" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Metabuli</b> is a metagenomic classification tool that jointly analyzes amino acid and DNA sequences, combining the sensitivity of amino-acid searches with the specificity of DNA-level resolution to taxonomically profile complex samples.</p>
@@ -97,7 +106,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/conterminator_logo.png" alt="Conterminator logo">
+<img src="/img/conterminator_logo.png" alt="Conterminator logo" class="method-char">
+<img src="/img/conterminator_anim.svg" alt="Conterminator: flagging a cross-kingdom contaminant" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Conterminator</b> is an efficient method for detecting incorrectly labeled sequences across kingdoms by an exhaustive all-against-all sequence comparison.</p>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 20 202 114" width="202" height="114" role="img" aria-label="Foldseek-Multimer: a protein complex assembles, then is searched against a database of complexes to find a match">
+  <style>
+    .sub { transform-box:fill-box; transform-origin:center; animation: assemble 5.2s cubic-bezier(.5,0,.2,1) infinite; }
+    .glow { transform-box:fill-box; transform-origin:center; opacity:0; animation: gbloom 5.2s ease-in-out infinite; }
+    .beam { fill:#5CE3F4; opacity:0; animation: beam 5.2s ease-in-out infinite; }
+    .mhalo { transform-box:fill-box; transform-origin:center; opacity:0; animation: mbloom 5.2s ease-in-out infinite; }
+    .hitline { fill:none; stroke:#26C6DA; stroke-width:1.8; stroke-dasharray:5 4; stroke-dashoffset:70; animation: hdraw 5.2s ease-in-out infinite; }
+    .hx line { stroke:#fff; stroke-width:1.2; opacity:.6; }
+    .mR { animation: hitR 5.2s ease-in-out infinite; }
+    .mB { animation: hitB 5.2s ease-in-out infinite; }
+    .mG { animation: hitG 5.2s ease-in-out infinite; }
+    @keyframes assemble {
+      0% { transform: translate(var(--dx),var(--dy)) scale(.85); opacity:.4; }
+      34% { transform: translate(0,0) scale(1); opacity:1; }
+      76% { transform: translate(0,0) scale(1); opacity:1; }
+      100% { transform: translate(var(--dx),var(--dy)) scale(.85); opacity:.4; }
+    }
+    @keyframes gbloom { 0%,28%{opacity:0;transform:scale(.4);} 44%,74%{opacity:.22;transform:scale(1);} 92%,100%{opacity:0;transform:scale(.4);} }
+    @keyframes beam { 0%,32%{opacity:0;transform:translateY(0);} 40%{opacity:.4;} 56%{opacity:.4;transform:translateY(66px);} 64%,100%{opacity:0;transform:translateY(66px);} }
+    @keyframes hitR { 0%,54%{fill:#c4c4c4;} 66%,86%{fill:#FF3D5C;} 100%{fill:#c4c4c4;} }
+    @keyframes hitB { 0%,54%{fill:#c4c4c4;} 66%,86%{fill:#26C6DA;} 100%{fill:#c4c4c4;} }
+    @keyframes hitG { 0%,54%{fill:#c4c4c4;} 66%,86%{fill:#7CB342;} 100%{fill:#c4c4c4;} }
+    @keyframes mbloom { 0%,54%{opacity:0;transform:scale(.4);} 68%,84%{opacity:.2;transform:scale(1);} 96%,100%{opacity:0;transform:scale(.4);} }
+    @keyframes hdraw { 0%,56%{stroke-dashoffset:70;} 74%,86%{stroke-dashoffset:0;} 98%,100%{stroke-dashoffset:70;} }
+    @media (prefers-reduced-motion: reduce){ .sub,.glow,.beam,.mhalo,.hitline,.mR,.mB,.mG{animation:none;} .sub{transform:none;opacity:1;} .glow{opacity:.22;transform:scale(1);} .beam{opacity:0;} .mhalo{opacity:.2;transform:scale(1);} .hitline{stroke-dashoffset:0;} .mR{fill:#FF3D5C;} .mB{fill:#26C6DA;} .mG{fill:#7CB342;} }
+  </style>
+
+  <!-- QUERY complex (left): three subunits dock together -->
+  <circle class="glow" cx="61" cy="75" r="16" fill="#5CE3F4"/>
+  <g class="sub" style="--dx:-30px;--dy:-26px;animation-delay:.05s">
+    <ellipse cx="49" cy="64" rx="16" ry="12" fill="#FF3D5C"/>
+    <g class="hx"><line x1="43" y1="68" x2="47" y2="59"/><line x1="49" y1="69" x2="53" y2="60"/></g>
+  </g>
+  <g class="sub" style="--dx:30px;--dy:-22px;animation-delay:.16s">
+    <ellipse cx="74" cy="66" rx="16" ry="12" fill="#26C6DA"/>
+    <g class="hx"><line x1="68" y1="70" x2="72" y2="61"/><line x1="74" y1="71" x2="78" y2="62"/></g>
+  </g>
+  <g class="sub" style="--dx:2px;--dy:32px;animation-delay:.27s">
+    <ellipse cx="60" cy="90" rx="16" ry="12" fill="#7CB342"/>
+    <g class="hx"><line x1="54" y1="94" x2="58" y2="85"/><line x1="60" y1="95" x2="64" y2="86"/></g>
+  </g>
+
+  <!-- search link from query to the matching database complex -->
+  <path class="hitline" d="M84 74 L140 80"/>
+
+  <!-- DATABASE of complexes (right); scanned; the match lights up -->
+  <g stroke="#d6d6d6" stroke-width="1.4">
+    <line x1="146" y1="46" x2="158" y2="46"/><line x1="146" y1="46" x2="152" y2="56"/><line x1="158" y1="46" x2="152" y2="56"/>
+    <line x1="146" y1="108" x2="158" y2="108"/><line x1="146" y1="108" x2="152" y2="118"/><line x1="158" y1="108" x2="152" y2="118"/>
+  </g>
+  <!-- candidate 1 (no match) -->
+  <circle cx="146" cy="46" r="4" fill="#c4c4c4"/><circle cx="158" cy="46" r="4" fill="#c4c4c4"/><circle cx="152" cy="56" r="4" fill="#c4c4c4"/>
+  <!-- candidate 3 (no match) -->
+  <circle cx="146" cy="108" r="4" fill="#c4c4c4"/><circle cx="158" cy="108" r="4" fill="#c4c4c4"/><circle cx="152" cy="118" r="4" fill="#c4c4c4"/>
+  <!-- candidate 2 = MATCH -->
+  <ellipse class="mhalo" cx="152" cy="82" rx="18" ry="15" fill="#5CE3F4"/>
+  <g stroke="#bdbdbd" stroke-width="1.4">
+    <line x1="146" y1="78" x2="158" y2="78"/><line x1="146" y1="78" x2="152" y2="88"/><line x1="158" y1="78" x2="152" y2="88"/>
+  </g>
+  <circle class="mR" cx="146" cy="78" r="4.2" fill="#c4c4c4"/>
+  <circle class="mB" cx="158" cy="78" r="4.2" fill="#c4c4c4"/>
+  <circle class="mG" cx="152" cy="88" r="4.2" fill="#c4c4c4"/>
+
+  <!-- search beam sweeping down the database -->
+  <rect class="beam" x="130" y="38" width="44" height="12" rx="6"/>
+</svg>

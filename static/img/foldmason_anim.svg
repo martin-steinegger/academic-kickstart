@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 20 202 114" width="202" height="114" role="img" aria-label="FoldMason: several protein structures aligned into a multiple structure alignment, with secondary-structure elements lining up in columns">
+  <style>
+    .sse { animation: align 5s cubic-bezier(.5,0,.2,1) infinite; }
+    .guide { opacity:0; animation: guide 5s ease-in-out infinite; }
+    .hx line { stroke:#fff; stroke-width:1.2; opacity:.75; }
+    @keyframes align {
+      0% { transform: translateX(var(--sx)); }
+      40% { transform: translateX(0); }
+      72% { transform: translateX(0); }
+      100% { transform: translateX(var(--sx)); }
+    }
+    @keyframes guide { 0%,30%{opacity:0;} 48%,70%{opacity:1;} 88%,100%{opacity:0;} }
+    @media (prefers-reduced-motion: reduce){ .sse{animation:none;transform:none;} .guide{opacity:1;} }
+  </style>
+  <!-- alignment columns (light up when the structures are aligned) -->
+  <rect class="guide" x="48"  y="28" width="30" height="104" rx="7" fill="#FF3D5C" style="animation-delay:0s"/>
+  <rect class="guide" x="96"  y="28" width="30" height="104" rx="7" fill="#7CB342" style="animation-delay:.05s"/>
+  <rect class="guide" x="144" y="28" width="30" height="104" rx="7" fill="#26C6DA" style="animation-delay:.1s"/>
+
+  <!-- four protein structures (rows): backbone + helix/strand/helix; SSEs slide into the columns -->
+  <!-- row 1 -->
+  <line x1="20" y1="42" x2="200" y2="42" stroke="#FF3D5C" stroke-width="2.6" stroke-linecap="round"/>
+  <g class="sse" style="--sx:22px;animation-delay:0s">
+    <g class="hx"><rect x="52" y="36" width="22" height="12" rx="6" fill="#FF3D5C"/><line x1="57" y1="46" x2="62" y2="37"/><line x1="62" y1="46" x2="67" y2="37"/><line x1="67" y1="46" x2="72" y2="37"/></g>
+    <path fill="#FF3D5C" d="M100 39 h14 v-4 l8 7 l-8 7 v-4 h-14 z"/>
+    <g class="hx"><rect x="147" y="36" width="22" height="12" rx="6" fill="#FF3D5C"/><line x1="152" y1="46" x2="157" y2="37"/><line x1="157" y1="46" x2="162" y2="37"/><line x1="162" y1="46" x2="167" y2="37"/></g>
+  </g>
+  <!-- row 2 -->
+  <line x1="20" y1="68" x2="200" y2="68" stroke="#FF8B38" stroke-width="2.6" stroke-linecap="round"/>
+  <g class="sse" style="--sx:-16px;animation-delay:.08s">
+    <g class="hx"><rect x="52" y="62" width="22" height="12" rx="6" fill="#FF8B38"/><line x1="57" y1="72" x2="62" y2="63"/><line x1="62" y1="72" x2="67" y2="63"/><line x1="67" y1="72" x2="72" y2="63"/></g>
+    <path fill="#FF8B38" d="M100 65 h14 v-4 l8 7 l-8 7 v-4 h-14 z"/>
+    <g class="hx"><rect x="147" y="62" width="22" height="12" rx="6" fill="#FF8B38"/><line x1="152" y1="72" x2="157" y2="63"/><line x1="157" y1="72" x2="162" y2="63"/><line x1="162" y1="72" x2="167" y2="63"/></g>
+  </g>
+  <!-- row 3 -->
+  <line x1="20" y1="94" x2="200" y2="94" stroke="#7CB342" stroke-width="2.6" stroke-linecap="round"/>
+  <g class="sse" style="--sx:14px;animation-delay:.16s">
+    <g class="hx"><rect x="52" y="88" width="22" height="12" rx="6" fill="#7CB342"/><line x1="57" y1="98" x2="62" y2="89"/><line x1="62" y1="98" x2="67" y2="89"/><line x1="67" y1="98" x2="72" y2="89"/></g>
+    <path fill="#7CB342" d="M100 91 h14 v-4 l8 7 l-8 7 v-4 h-14 z"/>
+    <g class="hx"><rect x="147" y="88" width="22" height="12" rx="6" fill="#7CB342"/><line x1="152" y1="98" x2="157" y2="89"/><line x1="157" y1="98" x2="162" y2="89"/><line x1="162" y1="98" x2="167" y2="89"/></g>
+  </g>
+  <!-- row 4 -->
+  <line x1="20" y1="120" x2="200" y2="120" stroke="#26C6DA" stroke-width="2.6" stroke-linecap="round"/>
+  <g class="sse" style="--sx:-22px;animation-delay:.24s">
+    <g class="hx"><rect x="52" y="114" width="22" height="12" rx="6" fill="#26C6DA"/><line x1="57" y1="124" x2="62" y2="115"/><line x1="62" y1="124" x2="67" y2="115"/><line x1="67" y1="124" x2="72" y2="115"/></g>
+    <path fill="#26C6DA" d="M100 117 h14 v-4 l8 7 l-8 7 v-4 h-14 z"/>
+    <g class="hx"><rect x="147" y="114" width="22" height="12" rx="6" fill="#26C6DA"/><line x1="152" y1="124" x2="157" y2="115"/><line x1="157" y1="124" x2="162" y2="115"/><line x1="162" y1="124" x2="167" y2="115"/></g>
+  </g>
+</svg>

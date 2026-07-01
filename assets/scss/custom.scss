@@ -649,7 +649,7 @@ section#research .methods-list {
 
 section#research .method-item {
     border-bottom: 1px solid var(--aqlab-border);
-    column-gap: 2rem;
+    column-gap: 1.5rem;
     display: flex;
     align-items: center;
     padding-bottom: 1.5rem;
@@ -662,15 +662,27 @@ section#research .method-item:last-child {
 
 section#research .method-logo {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    flex: 0 0 200px;
+    justify-content: flex-start;
+    gap: 0.3rem;
+    flex: 0 0 304px;
 }
 
 section#research .method-logo img {
     height: auto;
-    max-width: 170px;
     object-fit: contain;
+}
+
+section#research .method-logo img.method-char {
+    flex: 0 0 auto;
+    max-width: 118px;
+}
+
+section#research .method-logo img.method-anim {
+    flex: 0 0 auto;
+    max-width: 182px;
+    width: 182px;
 }
 
 section#research .method-body {
