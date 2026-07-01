@@ -19,24 +19,24 @@
 
   <!-- QUERY motif (left): three residues distant in sequence, close in space -->
   <path fill="none" stroke="#d8d8d8" stroke-width="3.5" stroke-linecap="round"
-        d="M16 56 C28 40 40 68 52 58 C66 47 72 92 86 82"/>
-  <polygon points="38,60 52,68 68,70" fill="#FF3D5C" opacity=".12"/>
-  <polygon points="38,60 52,68 68,70" fill="none" stroke="#FF3D5C" stroke-width="2.2" stroke-dasharray="5 4"/>
+        d="M18 60 Q30 48 44 54 Q56 60 66 66 Q80 72 90 56"/>
+  <polygon points="43,57 55,71 66,62" fill="#FF3D5C" opacity=".12"/>
+  <polygon points="43,57 55,71 66,62" fill="none" stroke="#FF3D5C" stroke-width="2.2" stroke-dasharray="5 4"/>
   <g class="residue" style="animation-delay:0s">
-    <line class="stick" stroke="#FF3D5C" x1="26" y1="56" x2="38" y2="60"/>
-    <circle cx="26" cy="56" r="5" fill="#FF3D5C"/><circle cx="38" cy="60" r="3" fill="#FF3D5C"/>
+    <line class="stick" stroke="#FF3D5C" x1="30.5" y1="52.5" x2="43" y2="57"/>
+    <circle cx="30.5" cy="52.5" r="5" fill="#FF3D5C"/><circle cx="43" cy="57" r="3" fill="#FF3D5C"/>
   </g>
   <g class="residue" style="animation-delay:.2s">
-    <line class="stick" stroke="#FF8B38" x1="52" y1="58" x2="52" y2="68"/>
-    <circle cx="52" cy="58" r="5" fill="#FF8B38"/><circle cx="52" cy="68" r="3" fill="#FF8B38"/>
+    <line class="stick" stroke="#FF8B38" x1="55.5" y1="60" x2="55" y2="71"/>
+    <circle cx="55.5" cy="60" r="5" fill="#FF8B38"/><circle cx="55" cy="71" r="3" fill="#FF8B38"/>
   </g>
   <g class="residue" style="animation-delay:.4s">
-    <line class="stick" stroke="#26C6DA" x1="82" y1="80" x2="68" y2="70"/>
-    <circle cx="82" cy="80" r="5" fill="#26C6DA"/><circle cx="68" cy="70" r="3" fill="#26C6DA"/>
+    <line class="stick" stroke="#26C6DA" x1="79" y1="66.5" x2="66" y2="62"/>
+    <circle cx="79" cy="66.5" r="5" fill="#26C6DA"/><circle cx="66" cy="62" r="3" fill="#26C6DA"/>
   </g>
 
   <!-- search link to the matching structure -->
-  <path class="hitline" d="M84 68 L138 80"/>
+  <path class="hitline" d="M88 62 L138 80"/>
 
   <!-- DATABASE of structures (right), scanned for the motif -->
   <path class="cell" d="M138 50 q5 -14 10 -4 q4 8 9 -6"/>

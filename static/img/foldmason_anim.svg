@@ -9,8 +9,8 @@
       72% { transform: translateX(0); }
       100% { transform: translateX(var(--sx)); }
     }
-    @keyframes guide { 0%,30%{opacity:0;} 48%,70%{opacity:1;} 88%,100%{opacity:0;} }
-    @media (prefers-reduced-motion: reduce){ .sse{animation:none;transform:none;} .guide{opacity:1;} }
+    @keyframes guide { 0%,30%{opacity:0;} 48%,70%{opacity:.16;} 88%,100%{opacity:0;} }
+    @media (prefers-reduced-motion: reduce){ .sse{animation:none;transform:none;} .guide{opacity:.16;} }
   </style>
   <!-- alignment columns (light up when the structures are aligned) -->
   <rect class="guide" x="48"  y="28" width="30" height="104" rx="7" fill="#FF3D5C" style="animation-delay:0s"/>
