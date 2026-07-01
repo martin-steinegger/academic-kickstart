@@ -16,7 +16,8 @@ type = "research"
 <div class="research-methods">
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/mmseqs2_logo.png" alt="MMseqs2 logo">
+<img src="/img/mmseqs2_logo.png" alt="MMseqs2 logo" class="method-char">
+<img src="/img/mmseqs2_anim.svg" alt="MMseqs2: sequences clustering into representative groups" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>MMseqs2</b> (Many-against-Many sequence searching)는 사이즈가 큰 단백질 및 DNA, RNA 서열 세트를 검색하고 클러스터링하는 소프트웨어 모음입니다. MMseqs2는 BLAST보다 10000배 빠르게 실행되며, PSI-BLAST와 동일한 민감도 (sensitivity)를 유지한 채 400배 이상의 향상된 속도로 프로파일 검색을 수행 할 수 있습니다.</p>
@@ -25,7 +26,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/colabfold_logo.png" alt="ColabFold logo">
+<img src="/img/colabfold_logo.png" alt="ColabFold logo" class="method-char">
+<img src="/img/colabfold_anim.svg" alt="ColabFold: sequence alignment folding into a protein structure" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>ColabFold</b>는 쉽고 빠르고 간편하게 단백질 구조를 예측할 수 있는 환경을 제공합니다. MMseqs2를 사용하여 AlphaFold 시스템보다 16배 빠르게 multiple sequence alignment를 생성하는 모듈을 탑재한 AlphaFold2 및 RoseTTAFold를 사용하여 단백질 구조를 보다 빠르게 예측할 수 있습니다.</p>
@@ -34,7 +36,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/foldseek_logo.png" alt="Foldseek logo">
+<img src="/img/foldseek_logo.png" alt="Foldseek logo" class="method-char">
+<img src="/img/foldseek_anim.svg" alt="Foldseek: query structure scanning a database and finding a match" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Foldseek</b> is a software suite for searching and clustering protein structures. It is 600,000 times faster than the fastest state-of-the-art aligners. Allowing to query millions of structures in seconds.</p>
@@ -43,7 +46,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/foldseek_logo.png" alt="Foldseek-Multimer logo">
+<img src="/img/foldseek_logo.png" alt="Foldseek-Multimer logo" class="method-char">
+<img src="/img/foldseek_multimer_anim.svg" alt="Foldseek-Multimer: chains assembling into a protein complex" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Foldseek-Multimer</b>는 Foldseek을 확장하여 단백질 복합체를 정렬하고 검색하며, 예측된 복합체 전체 규모에서 다중 사슬 구조를 빠르고 민감하게 비교할 수 있도록 합니다.</p>
@@ -52,7 +56,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/foldmason_logo.png" alt="FoldMason logo">
+<img src="/img/foldmason_logo.png" alt="FoldMason logo" class="method-char">
+<img src="/img/foldmason_anim.svg" alt="FoldMason: backbones sliding into a multiple structure alignment" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>FoldMason</b>은 단백질의 다중 구조 정렬(multiple structure alignment)을 대규모로 정확하게 구축하는 도구로, 구조 정보를 활용하여 서열 기반 방법으로는 정렬하기 어려운 수천 개의 원거리 상동 단백질을 정렬하고 그들의 진화적 관계를 재구성합니다.</p>
@@ -61,7 +66,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/folddisco_logo.png" alt="Folddisco logo">
+<img src="/img/folddisco_logo.png" alt="Folddisco logo" class="method-char">
+<img src="/img/folddisco_anim.svg" alt="Folddisco: distant residues connecting into a structural motif" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Folddisco</b>는 서열상으로 멀리 떨어진 잔기로 이루어진 촉매 부위나 결합 포켓과 같은 불연속적 구조 모티프(discontinuous structural motif)를 색인하고 검색하여, 수백만 개의 단백질 구조에서 모티프를 빠르게 질의할 수 있도록 합니다.</p>
@@ -70,7 +76,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/linclust_logo.png" alt="Linclust logo">
+<img src="/img/linclust_logo.png" alt="Linclust logo" class="method-char">
+<img src="/img/linclust_anim.svg" alt="Linclust: members linking to cluster representatives" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Linclust</b> is a method that can cluster sequences down to 50% pairwise sequence similarity and its runtime scales linearly with the input set size, not quadratically as in conventional algorithms. It is &gt;1000 times faster compared to its competitors.</p>
@@ -79,7 +86,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/plass_logo.png" alt="Plass logo">
+<img src="/img/plass_logo.png" alt="Plass logo" class="method-char">
+<img src="/img/plass_anim.svg" alt="Plass: short reads merging into a contig" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Plass</b> is a software to assemble short read sequencing data on a protein level. The main purpose of Plass is the assembly of complex metagenomic datasets. It assembles 10 times more protein residues in soil metagenomes than Megahit.</p>
@@ -88,7 +96,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/metabuli_logo.png" alt="Metabuli logo">
+<img src="/img/metabuli_logo.png" alt="Metabuli logo" class="method-char">
+<img src="/img/metabuli_anim.svg" alt="Metabuli: reads sorted down a taxonomy tree" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Metabuli</b>는 아미노산과 DNA 서열을 함께 분석하는 메타지놈 분류 도구로, 아미노산 검색의 높은 민감도와 DNA 수준의 높은 특이도를 결합하여 복잡한 시료의 분류학적 프로파일링을 수행합니다.</p>
@@ -97,7 +106,8 @@ type = "research"
 
 <div class="method-item">
 <div class="method-logo">
-<img src="/img/conterminator_logo.png" alt="Conterminator logo">
+<img src="/img/conterminator_logo.png" alt="Conterminator logo" class="method-char">
+<img src="/img/conterminator_anim.svg" alt="Conterminator: flagging a cross-kingdom contaminant" class="method-anim">
 </div>
 <div class="method-body">
 <p><b>Conterminator</b> is an efficient method for detecting incorrectly labeled sequences across kingdoms by an exhaustive all-against-all sequence comparison.</p>
