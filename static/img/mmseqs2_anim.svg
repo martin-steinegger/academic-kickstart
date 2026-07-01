@@ -6,13 +6,10 @@
     .hit { animation: hit 5s ease-in-out infinite; }
     .beam { fill:#FF8B38; opacity:0; animation: beam 5s ease-in-out infinite; }
     .halo { opacity:0; animation: bloom 5s ease-in-out infinite; }
-    .hitline { fill:none; stroke:#FF8B38; stroke-width:1.8; stroke-dasharray:5 4;
-               stroke-dashoffset:52; animation: draw 5s ease-in-out infinite; }
     @keyframes beam { 0%,4%{opacity:0;transform:translateX(0);} 12%{opacity:.4;} 46%{opacity:.4;transform:translateX(86px);} 56%,100%{opacity:0;transform:translateX(86px);} }
     @keyframes hit { 0%,42%{color:#c6c6c6;} 56%,84%{color:#FF8B38;} 96%,100%{color:#c6c6c6;} }
     @keyframes bloom { 0%,46%{opacity:0;} 60%,82%{opacity:.15;} 96%,100%{opacity:0;} }
-    @keyframes draw { 0%,44%{stroke-dashoffset:52;} 64%,84%{stroke-dashoffset:0;} 98%,100%{stroke-dashoffset:52;} }
-    @media (prefers-reduced-motion: reduce){ .hit{animation:none;color:#FF8B38;} .beam{animation:none;opacity:0;} .halo{opacity:.15;animation:none;} .hitline{animation:none;stroke-dashoffset:0;} }
+    @media (prefers-reduced-motion: reduce){ .hit{animation:none;color:#FF8B38;} .beam{animation:none;opacity:0;} .halo{opacity:.15;animation:none;} }
   </style>
 
   <!-- query sequence (left) -->
@@ -20,10 +17,6 @@
     <line x1="16" y1="75" x2="72" y2="75" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/>
     <circle cx="16" cy="75" r="3.4" fill="currentColor"/><circle cx="30" cy="75" r="3.4" fill="currentColor"/><circle cx="44" cy="75" r="3.4" fill="currentColor"/><circle cx="58" cy="75" r="3.4" fill="currentColor"/><circle cx="72" cy="75" r="3.4" fill="currentColor"/>
   </g>
-
-  <!-- hit links from query to the similar database sequences -->
-  <path class="hitline" d="M72 75 L108 58" style="animation-delay:.04s"/>
-  <path class="hitline" d="M72 75 L108 100" style="animation-delay:.12s"/>
 
   <!-- halos behind the matched sequences -->
   <ellipse class="halo" cx="148" cy="58"  rx="46" ry="9" fill="#FF8B38" style="animation-delay:0s"/>
