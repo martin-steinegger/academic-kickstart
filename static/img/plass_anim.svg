@@ -12,6 +12,15 @@
     @keyframes grow { 0%,38%{transform:scaleX(0);opacity:0;} 60%,84%{transform:scaleX(1);opacity:1;} 100%{transform:scaleX(0);opacity:0;} }
     @media (prefers-reduced-motion: reduce){ .read{animation:none;transform:none;opacity:1;} .contig{animation:none;transform:scaleX(1);opacity:1;} }
   </style>
+  <!-- the assembled contig inherits the colours of the reads it was built from -->
+  <defs>
+    <linearGradient id="plassGrad" gradientUnits="userSpaceOnUse" x1="26" y1="0" x2="192" y2="0">
+      <stop offset="0"    stop-color="#FF3D5C"/>
+      <stop offset="0.33" stop-color="#FF8B38"/>
+      <stop offset="0.66" stop-color="#7CB342"/>
+      <stop offset="1"    stop-color="#26C6DA"/>
+    </linearGradient>
+  </defs>
   <!-- short peptide reads: beads (residues) on a short backbone, sliding into overlap -->
   <g class="read" style="--sx:-18px;--sy:-16px;animation-delay:0s">
     <line x1="26" y1="52" x2="60" y2="52" stroke="#FF3D5C" stroke-width="3.5" stroke-linecap="round"/>
@@ -31,9 +40,9 @@
   </g>
   <!-- assembled protein contig with secondary structure -->
   <g class="contig">
-    <line x1="26" y1="104" x2="192" y2="104" stroke="#16151A" stroke-width="4" stroke-linecap="round"/>
-    <g class="hx"><rect x="60" y="98" width="34" height="13" rx="6.5" fill="#16151A"/>
+    <line x1="26" y1="104" x2="192" y2="104" stroke="url(#plassGrad)" stroke-width="4" stroke-linecap="round"/>
+    <g class="hx"><rect x="60" y="98" width="34" height="13" rx="6.5" fill="url(#plassGrad)"/>
       <line x1="65" y1="109" x2="70" y2="99"/><line x1="72" y1="109" x2="77" y2="99"/><line x1="79" y1="109" x2="84" y2="99"/><line x1="86" y1="109" x2="91" y2="99"/></g>
-    <path d="M150 104 l14 -8 v4.5 h20 v7 h-20 v4.5 z" fill="#16151A"/>
+    <path d="M150 104 l14 -8 v4.5 h20 v7 h-20 v4.5 z" fill="url(#plassGrad)"/>
   </g>
 </svg>
