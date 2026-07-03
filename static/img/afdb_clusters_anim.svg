@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 20 202 114" width="202" height="114" role="img" aria-label="AFDB Clusters: scattered protein structures grouped by shape into structural clusters">
+  <style>
+    .fg { transform-box:fill-box; transform-origin:center; animation: gather 5s cubic-bezier(.5,0,.2,1) infinite; }
+    .fold { fill:none; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+    .halo { transform-box:fill-box; transform-origin:center; opacity:0; animation: bloom 5s ease-in-out infinite; }
+    @keyframes gather {
+      0%   { transform: translate(var(--dx),var(--dy)) scale(.72); opacity:.3; }
+      34%  { transform: translate(0,0) scale(1); opacity:1; }
+      72%  { transform: translate(0,0) scale(1); opacity:1; }
+      100% { transform: translate(var(--dx),var(--dy)) scale(.72); opacity:.3; }
+    }
+    @keyframes bloom { 0%,18%{opacity:0;transform:scale(.4);} 42%,70%{opacity:.16;transform:scale(1);} 92%,100%{opacity:0;transform:scale(.4);} }
+    @media (prefers-reduced-motion: reduce){ .fg,.halo{animation:none;} .fg{transform:none;opacity:1;} .halo{opacity:.16;transform:scale(1);} }
+  </style>
+
+  <!-- cluster halos -->
+  <circle class="halo" cx="56"  cy="54"  r="28" fill="#FF3D5C" style="animation-delay:0s"/>
+  <circle class="halo" cx="156" cy="52"  r="28" fill="#26C6DA" style="animation-delay:.12s"/>
+  <circle class="halo" cx="106" cy="108" r="28" fill="#7CB342" style="animation-delay:.24s"/>
+
+  <!-- cluster 1 (red): three structures of the same shape gather together -->
+  <g class="fg" style="--dx:-34px;--dy:-22px;animation-delay:.04s"><path class="fold" stroke="#FF3D5C" d="M42 50 q3 -11 7 -3 q4 7 8 -4"/></g>
+  <g class="fg" style="--dx:36px;--dy:-30px;animation-delay:.16s"><path class="fold" stroke="#FF3D5C" d="M58 44 q3 -11 7 -3 q4 7 8 -4"/></g>
+  <g class="fg" style="--dx:-22px;--dy:30px;animation-delay:.1s"><path class="fold" stroke="#FF3D5C" d="M50 64 q3 -11 7 -3 q4 7 8 -4"/></g>
+
+  <!-- cluster 2 (blue): a different shared shape -->
+  <g class="fg" style="--dx:34px;--dy:-28px;animation-delay:.14s"><path class="fold" stroke="#26C6DA" d="M142 48 q4 -10 8 -2 q3 7 7 -3"/></g>
+  <g class="fg" style="--dx:42px;--dy:-8px;animation-delay:.26s"><path class="fold" stroke="#26C6DA" d="M160 44 q4 -10 8 -2 q3 7 7 -3"/></g>
+  <g class="fg" style="--dx:32px;--dy:26px;animation-delay:.2s"><path class="fold" stroke="#26C6DA" d="M150 62 q4 -10 8 -2 q3 7 7 -3"/></g>
+
+  <!-- cluster 3 (green): a third shared shape -->
+  <g class="fg" style="--dx:-30px;--dy:22px;animation-delay:.08s"><path class="fold" stroke="#7CB342" d="M92 102 q3 -11 7 -3 q4 8 8 -5"/></g>
+  <g class="fg" style="--dx:30px;--dy:26px;animation-delay:.22s"><path class="fold" stroke="#7CB342" d="M110 100 q3 -11 7 -3 q4 8 8 -5"/></g>
+  <g class="fg" style="--dx:-16px;--dy:30px;animation-delay:.3s"><path class="fold" stroke="#7CB342" d="M100 116 q3 -11 7 -3 q4 8 8 -5"/></g>
+</svg>
