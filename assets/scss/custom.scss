@@ -88,7 +88,7 @@ a:focus {
     transform: scaleX(1);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     #navbar-main .container {
         position: relative;
     }
@@ -135,6 +135,50 @@ a:focus {
 #navbar-main .snu-logo-right-link {
     padding-left: 0.35rem;
     padding-right: 0.2rem;
+}
+
+/* Collapsed (hamburger) navbar: keep the brand beside the toggler instead of
+   floating it to page-center, so hamburger + brand form a balanced left cluster
+   with the SNU logo on the right. */
+#navbar-main .navbar-toggler {
+    align-self: center;
+}
+
+#navbar-main .navbar-brand-mobile-wrapper {
+    position: static;
+    left: auto;
+    right: auto;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0.25rem;
+}
+
+#navbar-main .navbar-brand-mobile-wrapper .navbar-brand {
+    margin-bottom: 0;
+}
+
+/* The theme only styles the collapsed dropdown panel up to 991.98px. Since the
+   navbar now collapses up to 1199.98px, extend the same panel to that range so
+   the opened menu is a proper white dropdown instead of overlapping the page. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #navbar-main .navbar-collapse {
+        z-index: 1031;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background-color: #fff;
+        border-bottom: 1px solid var(--aqlab-border);
+        text-align: center;
+    }
+
+    #navbar-main .main-menu-item .nav-item {
+        padding: 10px 15px !important;
+    }
+
+    #navbar-main .main-menu-item .nav-item .nav-link {
+        padding: 5px 15px !important;
+    }
 }
 
 @media (max-width: 576px) {
