@@ -25,7 +25,7 @@
   {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
 
   {{ if $query }}
-  {{ if not (in (slice "Researchers" "연구원") $group) }}
+  {{ if not (in (slice "Researchers" "연구원" "Team" "팀") $group) }}
   <div class="col-md-12">
     <h2 class="mb-4">{{ $group | markdownify }}</h2>
   </div>

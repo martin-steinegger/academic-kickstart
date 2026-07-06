@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 20 202 114" width="202" height="114" role="img" aria-label="Conterminator: all-against-all comparison flagging a cross-kingdom contaminant structure">
+  <style>
+    .fold { fill:none; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+    .scan { stroke:#6b6b6b; stroke-width:1.4; stroke-dasharray:4 4; opacity:0; animation: sweep 5s ease-in-out infinite; }
+    .warn { transform-box:fill-box; transform-origin:center; opacity:0; animation: warn 5s ease-in-out infinite; }
+    .bad  { transform-box:fill-box; transform-origin:center; animation: bad 5s ease-in-out infinite; }
+    @keyframes sweep { 0%,18%{opacity:0;} 30%,52%{opacity:.7;} 64%,100%{opacity:0;} }
+    @keyframes warn { 0%,58%{opacity:0;transform:scale(.5);} 74%{opacity:.9;transform:scale(1.1);} 86%{opacity:.5;transform:scale(1.35);} 92%,100%{opacity:0;transform:scale(1.5);} }
+    @keyframes bad { 0%,58%{transform:scale(1);} 72%,90%{transform:scale(1.28);} 100%{transform:scale(1);} }
+    @media (prefers-reduced-motion: reduce){ .scan{opacity:.5;animation:none;} .warn{opacity:.9;transform:scale(1.1);animation:none;} .bad{animation:none;transform:scale(1.24);} }
+  </style>
+  <!-- cross-group comparison lines -->
+  <line class="scan" x1="52" y1="52" x2="150" y2="60" style="animation-delay:0s"/>
+  <line class="scan" x1="60" y1="94" x2="168" y2="96" style="animation-delay:.12s"/>
+  <line class="scan" x1="48" y1="72" x2="160" y2="52" style="animation-delay:.24s"/>
+  <!-- Kingdom 1 (blue folds, left) -->
+  <path class="fold" stroke="#26C6DA" d="M38 46 q4 -13 9 -4 q5 9 10 -5"/>
+  <path class="fold" stroke="#26C6DA" d="M58 62 q4 -13 9 -4 q5 9 10 -5"/>
+  <path class="fold" stroke="#26C6DA" d="M40 84 q4 -13 9 -4 q5 9 10 -5"/>
+  <!-- contaminant: a green (other-kingdom) fold mislabeled inside the blue group -->
+  <circle class="warn" cx="66" cy="94" r="16" fill="none" stroke="#FF3D5C" stroke-width="3"/>
+  <path class="fold bad" stroke="#7CB342" d="M57 100 q4 -14 10 -4 q6 10 11 -6"/>
+  <!-- Kingdom 2 (green folds, right) -->
+  <path class="fold" stroke="#7CB342" d="M146 48 q4 -13 9 -4 q5 9 10 -5"/>
+  <path class="fold" stroke="#7CB342" d="M166 64 q4 -13 9 -4 q5 9 10 -5"/>
+  <path class="fold" stroke="#7CB342" d="M150 86 q4 -13 9 -4 q5 9 10 -5"/>
+  <path class="fold" stroke="#7CB342" d="M170 100 q4 -13 9 -4 q5 9 10 -5"/>
+</svg>

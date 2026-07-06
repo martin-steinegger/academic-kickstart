@@ -5,12 +5,12 @@ name = "김예지"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["연구원"]
+user_groups = ["팀"]
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "인턴"
+role = "석박사통합과정"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.

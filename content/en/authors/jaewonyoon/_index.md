@@ -6,7 +6,7 @@ name = "Jaewon Yoon"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["Researchers"]
+user_groups = ["Team"]
 # Is this the primary user of the site?
 superuser = false
 
@@ -26,9 +26,9 @@ email = "jwyoon05@snu.ac.kr"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-[[education.courses]]
-  course = "BSc in Biological Sciences and Artificial Intelligence"
-  institution = "Seoul National University"
+[[education.courses]] 
+  course = "BSc in Biological Sciences and Artificial Intelligence" 
+  institution = "Seoul National University" 
   year = 2027
 
 

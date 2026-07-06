@@ -88,7 +88,7 @@ a:focus {
     transform: scaleX(1);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     #navbar-main .container {
         position: relative;
     }
@@ -135,6 +135,50 @@ a:focus {
 #navbar-main .snu-logo-right-link {
     padding-left: 0.35rem;
     padding-right: 0.2rem;
+}
+
+/* Collapsed (hamburger) navbar: keep the brand beside the toggler instead of
+   floating it to page-center, so hamburger + brand form a balanced left cluster
+   with the SNU logo on the right. */
+#navbar-main .navbar-toggler {
+    align-self: center;
+}
+
+#navbar-main .navbar-brand-mobile-wrapper {
+    position: static;
+    left: auto;
+    right: auto;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0.25rem;
+}
+
+#navbar-main .navbar-brand-mobile-wrapper .navbar-brand {
+    margin-bottom: 0;
+}
+
+/* The theme only styles the collapsed dropdown panel up to 991.98px. Since the
+   navbar now collapses up to 1199.98px, extend the same panel to that range so
+   the opened menu is a proper white dropdown instead of overlapping the page. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #navbar-main .navbar-collapse {
+        z-index: 1031;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background-color: #fff;
+        border-bottom: 1px solid var(--aqlab-border);
+        text-align: center;
+    }
+
+    #navbar-main .main-menu-item .nav-item {
+        padding: 10px 15px !important;
+    }
+
+    #navbar-main .main-menu-item .nav-item .nav-link {
+        padding: 5px 15px !important;
+    }
 }
 
 @media (max-width: 576px) {
@@ -341,8 +385,11 @@ section#research .pub-aside {
 }
 
 section#research .pub-aside h2 {
-    font-size: clamp(2rem, 3vw, 2.6rem);
+    font-size: clamp(1.8rem, 2.4vw, 2.2rem);
     margin-bottom: 1rem;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    hyphens: none;
 }
 
 section#research .pub-list {
@@ -621,23 +668,47 @@ body.join-page #navbar-main {
 section#research .research-methods {
     display: flex;
     flex-direction: column;
-    gap: 1.75rem;
+    gap: 2.75rem;
     margin-bottom: 2.5rem;
+}
+
+section#research .method-category {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section#research .method-category-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--aqlab-border);
 }
 
 section#research .methods-layout {
     display: flex;
-    gap: 2.5rem;
+    flex-direction: column;
+    gap: 1.5rem;
     margin-bottom: 2.5rem;
 }
 
 section#research .methods-aside {
-    flex: 0 0 240px;
+    flex: 0 0 auto;
 }
 
 section#research .methods-aside h2 {
     font-size: clamp(2rem, 3vw, 2.6rem);
     margin-top: 0;
+    margin-bottom: 0.6rem;
+}
+
+section#research .methods-aside .research-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem 1.5rem;
+    margin-bottom: 0;
 }
 
 section#research .methods-list {
@@ -646,28 +717,40 @@ section#research .methods-list {
 
 section#research .method-item {
     border-bottom: 1px solid var(--aqlab-border);
-    column-gap: 2rem;
+    column-gap: 2.25rem;
     display: flex;
-    align-items: center;
-    padding-bottom: 1.5rem;
+    align-items: flex-start;
+    padding-bottom: 2rem;
 }
 
-section#research .method-item:last-child {
+section#research .method-category .method-item:last-child {
     border-bottom: none;
     padding-bottom: 0;
 }
 
 section#research .method-logo {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    flex: 0 0 200px;
+    justify-content: flex-start;
+    gap: 0.3rem;
+    flex: 0 0 304px;
 }
 
 section#research .method-logo img {
     height: auto;
-    max-width: 170px;
     object-fit: contain;
+}
+
+section#research .method-logo img.method-char {
+    flex: 0 0 auto;
+    max-width: 118px;
+}
+
+section#research .method-logo img.method-anim {
+    flex: 0 0 auto;
+    max-width: 182px;
+    width: 182px;
 }
 
 section#research .method-body {
@@ -676,6 +759,35 @@ section#research .method-body {
 
 section#research .method-body p {
     margin-bottom: 0.75rem;
+}
+
+section#research .method-refs {
+    margin-top: 1.1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--aqlab-border);
+}
+
+section#research .method-ref-label {
+    color: var(--aqlab-muted);
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+section#research .method-ref {
+    color: var(--aqlab-muted);
+    font-size: 0.9rem;
+    line-height: 1.55;
+}
+
+section#research .method-ref + .method-ref {
+    margin-top: 0.7rem;
+}
+
+section#research .method-ref a {
+    margin-left: 0.35rem;
+    white-space: nowrap;
 }
 
 section#research .method-links {

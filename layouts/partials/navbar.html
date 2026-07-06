@@ -8,11 +8,11 @@
   {{ $logo = (partial "functions/get_logo" (dict "constraint" "max_height" "size" 70)) }}
 {{ end }}
 
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+<nav class="navbar navbar-expand-xl navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     {{if $show_logo}}
-    <div class="d-none d-lg-inline-flex">
+    <div class="d-none d-xl-inline-flex">
       <a class="navbar-brand" href="{{ "/" | relLangURL }}">
         {{- site.Title -}}
         <object type="image/svg+xml" data="{{ "img/marv1_anim.svg" | relURL }}" aria-hidden="true"
@@ -30,7 +30,7 @@
     {{ end }}
 
     {{if $show_logo}}
-    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-xl-none">
       <a class="navbar-brand" href="{{ "/" | relLangURL }}">
       {{- if $has_logo -}}
         <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}">

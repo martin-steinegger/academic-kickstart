@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 20 202 114" width="202" height="114" role="img" aria-label="MMseqs2: a query sequence searched against a database, matching similar sequences">
+  <style>
+    .row { color:#c6c6c6; }
+    .row line { stroke:currentColor; stroke-width:2.6; stroke-linecap:round; }
+    .row circle { fill:currentColor; }
+    .hit { animation: hit 5s ease-in-out infinite; }
+    .beam { fill:#FF8B38; opacity:0; animation: beam 5s ease-in-out infinite; }
+    .halo { opacity:0; animation: bloom 5s ease-in-out infinite; }
+    @keyframes beam { 0%,4%{opacity:0;transform:translateX(0);} 12%{opacity:.4;} 46%{opacity:.4;transform:translateX(86px);} 56%,100%{opacity:0;transform:translateX(86px);} }
+    @keyframes hit { 0%,42%{color:#c6c6c6;} 56%,84%{color:#FF8B38;} 96%,100%{color:#c6c6c6;} }
+    @keyframes bloom { 0%,46%{opacity:0;} 60%,82%{opacity:.15;} 96%,100%{opacity:0;} }
+    @media (prefers-reduced-motion: reduce){ .hit{animation:none;color:#FF8B38;} .beam{animation:none;opacity:0;} .halo{opacity:.15;animation:none;} }
+  </style>
+
+  <!-- query sequence (left) -->
+  <g style="color:#FF8B38">
+    <line x1="16" y1="75" x2="72" y2="75" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/>
+    <circle cx="16" cy="75" r="3.4" fill="currentColor"/><circle cx="30" cy="75" r="3.4" fill="currentColor"/><circle cx="44" cy="75" r="3.4" fill="currentColor"/><circle cx="58" cy="75" r="3.4" fill="currentColor"/><circle cx="72" cy="75" r="3.4" fill="currentColor"/>
+  </g>
+
+  <!-- halos behind the matched sequences -->
+  <ellipse class="halo" cx="148" cy="58"  rx="46" ry="9" fill="#FF8B38" style="animation-delay:0s"/>
+  <ellipse class="halo" cx="148" cy="100" rx="46" ry="9" fill="#FF8B38" style="animation-delay:.1s"/>
+
+  <!-- database of sequences (right) -->
+  <g class="row" transform="translate(0,-2)"><line x1="108" y1="40" x2="188" y2="40"/><circle cx="108" cy="40" r="3.2"/><circle cx="124" cy="40" r="3.2"/><circle cx="140" cy="40" r="3.2"/><circle cx="156" cy="40" r="3.2"/><circle cx="172" cy="40" r="3.2"/><circle cx="188" cy="40" r="3.2"/></g>
+  <g class="row hit" style="animation-delay:0s"><line x1="108" y1="60" x2="188" y2="60"/><circle cx="108" cy="60" r="3.2"/><circle cx="124" cy="60" r="3.2"/><circle cx="140" cy="60" r="3.2"/><circle cx="156" cy="60" r="3.2"/><circle cx="172" cy="60" r="3.2"/><circle cx="188" cy="60" r="3.2"/></g>
+  <g class="row"><line x1="108" y1="80" x2="188" y2="80"/><circle cx="108" cy="80" r="3.2"/><circle cx="124" cy="80" r="3.2"/><circle cx="140" cy="80" r="3.2"/><circle cx="156" cy="80" r="3.2"/><circle cx="172" cy="80" r="3.2"/><circle cx="188" cy="80" r="3.2"/></g>
+  <g class="row hit" style="animation-delay:.1s"><line x1="108" y1="100" x2="188" y2="100"/><circle cx="108" cy="100" r="3.2"/><circle cx="124" cy="100" r="3.2"/><circle cx="140" cy="100" r="3.2"/><circle cx="156" cy="100" r="3.2"/><circle cx="172" cy="100" r="3.2"/><circle cx="188" cy="100" r="3.2"/></g>
+  <g class="row"><line x1="108" y1="120" x2="188" y2="120"/><circle cx="108" cy="120" r="3.2"/><circle cx="124" cy="120" r="3.2"/><circle cx="140" cy="120" r="3.2"/><circle cx="156" cy="120" r="3.2"/><circle cx="172" cy="120" r="3.2"/><circle cx="188" cy="120" r="3.2"/></g>
+
+  <!-- search beam sweeping across the database -->
+  <rect class="beam" x="104" y="30" width="12" height="100" rx="6"/>
+</svg>

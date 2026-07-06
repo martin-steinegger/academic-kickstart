@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 20 202 114" width="202" height="114" role="img" aria-label="ColabFold: a multiple sequence alignment folding into a protein structure with a coiled helix and a strand">
+  <style>
+    .msa { opacity:0; animation: msaIn 5.4s ease-in-out infinite; }
+    .arrow { opacity:0; animation: arrowIn 5.4s ease-in-out infinite; }
+    .bbtrace { fill:none; stroke:#9a9a9a; stroke-width:4; stroke-linecap:round;
+               stroke-dasharray:150; stroke-dashoffset:150; animation: draw 5.4s ease-in-out infinite; }
+    .ss { transform-box:fill-box; transform-origin:center; opacity:0; animation: ssIn 5.4s ease-in-out infinite; }
+    @keyframes msaIn { 0%{opacity:0;transform:translateX(-6px);} 16%,52%{opacity:1;transform:translateX(0);} 78%,100%{opacity:0;transform:translateX(-6px);} }
+    @keyframes arrowIn { 0%,20%{opacity:0;} 34%,74%{opacity:.6;} 90%,100%{opacity:0;} }
+    @keyframes draw { 0%,26%{stroke-dashoffset:150;} 54%,82%{stroke-dashoffset:0;} 96%,100%{stroke-dashoffset:150;} }
+    @keyframes ssIn { 0%,48%{opacity:0;transform:scale(.5);} 64%,82%{opacity:1;transform:scale(1);} 94%,100%{opacity:0;transform:scale(.5);} }
+    @media (prefers-reduced-motion: reduce){ .msa,.arrow,.ss{animation:none;opacity:1;transform:none;} .bbtrace{animation:none;stroke-dashoffset:0;} }
+  </style>
+  <!-- MSA (left) -->
+  <rect class="msa" x="14" y="42" width="60" height="7" rx="3" fill="#26C6DA" style="animation-delay:0s"/>
+  <rect class="msa" x="14" y="54" width="60" height="7" rx="3" fill="#7CB342" style="animation-delay:.1s"/>
+  <rect class="msa" x="14" y="66" width="60" height="7" rx="3" fill="#FF8B38" style="animation-delay:.2s"/>
+  <rect class="msa" x="14" y="78" width="60" height="7" rx="3" fill="#FF3D5C" style="animation-delay:.3s"/>
+  <rect class="msa" x="14" y="90" width="60" height="7" rx="3" fill="#26C6DA" style="animation-delay:.4s"/>
+  <!-- arrow -->
+  <path class="arrow" d="M86 70 h13 m-5 -5 l5 5 l-5 5" fill="none" stroke="#6b6b6b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- folding structure (right): backbone trace + coiled helix + strand -->
+  <path class="bbtrace" d="M118 56 C150 46 156 66 138 74 C122 81 132 102 162 100"/>
+  <!-- coiled alpha-helix: overlapping ridged turns along the backbone axis -->
+  <g transform="translate(137,54) rotate(-14)">
+    <g class="ss" style="animation-delay:0s">
+      <ellipse cx="-13" cy="0" rx="4.3" ry="7.6" fill="#FF3D5C" stroke="#d92a46" stroke-width="1"/>
+      <ellipse cx="-6.5" cy="0" rx="4.3" ry="7.6" fill="#FF3D5C" stroke="#d92a46" stroke-width="1"/>
+      <ellipse cx="0"   cy="0" rx="4.3" ry="7.6" fill="#FF4E6A" stroke="#d92a46" stroke-width="1"/>
+      <ellipse cx="6.5" cy="0" rx="4.3" ry="7.6" fill="#FF4E6A" stroke="#d92a46" stroke-width="1"/>
+      <ellipse cx="13"  cy="0" rx="4.3" ry="7.6" fill="#FF6076" stroke="#d92a46" stroke-width="1"/>
+      <path d="M-14 -4.6 L14 -4.6 M-14 4.6 L14 4.6" stroke="#fff" stroke-width="1" opacity=".45"/>
+    </g>
+  </g>
+  <!-- beta strand (arrow, N to C) -->
+  <path class="ss" d="M146 96 h16 v-4.5 l12 8.5 l-12 8.5 v-4.5 h-16 z" fill="#26C6DA" style="animation-delay:.05s"/>
+</svg>

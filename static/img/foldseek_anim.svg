@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 20 202 114" width="202" height="114" role="img" aria-label="Foldseek: a query fold scanning a database of differently-shaped structures and finding the matching one">
+  <style>
+    .fold { fill:none; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+    .cell { stroke:#c4c4c4; animation: scan 5s ease-in-out infinite; }
+    .query { stroke:#FF8B38; transform-box:fill-box; transform-origin:center; animation: qpulse 5s ease-in-out infinite; }
+    .match { transform-box:fill-box; transform-origin:center; animation: matchhit 5s ease-in-out infinite; }
+    .mhalo { transform-box:fill-box; transform-origin:center; opacity:0; animation: mbloom 5s ease-in-out infinite; }
+    @keyframes scan { 0%,44%,64%,100%{stroke:#c4c4c4;} 54%{stroke:#9a9a9a;} }
+    @keyframes qpulse { 0%,100%{transform:scale(1);opacity:.85;} 50%{transform:scale(1.1);opacity:1;} }
+    @keyframes matchhit { 0%,55%{stroke:#c4c4c4;transform:scale(1);} 72%,90%{stroke:#FF3D5C;transform:scale(1.3);} 100%{stroke:#c4c4c4;transform:scale(1);} }
+    @keyframes mbloom { 0%,58%{opacity:0;transform:scale(.4);} 74%,88%{opacity:.22;transform:scale(1);} 100%{opacity:0;transform:scale(.4);} }
+    @media (prefers-reduced-motion: reduce){ .cell,.query,.match,.mhalo{animation:none;} .match{stroke:#FF3D5C;} .mhalo{opacity:.22;transform:scale(1);} }
+  </style>
+  <!-- query fold (left) -->
+  <circle class="mhalo" cx="38" cy="82" r="20" fill="#FF8B38"/>
+  <path class="fold query" d="M24 82 q4 -18 10 -6 q6 12 12 -8"/>
+  <path class="arrow" d="M58 78 h12 m-5 -5 l5 5 l-5 5" fill="none" stroke="#6b6b6b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- database: each fold a DIFFERENT shape; only the match shares the query shape -->
+  <circle class="mhalo" cx="162" cy="80" r="21" fill="#FF3D5C"/>
+  <!-- row 1 -->
+  <path class="fold cell" d="M94 64 q5 -14 10 -4 q4 8 9 -6"          style="animation-delay:0s"/>
+  <path class="fold cell" d="M124 66 q4 -16 10 -8 q6 2 8 8"          style="animation-delay:.15s"/>
+  <path class="fold cell" d="M154 54 q10 4 4 12 q-3 4 9 2"           style="animation-delay:.3s"/>
+  <!-- row 2 (match sits on the right) -->
+  <path class="fold cell" d="M94 88 q5 -10 10 0 t10 0"              style="animation-delay:.1s"/>
+  <path class="fold cell" d="M126 92 c2 -14 12 -12 7 1 c-2 6 7 5 6 -7" style="animation-delay:.25s"/>
+  <path class="fold match" d="M150 86 q4 -18 10 -6 q6 12 12 -8"/>
+  <!-- row 3 -->
+  <path class="fold cell" d="M94 122 l6 -12 l5 12 l6 -12"           style="animation-delay:.2s"/>
+  <path class="fold cell" d="M138 110 q-14 2 -14 8 q0 6 14 6"       style="animation-delay:.35s"/>
+  <path class="fold cell" d="M154 122 h6 v-11 h6 v11"               style="animation-delay:.5s"/>
+</svg>

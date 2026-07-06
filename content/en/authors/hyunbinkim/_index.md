@@ -5,12 +5,12 @@ name = "Hyunbin Kim"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["Researchers"]
+user_groups = ["Team"]
 # Is this the primary user of the site?
 superuser = false
 
 # Role/position
-role = "Graduate Student"
+role = "PhD and postdoc"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.

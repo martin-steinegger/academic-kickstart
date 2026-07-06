@@ -5,7 +5,7 @@ name = "윤재원"
 
 # Username (this should match the folder name)
 authors = ["admin"]
-user_groups = ["연구원"]
+user_groups = ["팀"]
 # Is this the primary user of the site?
 superuser = false
 
@@ -25,9 +25,9 @@ email = "jwyoon05@snu.ac.kr"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-[[education.courses]]
-  course = "생명과학부 / 연합전공 인공지능"
-  institution = "서울대학교"
+[[education.courses]] 
+  course = "생명과학부 / 연합전공 인공지능" 
+  institution = "서울대학교" 
   year = 2027
 
 
