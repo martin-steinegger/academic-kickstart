@@ -1,7 +1,7 @@
 +++
 
 # Display name
-name = "Sung-eun Jang"
+name = "Luna Sung-eun Jang"
 
 
 # Username (this should match the folder name)
@@ -11,7 +11,7 @@ user_groups = ["Team"]
 superuser = false
 
 # Role/position
-role = "Graduate Student"
+role = "PhD student"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
